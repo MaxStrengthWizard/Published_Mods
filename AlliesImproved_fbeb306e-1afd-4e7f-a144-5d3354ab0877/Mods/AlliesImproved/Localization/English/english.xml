@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h6497fba2g1be3g3099g0a92g47f892ed5ff4" version="1">Levelled Up</content>
+  <content contentuid="hef915ac8g11d2gcefbgace4gef9687019299" version="1">Affected entity has returned stronger than before.</content>
+  <content contentuid="hae4f89d4g2b13g0931g27c8gf8b6c23c2786" version="1">%%% Empty</content>
+  <content contentuid="hdc6797d7gad71g3273g9c0cg63f60a8c30eb" version="1">%%% EMPTY</content>
+  <content contentuid="h9cd6a9c5ge6f5ga9d0ga7f5g52c8f9845b92" version="1">Aura of Protection</content>
+  <content contentuid="h7c407152g002dg265eg556bg37b1cc5c7ca6" version="1">You and any nearby allies gain a +[1] bonus to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="h5cdb7506gc3d4gcedcg8ce0gdbbddff863ad" version="1">Aura of Courage</content>
+  <content contentuid="h1c10417eg286ag1788g6ccag328300a1e2d7" version="1">You and any nearby allies can't be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;. The aura disappears if you fall Unconscious.</content>
+  <content contentuid="h18480752g82f2ge589g377dgfff87f0799cf" version="1">Celestial Haste</content>
+  <content contentuid="h0a6b3f25g799dg697fg6711g3522a2305d46" version="1">Gain &lt;LSTag Type="Status" Tooltip="MAG_CELESTIAL_HASTE"&gt;Hastened&lt;/LSTag&gt;.</content>
+  <content contentuid="ha91f5945g7d37g5077g2490gfc40a0543681" version="1">Mage Armour</content>
+  <content contentuid="h600b0d35g0206g37dag8628g04a02ca60927" version="1">Base &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is 13.</content>
+  <content contentuid="h9cae402eg1206gf607g9c4cg77d66ef514aa" version="1">Levelled Up</content>
+  <content contentuid="hd4abf64dgcfd8ge855gafc1g31629128bf91" version="1">Affected entity has returned stronger than before.</content>
+  <content contentuid="ha308b442gd23egea8fgaf72g74458a0a489e" version="1">Arcane Inheritor</content>
+  <content contentuid="h388b9436g62cdgb4c9gb861g7b473a35abb7" version="1">Rolan has taken command of Ramazith's Tower, increasing his level to [1] and granting him a host of new magic powers.</content>
+  <content contentuid="hb6fc571fgf87ega25ag4400g9f3d35ed27c6" version="1">Levelled Up</content>
+  <content contentuid="hcddc6c30g8a89gc642g3b3dgdb799f8a8e16" version="1">Affected entity has returned stronger than before.</content>
+  <content contentuid="ha4e0e39cg2ba1geae0g1415gcbda92beda74" version="1">Levelled Up</content>
+  <content contentuid="hb14db624g7a55gae78g54bfged566df2db10" version="1">Affected entity has returned stronger than before.</content>
+  <content contentuid="h84d59aa9g7890g12fbg2027g9f6af2534a8e" version="1">Artificial Sight</content>
+  <content contentuid="h0a9d40b5g0b20g069ag3eeeg65ea8d52bac7" version="1">You have replaced your gouged eyes with artificial ones. You can see in the dark up to [1] and can see through magical darkness.</content>
+</contentList>
