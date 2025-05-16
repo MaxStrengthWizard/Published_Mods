@@ -1,0 +1,9 @@
+# Compressed files kept within the repo
+*.zip
+*.rar
+
+# PAK files kept within the repo
+*.pak
+
+# VSCode files and folders
+.vscode/*
