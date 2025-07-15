@@ -60,7 +60,7 @@
   <content contentuid="h122df77159a94f9d9119e5fb6828c64d5e67" version="1">Deep Speech</content>
   <content contentuid="h3281480e88184082a985a60bd9a14887a1a4" version="1">You speak Deep Speech, the language of the mind flayers and intellect devourers.</content>
   <content contentuid="h60231fc06a9a46269ea3187e835219d72b3f" version="1">Infernal</content>
-  <content contentuid="h7d1db9a1743b46e6b964b8f48018d5dca4d6" version="1">You speak Infernal, the language of the devils, fiends, cambions, and tieflings.</content>
+  <content contentuid="h7d1db9a1743b46e6b964b8f48018d5dca4d6" version="1">Infernal is the devilish language of the Nine Hells. Spoken primarily by devils, it has also been passed down to the Hells-touched races of tieflings and fiend pact-bound warlocks.</content>
   <content contentuid="h7108995f667040bb9ab5aa82bfc8f968e055" version="1">Primordial</content>
   <content contentuid="h3fbb7e3e1c8f41cca658ad55bcedcd75fgbc" version="1">You speak Primordial, the language of the elementals and djinni.</content>
   <content contentuid="hc1de117c74254e018eabc225e4acf81d2cc5" version="1">Sylvan</content>
@@ -75,4 +75,6 @@
   <content contentuid="haaf3d1f5g2fb4g4b27g8959ga886698106bf" version="1">Select a language.</content>
   <content contentuid="h91f075f4g4736g4d9bg9dd8g38812886575c" version="1">Language Fluency</content>
   <content contentuid="h14757482g6881g42f4g878eg55d7b2bdfeb9" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Speech &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; directed at the target creature in their native tongue.</content>
+  <content contentuid="h1a5dae88gceaag4ce1gaf8fg1f622368aba9" version="1">Infernal</content>
+  <content contentuid="h8838d562g8682g4557gab75g73383f7f6ab2" version="1">Infernal is the devilish language of the Nine Hells. Spoken primarily by devils, it has also been passed down to the Hells-touched races of tieflings and fiend pact-bound warlocks.</content>
 </contentList>
