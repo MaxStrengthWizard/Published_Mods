@@ -88,6 +88,13 @@
                     <attribute id="V1" type="float" value="0.125"/>
                     <attribute id="V2" type="float" value="0.25"/>
                 </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Linguist"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.625"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
             </children>
         </node>
     </region>
