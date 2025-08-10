@@ -41,6 +41,12 @@
                     <attribute id="UUID" type="guid" value="f4339d81-4fdc-4689-b3aa-1a41ec2dd115"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 1 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="e2666016-93d1-4fc6-92ce-ed239169f5cf"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="175ceed7-5a53-4f48-823c-41c4f72d18ae"/>
                     <attribute id="Name" type="FixedString" value="Lore Bard Magical Secrets 6 Comprehend Languages"/>
                     <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
