@@ -11,10 +11,106 @@
                     <attribute id="UUID" type="guid" value="6ff90d9f-0d0d-4ac0-8e7a-68244cccf3eb"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="7ea8f476-97a1-4256-8f10-afa76a845cce"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 2 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="84af4005-fe1f-4970-90de-71a7fc75a4c3"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c213ca01-3767-457b-a5c8-fd4c1dd656e2"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 3 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="f45a4f91-2b55-40c1-8d44-a94a5619d699"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="75e04c40-be8f-40a5-9acc-0b5d59d5f3a6"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 4 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="cf7e03ea-8ee4-4ff9-b0ba-c1eff57bc47a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="bd71fffb-e4d2-4233-9a31-13d43fba36e3"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 5 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="460fc906-4aee-462e-873f-46d3854f13b4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="586a8796-34f4-41f5-a3ef-95738561d55d"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 6 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="aa6d5dc6-881f-42a9-8f47-e35a1e049ddd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f923e058-b1d9-4b02-98ef-9daaa82a71b6"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 7 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="b1d8b46d-2d19-45f0-859c-a1d0e0af16b7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="073c09e5-ccb9-4153-a210-001225a30cbb"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 8 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="6f780f26-f4a8-4854-b26d-e3cde07dd71d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2bbd99d0-21b4-41cc-836e-e386a96fc8e6"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 9 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="31af6bf2-045a-454d-9acf-a131e3e9ecd8"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="92c4751f-6255-4f67-822c-a75d53830b27"/>
                     <attribute id="Name" type="FixedString" value="Sorcerer SLevel 1 Comprehend Languages"/>
                     <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
                     <attribute id="UUID" type="guid" value="0f363256-059b-481b-bb0e-3ce37de53b9e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f80396e2-cb76-4694-b0db-5c34da61a478"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 2 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="e149ebb3-e735-43b1-8846-086b73417b05"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="dcbaf2ae-1f45-453e-ab83-cd154f8277a4"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 3 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="b10dd983-afea-4d7b-a48f-964db866cc69"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 4 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="7e64565f-69bc-47ab-b667-5f42d6361a3b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 5 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="7dbec316-601c-469e-a867-c0023cb49e60"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 6 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="518e7ab8-d958-478f-9285-3bf020f3688b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="9e38e5ae-51e8-4dd4-aad5-869a571b1519"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 7 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="cd8f506f-35fc-44cb-b512-f22748db323c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="5a8a002c-352b-44e9-8233-da7e6112f4b0"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 8 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="6e4c737c-96c2-4ebe-8067-e1b2dfe9a57c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="d58ac072-e079-410b-b167-a5e43723b59f"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 9 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="0ca21f5b-d4cd-4e63-89d0-89c4b8ff1c31"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="e0099b15-2599-4cba-a54b-b25ae03d6519"/>
@@ -23,10 +119,58 @@
                     <attribute id="UUID" type="guid" value="0870c544-8f21-42e3-93be-5736374f49f7"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="0cc2c8ab-9bbc-43a7-a66d-08e47da4c172"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 2 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="c127da87-8989-4c44-86da-aa922a14a360"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f18ad912-e2f4-47a9-8744-73d6a51c2941"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 3 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="4bbcc1af-b300-4355-9c95-fe3c68c1470c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="c3d8a4a5-9dae-4193-8322-a5d1c5b89f47"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 4 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="9b6a2ae1-8309-4264-a72b-9c169fef4510"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="0a9b924f-64fb-4f22-b975-5eeedc99b2fd"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Archfey SLevel 5 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="6f359ff3-4c74-4b39-9cef-8b56638d7a56"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="4823a292-f584-4f7f-8434-6630c72e5411"/>
                     <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 1 Comprehend Languages"/>
                     <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
                     <attribute id="UUID" type="guid" value="89428089-8f43-414f-b896-954e86ebdd42"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="835aeca7-c64a-4aaa-a25c-143aa14a5cec"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 2 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="9bf9db99-ebba-43d4-915a-ff196e019fd7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="5dec41aa-f16a-434e-b209-50c07e64e4ed"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 3 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="b0e45e18-cf82-4a1e-a1bf-7c579a77b020"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="7ad7dbd0-751b-4bcd-8034-53bcc7bfb19d"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 4 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="8a1728e3-e361-4e67-8fc6-c86b93072b08"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="deab57bf-4eec-4085-82f7-87335bce3f5d"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Fiend SLevel 5 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="91dde7bd-5b07-4f4c-9d57-6fd11593be4d"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="65952d48-bb16-4ad7-b173-532182bf7770"/>
@@ -35,16 +179,112 @@
                     <attribute id="UUID" type="guid" value="50ba97af-dd86-4677-88d5-7952296295f4"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="fe101a94-8619-49b2-859d-a68c2c291054"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Great Old One SLevel 2 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="2c3d2a94-6418-43dd-8003-01c4ed2af47c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="30e9b761-6be0-418e-bb28-5103c00c663b"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Great Old One SLevel 3 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="bb85e108-a0aa-46bf-81d5-25b8ce9aac1a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="b64e527e-1f97-4125-84f7-78376ab1440b"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Great Old One SLevel 4 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="f061d917-0b82-464c-82f4-a87790b215e3"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="6d2edca9-71a7-4f3f-89f0-fccfff0bdee5"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Great Old One SLevel 5 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="2aab7dd2-5337-464a-a270-271a5122c498"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="d90e88eb-e5f9-4db2-b7ef-1dccb044839a"/>
                     <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 1 Comprehend Languages"/>
                     <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
                     <attribute id="UUID" type="guid" value="f4339d81-4fdc-4689-b3aa-1a41ec2dd115"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="4a3bf687-91c1-4dad-821c-ad32171c7552"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 2 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="843eadf0-9c1d-43bb-b599-feb192d5d99a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 3 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="d8845191-3fbe-445c-8fbb-912631b4a245"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="39750075-781e-4ce2-a033-f8a288e47b8e"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 4 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="c65416a3-f5bb-4145-a6b0-01f88cc45a44"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="88fafaeb-8b59-4319-9841-b9e6043f4636"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Hexblade SLevel 5 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="23967bd4-4d98-4300-8020-b7f767a054e2"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d"/>
                     <attribute id="Name" type="FixedString" value="Wizard SLevel 1 Comprehend Languages"/>
                     <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
                     <attribute id="UUID" type="guid" value="e2666016-93d1-4fc6-92ce-ed239169f5cf"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="80c6b070-c3a6-4864-84ca-e78626784eb4"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 2 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="5c07dd70-ae5c-4c05-baf9-67688d8f3b53"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="22755771-ca11-49f4-b772-13d8b8fecd93"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 3 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="30a897a5-131f-4d10-b880-856f7c7af620"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 4 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="17a4b99b-6696-4562-9837-fb920caa6e4d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 5 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="0b5662ed-b83a-4272-9d98-2204c9d1db47"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 6 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="ce28e302-b6fb-476d-8acc-8794d79a382b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="dff7917a-0abc-4671-b68f-c03e56212549"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 7 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="a2fbc5d7-5662-4b02-8480-3ef19da66da2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="f27a2d0a-0d6c-4c01-98a5-60081abf4807"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 8 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="6e534d32-e226-4edd-aef7-119d91931001"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="cb123d97-8809-4d71-a0cb-0ecb66177d15"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 9 Comprehend Languages"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="8ef75142-2462-45da-ad61-3f47173bf42f"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="175ceed7-5a53-4f48-823c-41c4f72d18ae"/>
