@@ -1,0 +1,70 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Savegame passive insertion
+
+IF
+SavegameLoaded()
+AND
+DB_GlobalFlag((FLAG)CAMP_MizorasJudgement_Event_Judged_c6d2140f-312d-65d4-e66e-92de4258b3f4)
+AND
+DB_GlobalFlag((FLAG)ORI_Wyll_State_IsDevil_f83eee79-271b-4044-947a-d8eb699d734a)
+AND
+IsTagged(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, (TAG)WYLL_DEVIL_5e844f0e-d822-4210-a28e-6af149a7bd4b, 1)
+AND
+HasPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Darkvision", 0)
+AND
+HasPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Tiefling_HellishResistance", 0)
+AND
+QRY_OnlyOnce("ORI_Wyll_Devil_Passives_Savegamed")
+THEN
+AddPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Darkvision");
+AddPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Tiefling_HellishResistance");
+
+//END_REGION
+
+//REGION Apply the new passives to Devil-form Wyll
+
+IF
+FlagSet((FLAG)ORI_Wyll_State_IsDevil_f83eee79-271b-4044-947a-d8eb699d734a, _, _)
+AND
+IsTagged(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, (TAG)WYLL_DEVIL_5e844f0e-d822-4210-a28e-6af149a7bd4b, 1)
+AND
+HasPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Darkvision", 0)
+AND
+HasPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Tiefling_HellishResistance", 0)
+AND
+QRY_OnlyOnce("ORI_Wyll_Devil_Passives_Gustavo")
+THEN
+AddPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Darkvision");
+AddPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "Tiefling_HellishResistance");
+
+//END_REGION
+
+//REGION Complete goal if not in the toolkit
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Wyll_Devil_Passives_Savegamed")
+THEN
+GoalCompleted;
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Wyll_Devil_Passives_Gustavo")
+THEN
+GoalCompleted;
+
+//END_REGION GoalCompleted
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "ModWrapper_Gustav"
