@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 24,
+    "ModTable": "HWRAW5R",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}

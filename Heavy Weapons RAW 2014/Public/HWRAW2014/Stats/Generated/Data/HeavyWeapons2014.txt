@@ -1,0 +1,21 @@
+// ==========================================================================
+// Heavy Weapons
+
+new entry "HeavyWeapon2014"
+type "PassiveData"
+data "DisplayName" "h626ee2ceg9ca7g4a79g8032g222ce1e6a785;1"
+data "Description" "hfc7f04aa215c4dcc9112276aba248c88ge89;1"
+data "Icon" "statIcons_HeavilyEncumbered"
+data "Properties" "IsHidden"
+data "BoostContext" "OnEquip;OnTurn;OnCreate"
+data "BoostConditions" "not SizeEqualOrGreater(Size.Medium, context.Source) and HasWeaponProperty(WeaponProperties.Heavy, GetAttackWeapon(context.Source))"
+data "Boosts" "Disadvantage(AttackRoll)"
+
+// ==========================================================================
+// Great Weapon Master
+
+new entry "GreatWeaponMaster_BonusDamage"
+type "PassiveData"
+using "GreatWeaponMaster_BonusDamage"
+data "Description" "hbffcf4f4g90bcg4e3dga30dg803474972dbe;1"
+
