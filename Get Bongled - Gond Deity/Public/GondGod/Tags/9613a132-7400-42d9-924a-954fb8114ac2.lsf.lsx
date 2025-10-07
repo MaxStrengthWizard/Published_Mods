@@ -3,12 +3,12 @@
 	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
 	<region id="Tags">
 		<node id="Tags">
-			<attribute id="Description" type="LSString" value="|Player or NPC chose the Raven Queen.|" />
-			<attribute id="DisplayDescription" type="TranslatedString" handle="h6f55fcd7ge765g464egb9e6g3c08e48b6482" version="0" />
-			<attribute id="DisplayName" type="TranslatedString" handle="h137c573fg5d9bg4c02ga928g6bc6199644f3" version="1" />
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Gond.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hda179a6cgada4g45c7g9b59g1b8d18cbc26c" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hfcf31be6g67afg476dgb06eg382f7e123b2d" version="1" />
 			<attribute id="Icon" type="FixedString" value="" />
-			<attribute id="Name" type="FixedString" value="RAVENQUEEN" />
-			<attribute id="UUID" type="guid" value="6adb355b-385e-4f43-b3ec-4a50d0876a17" />
+			<attribute id="Name" type="FixedString" value="GOND" />
+			<attribute id="UUID" type="guid" value="9613a132-7400-42d9-924a-954fb8114ac2" />
 			<children>
 				<node id="Categories">
 					<children>

@@ -3,12 +3,12 @@
 	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
 	<region id="Tags">
 		<node id="Tags">
-			<attribute id="Description" type="LSString" value="|Player or NPC chose the Raven Queen.|" />
-			<attribute id="DisplayDescription" type="TranslatedString" handle="h6f55fcd7ge765g464egb9e6g3c08e48b6482" version="0" />
-			<attribute id="DisplayName" type="TranslatedString" handle="h137c573fg5d9bg4c02ga928g6bc6199644f3" version="1" />
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Beshaba.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h8ca7d4e9gead8g4af9gb7e9gd6132a249957" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h0186985fg2f01g4037gbdb2gf375858a8b2f" version="1" />
 			<attribute id="Icon" type="FixedString" value="" />
-			<attribute id="Name" type="FixedString" value="RAVENQUEEN" />
-			<attribute id="UUID" type="guid" value="6adb355b-385e-4f43-b3ec-4a50d0876a17" />
+			<attribute id="Name" type="FixedString" value="BESHABA" />
+			<attribute id="UUID" type="guid" value="b81d5132-9919-4760-b2d7-5d80c676c042" />
 			<children>
 				<node id="Categories">
 					<children>
