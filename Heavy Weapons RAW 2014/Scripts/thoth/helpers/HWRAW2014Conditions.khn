@@ -12,7 +12,7 @@ function GreatWeaponMaster(entity)
     local isOffhandAmmunition = WieldingWeapon('Ammunition', true, false, entity)
     local hasShield = HasShieldEquipped(entity)
 
-    return IsProficientWith(entity, weapon) & ((isTwoHanded & isMelee & isHeavy) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
+    return IsProficientWith(entity, weapon) & (isMelee & isHeavy) & (isTwoHanded | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
 end
 
 function SizeEqualOrSmallerHWRAW(size, entity)
