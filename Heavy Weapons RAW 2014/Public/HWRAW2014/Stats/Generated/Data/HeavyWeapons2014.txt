@@ -7,9 +7,7 @@ data "DisplayName" "h626ee2ceg9ca7g4a79g8032g222ce1e6a785;1"
 data "Description" "hfc7f04aa215c4dcc9112276aba248c88ge89;1"
 data "Icon" "statIcons_HeavilyEncumbered"
 data "Properties" "IsHidden"
-data "BoostContext" "OnEquip;OnTurn;OnCreate"
-data "BoostConditions" "SizeEqualOrSmallerHWRAW(Size.Small, context.Source) and HasWeaponProperty(WeaponProperties.Heavy, GetAttackWeapon(context.Source))"
-data "Boosts" "Disadvantage(AttackRoll)"
+data "Boosts" "IF(SizeEqualOrSmallerHWRAW(Size.Small, context.Source) and HasWeaponProperty(WeaponProperties.Heavy, context.AttackWeapon)):Disadvantage(AttackRoll)"
 
 // ==========================================================================
 // Great Weapon Master
