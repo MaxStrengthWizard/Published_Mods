@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hd4f34b918c3e45aabdeb84ea4971dd0ef1b4" version="1">Banishing Smite</content>
+	<content contentuid="h0e429a9cb76e4eb3afbf609549834ae7bb91" version="1">Banishing Smite: Reaction</content>
+	<content contentuid="hbaddce55f98743a6a5d3b2f42e8046b543d4" version="1">Banishing Smite Critical: Reaction</content>
+	<content contentuid="hdda00b4142324d45a797e6595f3c5b3322d1" version="1">Banishing Smite</content>
+	<content contentuid="hd1b20e61af434a1288c73475721e65c073be" version="1">Banishing Smite</content>
+	<content contentuid="hd188c42272f74186a7a9bcd645e115802a87" version="1">Your weapon deals an additional [1] and possibly &lt;LSTag Type="Status" Tooltip="BANISHED"&gt;Banishes&lt;/LSTag&gt; your target to another plane of existence.</content>
+	<content contentuid="hdb857ddfc7914f9189189f0acade46dc8d7g" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="ha874f50c7ace4e89a43373f0c5aa2e55c05g" version="1">Banishing Smite on Critical Hit</content>
+	<content contentuid="h28a24f4aa0224769997643bd17071069d6fd" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hdbcf8cbb87724cb89659df75ac7da5c4cd6a" version="1">Blinding Smite: Reaction</content>
+	<content contentuid="h18e31088e0c34dbda7e67587f39d33b080d0" version="1">Blinding Smite Critical: Reaction</content>
+	<content contentuid="ha712664afc1746a490570aa39f0b3c16ce06" version="1">Blinding Smite</content>
+	<content contentuid="h161489f8430e443e9caf426ce3f482d69a0f" version="1">Your weapon deals an additional [1] and possibly &lt;LSTag Type="Status" Tooltip="BLINDING_SMITE_BLINDED"&gt;Blinds&lt;/LSTag&gt; your target.</content>
+	<content contentuid="h11e828fc276a44c6971a87781016e5033gcf" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="he2ed4b14e9eb4f10a7007e25fbd07db163f4" version="1">Blinding Smite on Critical Hit</content>
+	<content contentuid="h23c2681aa7ce4e219c340c4641eb1b0a0gc2" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hf16b5c9ae49d451d84d95a332ad20b25aea4" version="1">Blinding Smite</content>
+	<content contentuid="hd5230d618288410f8b83f541782dcfd33fe4" version="1">Branding Smite</content>
+	<content contentuid="h2b4c264b72a44f95b2b105fbde7f13497f70" version="1">Shining Smite</content>
+	<content contentuid="h604aaddc44cc42d796e9c73cd1df7c3c8b68" version="1">Shining Smite (Ranged)</content>
+	<content contentuid="h13ef5668c4fe4c30b444db645abe1fd9ge7d" version="1">Shining Smite</content>
+	<content contentuid="h86675ccb1f1e4eb293ae1bac9aa10c67d11d" version="1">The affected entity sheds light in a [1] radius, preventing it from becoming &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;. Incoming attacks have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hc5c9f8856e944941894c42b4b416faf26193" version="1">Branding Smite: Reaction</content>
+	<content contentuid="he87c73a2f24244a0916dacdcf0c09879cg4a" version="1">Shining Smite: Reaction</content>
+	<content contentuid="hb091f5c601564bb2ac0f4a42ba900eb800c9" version="1">Branding Smite Critical: Reaction</content>
+	<content contentuid="hbaf04db6336a4026b6580efc84bb63551879" version="1">Shining Smite Critical: Reaction</content>
+	<content contentuid="h088a0ce910f2453e979d4500217eb7f2eb68" version="1">Branding Smite</content>
+	<content contentuid="hb9c6af7c4b114b718f5102b7d7069f6bd3f2" version="1">Shining Smite</content>
+	<content contentuid="h56bea3880f204771bb39091001bb89b46d3c" version="1">Your weapon deals an additional [1] and possibly marks your target with light, preventing it from turning &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
+	<content contentuid="haff4838a62b542588071f1416ba653dbed5d" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h2ac696c067934197879da5f478ee2bdae06e" version="1">Blinding Smite on Critical Hit</content>
+	<content contentuid="h173217e36b3348808284dd74e87bc3631c5f" version="1">Shining Smite on Critical Hit</content>
+	<content contentuid="h2ac696c067934197879da5f478ee2bdae06e" version="1">Blinding Smite on Critical Hit</content>
+	<content contentuid="hdc2303e587424555be5a1efcbdf554b9f364" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h08eee705cbc44e238b18531e636f4f6ed3de" version="1">Branding Smite</content>
+	<content contentuid="h5776c9e34b83452bafe6bdc7116b08a1f31f" version="1">Shining Smite</content>
+	<content contentuid="h5366031bbd6f441691df9b70d09e553da763" version="1">Lunar Smite</content>
+	<content contentuid="h2fd70d14002045678dfa10d69429e600ed92" version="1">Engulf your weapon in Selûne's light, dealing an additional [1] and inflicting &lt;LSTag Type="Status" Tooltip="LUNAR_SMITE"&gt;Holy Flame&lt;/LSTag&gt; on a hit: creature takes [2] every turn.</content>
+	<content contentuid="h7453e7cba22742cb8ae80fe05b47104003b4" version="1">Attack deals an additional [1] and the Holy Fire deals an additional [2] per level.</content>
+	<content contentuid="h546feced0b644379a7f9aec006922a431edg" version="1">Holy Fire</content>
+	<content contentuid="h275788636174439e911f6ac549cc64000e3c" version="1">Affected entity takes [1] every turn, until the turn after it succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. Fiends and undead take an extra [1] in addition to the initial damage.</content>
+	<content contentuid="hfe0f43e20bcd49a58768627ed19154a6e3g6" version="1">Lunar Smite: Reaction</content>
+	<content contentuid="h4b7e37e165b64cd2972ec6ab696a378aa56e" version="1">Lunar Smite Critical: Reaction</content>
+	<content contentuid="h003f711c682840ebb8c0c584ab34fa95d9dc" version="1">Lunar Smite</content>
+	<content contentuid="hb988cf62bb684a6d8058a8897321886c6f50" version="1">Your weapon deals an additional [1] and engulfs your target in &lt;LSTag Type="Status" Tooltip="LUNAR_SMITE"&gt;Holy Flames&lt;/LSTag&gt;.</content>
+	<content contentuid="h915e6d7fd18b40b69d0803b03a579336f119" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h03fe7e2b52af49fda29d92776bab324a7335" version="1">Lunar Smite on Critical Hit</content>
+	<content contentuid="h07b83d13b85b423db5f366b5483a9ed29a72" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h8ef291102e2241a8b3be232c6a4c439e0c2a" version="1">Lunar Smite</content>
+	<content contentuid="h20c2cf9f08db4489a3d05f8b62126f56c1f4" version="1">Searing Smite: Reaction</content>
+	<content contentuid="h45803c586b2042fc980661bc350c1a147b06" version="1">Searing Smite Critical: Reaction</content>
+	<content contentuid="ha81a4bdfd0d44a9ab5cf8bbe713b91c21275" version="1">Searing Smite</content>
+	<content contentuid="hdf7d9a53183a48c989d54540795a24b191ag" version="1">Your weapon deals an additional [1] and sets your target on fire, dealing [2] every turn.</content>
+	<content contentuid="h23f00521cf4d4f71ba163e4ae46448b6865a" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hea2704b975884157b7c9b85aaae0b108021a" version="1">Searing Smite on Critical Hit</content>
+	<content contentuid="h1b2411e2eae245b18ad7280a0789227dfg7a" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="ha191f48556924536b24a7d1a3c0151d9fbed" version="1">Searing Smite</content>
+	<content contentuid="hf8f404b236cc4d2ea2e2ac318cd1c1933f66" version="1">Possibly &lt;LSTag Type="Status" Tooltip="STAGGERING_SMITE"&gt;Stagger&lt;/LSTag&gt; your target. It is stunned and can't move or take &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Actions&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Actions&lt;/LSTag&gt;, or &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt;.</content>
+	<content contentuid="hef8f87b528684b3386cfb883bd6a45240e54" version="1">Staggering Smite</content>
+	<content contentuid="h57e6aee32bf94bfcaafade975577d70fggd3" version="1">Staggering Smite: Reaction</content>
+	<content contentuid="h7a39d36363dc4588bcd3f66cc40145fee77c" version="1">Staggering Smite Critical: Reaction</content>
+	<content contentuid="hca65760a0bd4412a964449d88abb2f274a5b" version="1">Staggering Smite</content>
+	<content contentuid="h129770bb88b04bfe8aab79c1a5179452bf77" version="1">Your weapon deals an additional [1] and possibly &lt;LSTag Type="Status" Tooltip="STAGGERING_SMITE"&gt;Stagger&lt;/LSTag&gt; your target.</content>
+	<content contentuid="hd906305d985c4d5988a8fc1a75180bdd95b5" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h8716ae76a26842c9825f405db3aa6aed2dc1" version="1">Staggering Smite on Critical Hit</content>
+	<content contentuid="h04abdb8065c74d909872d93ff409b0529903" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h1c8c8b7d844d4ae497736c5b299fdf1c0766" version="1">Staggering Smite</content>
+	<content contentuid="ha2b08dc77ca54f45ad4773b6dc5d7de4908e" version="1">Thunderous Smite: Reaction</content>
+	<content contentuid="hae093caf431343e8831f8f3588f3c6c81c96" version="1">Thunderous Smite Critical: Reaction</content>
+	<content contentuid="hb2ade565dde34691839c4423f7b1d920a379" version="1">Thunderous Smite</content>
+	<content contentuid="h0c1884960d54450baff1a3d00d423ee7771d" version="1">Your weapon deals an additional [1] and pushes your target [2] away and possibly knocks it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h64a3732c5c9042d69e3d9d4c8d5360077859" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="he91f5959aec5401dad1a063a377eac29cbdb" version="1">Thunderous Smite on Critical Hit</content>
+	<content contentuid="hb487cc795bd34474ba9aa094e2ecc7eeb177" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h7a52ebfd9a354f59a8ffb07b100ddcfc3d17" version="1">Thunderous Smite</content>
+	<content contentuid="hd52bb7982fae46e3977fbf7b9cfe2f397ebg" version="1">Possibly &lt;LSTag Type="Status" Tooltip="WRATHFUL_SMITE"&gt;Frighten&lt;/LSTag&gt; your target. They'll have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and be unable to move.</content>
+	<content contentuid="h88b648ab9e7d44ff9d684c3a15ffc3862455" version="1">Wrathful Smite: Reaction</content>
+	<content contentuid="hb86c691e09954ff4a8afea8f4f253009ea99" version="1">Wrathful Smite Critical: Reaction</content>
+	<content contentuid="h6d9caa1f66e644ff80b48ae9b2085330273d" version="1">Wrathful Smite</content>
+	<content contentuid="h8d1cffc0cf2e4350a78eb7e352ba8b6d788b" version="1">Your weapon deals an additional [1] and you possibly &lt;LSTag Type="Status" Tooltip="WRATHFUL_SMITE"&gt;Frighten&lt;/LSTag&gt; your target.</content>
+	<content contentuid="h76de8e83d39d42449ad7c7e46800565910ge" version="1">This reaction won't trigger on a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h076106b7e81e4993acd78bd14d3ccfcf303d" version="1">Wrathful Smite on Critical Hit</content>
+	<content contentuid="h39bde33d5a8f4e73ac07beae6c58136fb2e0" version="1">This reaction only triggers when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h5b436ff1575b46d9b1d0baa2045aba31e29e" version="1">Wrathful Smite</content>
+</contentList>

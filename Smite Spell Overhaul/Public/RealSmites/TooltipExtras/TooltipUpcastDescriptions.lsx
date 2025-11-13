@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="TooltipUpcastDescriptions">
+        <node id="root">
+            <children>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Lunar Smite"/>
+                    <attribute id="Text" type="TranslatedString" handle="h7453e7cba22742cb8ae80fe05b47104003b4" version="1"/>
+                    <attribute id="UUID" type="guid" value="18ca72e4-116c-472b-b33f-588183b9f22c"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

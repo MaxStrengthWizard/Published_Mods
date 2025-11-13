@@ -1,0 +1,100 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+// Smite spells matched to passive that unlocks interrupts
+DB_SmiteInterruptPassives("Target_Smite_Banishing", "BanishingSmiteUnlock");
+DB_SmiteInterruptPassives("Target_Smite_Blinding", "BlindingSmiteUnlock");
+DB_SmiteInterruptPassives("Target_Smite_Branding", "BrandingSmiteUnlock");
+DB_SmiteInterruptPassives("Target_Smite_Lunar", "LunarSmiteUnlock");
+DB_SmiteInterruptPassives("Target_Smite_Searing", "SearingSmiteUnlock");
+DB_SmiteInterruptPassives("Target_StaggeringSmite", "StaggeringSmiteUnlock");
+DB_SmiteInterruptPassives("Target_Smite_Thunderous", "ThunderousSmiteUnlock");
+DB_SmiteInterruptPassives("Target_Smite_Wrathful", "WrathfulSmiteUnlock");
+
+KBSECTION
+// Checks if smite spell is prepared
+IF
+LevelGameplayReady(_Level, _IsEditorMode)
+AND
+IsGameLevel(_Level, _IsGameLevel)
+AND
+// continue if we're in the toolkit or in a game level
+DB_LogicOr(_IsEditorMode, _IsGameLevel, 1)
+THEN
+PROC_MSW_CheckSmitePassivesOnPlayers();
+
+PROC
+PROC_MSW_CheckSmitePassive((CHARACTER)_Player, (STRING)_SmiteSpell, (STRING)_SmitePassive)
+AND
+IsSpellActive(_Player, _SmiteSpell, 1)
+AND
+HasPassive(_Player, _SmitePassive, 0)
+THEN
+AddPassive(_Player, _SmitePassive);
+
+PROC
+PROC_MSW_CheckSmitePassive((CHARACTER)_Player, (STRING)_SmiteSpell, (STRING)_SmitePassive)
+AND
+IsSpellActive(_Player, _SmiteSpell, 0)
+AND
+HasPassive(_Player, _SmitePassive, 1)
+THEN
+RemovePassive(_Player, _SmitePassive);
+
+PROC
+PROC_MSW_CheckSmitePassivesOnPlayers()
+AND
+DB_Players(_Player)
+AND
+DB_SmiteInterruptPassives(_SmiteSpell, _SmitePassive)
+THEN
+PROC_MSW_CheckSmitePassive(_Player, _SmiteSpell, _SmitePassive);
+
+IF
+LeveledUp(_Player)
+AND
+DB_Players(_Player)
+AND
+DB_SmiteInterruptPassives(_SmiteSpell, _SmitePassive)
+THEN
+PROC_MSW_CheckSmitePassive(_Player, _SmiteSpell, _SmitePassive);
+
+IF
+ShortRested(_Player)
+AND
+DB_Players(_Player)
+AND
+DB_SmiteInterruptPassives(_SmiteSpell, _SmitePassive)
+THEN
+PROC_MSW_CheckSmitePassive(_Player, _SmiteSpell, _SmitePassive);
+
+IF
+LongRestFinished()
+AND
+DB_Players(_Player)
+AND
+DB_SmiteInterruptPassives(_SmiteSpell, _SmitePassive)
+THEN
+PROC_MSW_CheckSmitePassive(_Player, _SmiteSpell, _SmitePassive);
+
+IF
+EnteredForceTurnBased(_Player)
+AND
+DB_Players((CHARACTER)_Player)
+AND
+DB_SmiteInterruptPassives(_SmiteSpell, _SmitePassive)
+THEN
+PROC_MSW_CheckSmitePassive(_Player, _SmiteSpell, _SmitePassive);
+
+IF
+EnteredCombat(_Player, _)
+AND
+DB_Players((CHARACTER)_Player)
+AND
+DB_SmiteInterruptPassives(_SmiteSpell, _SmitePassive)
+THEN
+PROC_MSW_CheckSmitePassive(_Player, _SmiteSpell, _SmitePassive);
+
+EXITSECTION
+
+ENDEXITSECTION

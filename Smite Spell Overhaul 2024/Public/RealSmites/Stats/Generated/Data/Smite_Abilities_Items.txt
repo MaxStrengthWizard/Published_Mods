@@ -1,0 +1,23 @@
+// ==========================================================================
+// Smite Related Passives
+
+// ==========================================================================
+// Helmet of Smiting
+// Grade-A name
+
+new entry "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive"
+type "PassiveData"
+using "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive"
+data "Conditions" "IsSmiteStatusCondition()"
+data "StatsFunctors" "ApplyStatus(SELF,MAG_PALADIN_TEMP_HP,100,-1)"
+
+
+// ==========================================================================
+// Blackguard's Sword
+
+new entry "MAG_DazingSmite_Passive"
+type "PassiveData"
+using "MAG_DazingSmite_Passive"
+data "TooltipSave" "Constitution"
+data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnDamage) and IsSmiteSpells()):ApplyStatus(DAZED,100,2,,,,not SavingThrow(Ability.Constitution,13));IF(context.HasContextFlag(StatsFunctorContext.OnStatusApply) and IsSmiteInterrupts()):ApplyStatus(DAZED,100,2,,,,not SavingThrow(Ability.Constitution,13))"
+

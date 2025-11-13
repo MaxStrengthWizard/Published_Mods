@@ -1,0 +1,47 @@
+{
+  "FileVersion": 1,
+  "Lists": [
+    {
+      "Action": "Remove",
+      "UUIDs": ["88fafaeb-8b59-4319-9841-b9e6043f4636", "858d4322-9e9f-4aa4-aada-9c68835dc6fe"],
+      "Type": "SpellList",
+      "Items": ["Projectile_Smite_Banishing_Container"]
+    },
+    {
+      "Action": "Insert",
+      "UUIDs": ["88fafaeb-8b59-4319-9841-b9e6043f4636", "858d4322-9e9f-4aa4-aada-9c68835dc6fe"],
+      "Type": "SpellList",
+      "Items": ["Target_Smite_Banishing"]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": ["4ed41a6d-19fd-4ca8-940a-072314b71e43", "c14c9564-1503-47a1-be19-98e77f22ff59", "4a3bf687-91c1-4dad-821c-ad32171c7552", "58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5", "39750075-781e-4ce2-a033-f8a288e47b8e", "88fafaeb-8b59-4319-9841-b9e6043f4636", "175ceed7-5a53-4f48-823c-41c4f72d18ae", "858d4322-9e9f-4aa4-aada-9c68835dc6fe", "95f80109-32b7-43f8-a99a-7ee2286a993a", "cd83187f-c886-45c2-be81-34083981f240"],
+      "Type": "SpellList",
+      "Items": ["Target_Smite_Branding_Container"]
+    },
+    {
+      "Action": "Insert",
+      "UUIDs": ["4ed41a6d-19fd-4ca8-940a-072314b71e43", "c14c9564-1503-47a1-be19-98e77f22ff59", "4a3bf687-91c1-4dad-821c-ad32171c7552", "58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5", "39750075-781e-4ce2-a033-f8a288e47b8e", "88fafaeb-8b59-4319-9841-b9e6043f4636", "175ceed7-5a53-4f48-823c-41c4f72d18ae", "858d4322-9e9f-4aa4-aada-9c68835dc6fe", "95f80109-32b7-43f8-a99a-7ee2286a993a", "cd83187f-c886-45c2-be81-34083981f240"],
+      "Type": "SpellList",
+      "Items": ["Target_Smite_Branding"]
+    },
+    {
+      "Action": "Remove",
+      "UUIDs": ["b7642851-835c-4246-a8e6-af39a027fed9"],
+      "Type": "SpellList",
+      "Items": ["Target_Smite_Branding_ZarielTiefling_Container"]
+    },
+    {
+      "Action": "Insert",
+      "UUIDs": ["b7642851-835c-4246-a8e6-af39a027fed9"],
+      "Type": "SpellList",
+      "Items": ["Target_Smite_Branding_ZarielTiefling"]
+    },
+    {
+      "Action": "Insert",
+      "UUIDs": ["c6288ac5-c68b-40ed-bbdd-2ff388575831", "d90e88eb-e5f9-4db2-b7ef-1dccb044839a", "4a3bf687-91c1-4dad-821c-ad32171c7552", "58b8c82e-8ab3-4fd7-aa0a-3f2b831187f5", "39750075-781e-4ce2-a033-f8a288e47b8e", "88fafaeb-8b59-4319-9841-b9e6043f4636"],
+      "Type": "SpellList",
+      "Items": ["Target_Smite_Lunar"]
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+// ==========================================================================
+// Branding Smite
+
+// ==========================================================================
+// Branding Smite Spell
+
+new entry "Target_Smite_Branding"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding"
+//data "SpellSchool" "Transmutation"
+data "SpellContainerID" ""
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(2d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "DisplayName" "hd5230d618288410f8b83f541782dcfd33fe4;1"
+//data "DisplayName" "h2b4c264b72a44f95b2b105fbde7f13497f70;1"
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
+
+new entry "Target_Smite_Branding_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_3"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+
+new entry "Target_Smite_Branding_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_4"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);DealDamage(4d6,Radiant)"
+
+new entry "Target_Smite_Branding_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_5"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+
+new entry "Target_Smite_Branding_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_6"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+
+new entry "Target_Smite_Branding_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);DealDamage(7d6,Radiant)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_Smite_Branding"
+data "PowerLevel" "7"
+
+new entry "Target_Smite_Branding_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(8d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);DealDamage(8d6,Radiant)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_Smite_Branding"
+data "PowerLevel" "8"
+
+new entry "Target_Smite_Branding_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(9d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);DealDamage(9d6,Radiant)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_Smite_Branding"
+data "PowerLevel" "9"
+
+
+// ==========================================================================
+// Branding Smite Projectile Spell
+// Turning it into its own thing if someone wants to use it
+
+new entry "Projectile_Smite_Branding"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding"
+//data "SpellSchool" "Transmutation"
+data "SpellContainerID" ""
+//data "DisplayName" "h604aaddc44cc42d796e9c73cd1df7c3c8b68;1"
+
+new entry "Projectile_Smite_Branding_4"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding_4"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Branding_3);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+data "TooltipDamageList" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);DealDamage(4d6,Radiant)"
+
+new entry "Projectile_Smite_Branding_5"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Branding_5);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+
+new entry "Projectile_Smite_Branding_6"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding_6"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Branding_6);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+
+new entry "Projectile_Smite_Branding_7"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding"
+data "SpellSuccess" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Radiant);AOE:ApplyStatus(BRANDING_SMITE,100,10)"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Branding_7);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+data "ExtraProjectileTargetConditions" ""
+data "TooltipDamageList" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);DealDamage(7d6,Radiant)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Projectile_Smite_Branding"
+data "PowerLevel" "7"
+
+new entry "Projectile_Smite_Branding_8"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding"
+data "SpellSuccess" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(8d6,Radiant);AOE:ApplyStatus(BRANDING_SMITE,100,10)"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Branding_8);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+data "ExtraProjectileTargetConditions" ""
+data "TooltipDamageList" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);DealDamage(8d6,Radiant)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Projectile_Smite_Branding"
+data "PowerLevel" "8"
+
+new entry "Projectile_Smite_Branding_9"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding"
+data "SpellSuccess" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(9d6,Radiant);AOE:ApplyStatus(BRANDING_SMITE,100,10)"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Branding_9);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+data "ExtraProjectileTargetConditions" ""
+data "TooltipDamageList" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);DealDamage(9d6,Radiant)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Projectile_Smite_Branding"
+data "PowerLevel" "9"
+
+
+// ==========================================================================
+// Branding Smite Container Decomission
+
+new entry "Target_Smite_Branding_Container"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Container"
+data "ContainerSpells" ""
+data "SpellFlags" "IsSpell;HasVerbalComponent;IsMelee;IsConcentration;IsHarmful"
+
+
+// ==========================================================================
+// Branding Smite Status
+
+//new entry "BRANDING_SMITE"
+//type "StatusData"
+//data "StatusType" "BOOST"
+//using "BRANDING_SMITE"
+//data "DisplayName" "h13ef5668c4fe4c30b444db645abe1fd9ge7d;1"
+//data "Description" "h86675ccb1f1e4eb293ae1bac9aa10c67d11d;1"
+//data "Boosts" "GameplayLight(9,false,0.1);StatusImmunity(SG_Invisible);Advantage(AttackTarget)"
+
+
+// ==========================================================================
+// Branding Smite Zariel Tieflings
+
+new entry "Target_Smite_Branding_ZarielTiefling"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_ZarielTiefling"
+data "SpellContainerID" ""
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);DealDamage(3d6,Radiant)"
+data "TooltipOnMiss" ""
+
+new entry "Projectile_Smite_Branding_ZarielTiefling"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Branding_ZarielTiefling"
+data "SpellContainerID" ""
+
+new entry "Target_Smite_Branding_ZarielTiefling_Container"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_ZarielTiefling_Container"
+data "ContainerSpells" ""
+
+
+// ==========================================================================
+// Branding Smite Interrupt VFX
+
+new entry "INTERRUPT_SMITE_BRANDING_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "INTERRUPT_SMITE_DIVINE_VFX"
+data "SoundStart" "Spell_Cast_Damage_BrandingSmiteMelee_L1to3"
+data "StatusEffect" "76bf694f-cdf0-4061-8750-8238dce67bde"
+
+
+// ==========================================================================
+// Branding Smite Interrupt Prototypes
+
+new entry "Target_Smite_Branding_Unlock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding"
+data "DisplayName" "hc5c9f8856e944941894c42b4b416faf26193;1"
+//data "DisplayName" "he87c73a2f24244a0916dacdcf0c09879cg4a;1"
+data "InterruptPrototype" "Interrupt_Smite_Branding"
+
+new entry "Target_Smite_Branding_Unlock_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "3"
+data "InterruptPrototype" "Interrupt_Smite_Branding_3"
+
+new entry "Target_Smite_Branding_Unlock_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "4"
+data "InterruptPrototype" "Interrupt_Smite_Branding_4"
+
+new entry "Target_Smite_Branding_Unlock_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "5"
+data "InterruptPrototype" "Interrupt_Smite_Branding_5"
+
+new entry "Target_Smite_Branding_Unlock_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "6"
+data "InterruptPrototype" "Interrupt_Smite_Branding_6"
+
+new entry "Target_Smite_Branding_Unlock_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "7"
+data "InterruptPrototype" "Interrupt_Smite_Branding_7"
+
+new entry "Target_Smite_Branding_Unlock_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(8d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "8"
+data "InterruptPrototype" "Interrupt_Smite_Branding_8"
+
+new entry "Target_Smite_Branding_Unlock_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(9d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "9"
+data "InterruptPrototype" "Interrupt_Smite_Branding_9"
+
+
+// ==========================================================================
+// Branding Smite Critical Interrupt Prototypes
+
+new entry "Target_Smite_Branding_Critical_Unlock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "DisplayName" "hb091f5c601564bb2ac0f4a42ba900eb800c9;1"
+//data "DisplayName" "hbaf04db6336a4026b6580efc84bb63551879;1"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "2"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical"
+
+new entry "Target_Smite_Branding_Critical_Unlock_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "3"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical_3"
+
+new entry "Target_Smite_Branding_Critical_Unlock_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "4"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical_4"
+
+new entry "Target_Smite_Branding_Critical_Unlock_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "5"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical_5"
+
+new entry "Target_Smite_Branding_Critical_Unlock_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "6"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical_6"
+
+new entry "Target_Smite_Branding_Critical_Unlock_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "7"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical_7"
+
+new entry "Target_Smite_Branding_Critical_Unlock_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(8d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "8"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical_8"
+
+new entry "Target_Smite_Branding_Critical_Unlock_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Branding_Unlock"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(9d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10)"
+data "RootSpellID" "Target_Smite_Branding_Unlock"
+data "PowerLevel" "9"
+data "InterruptPrototype" "Interrupt_Smite_Branding_Critical_9"
+
+
+// ==========================================================================
+// Branding Smite Reaction Interrupts
+
+new entry "Interrupt_Smite_Branding"
+type "InterruptData"
+data "DisplayName" "h088a0ce910f2453e979d4500217eb7f2eb68;1"
+//data "DisplayName" "hb9c6af7c4b114b718f5102b7d7069f6bd3f2;1"
+data "Description" "h56bea3880f204771bb39091001bb89b46d3c;1"
+data "DescriptionParams" "DealDamage(2d6,Radiant)"
+data "ExtraDescription" "haff4838a62b542588071f1416ba653dbed5d;1"
+data "Icon" "Spell_Evocation_BrandingSmite_Melee"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsSmiteSpells() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Properties" "DealDamage(2d6,Radiant,Magical,,0,,true,false);ApplyStatus(BRANDING_SMITE,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:2"
+data "Stack" "BrandingSmite"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "Interrupt_Smite_Branding_3"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DescriptionParams" "DealDamage(3d6,Radiant)"
+data "Properties" "DealDamage(3d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:3"
+
+new entry "Interrupt_Smite_Branding_4"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DescriptionParams" "DealDamage(4d6,Radiant)"
+data "Properties" "DealDamage(4d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+
+new entry "Interrupt_Smite_Branding_5"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DescriptionParams" "DealDamage(5d6,Radiant)"
+data "Properties" "DealDamage(5d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+
+new entry "Interrupt_Smite_Branding_6"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DescriptionParams" "DealDamage(6d6,Radiant)"
+data "Properties" "DealDamage(6d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+
+new entry "Interrupt_Smite_Branding_7"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DescriptionParams" "DealDamage(7d6,Radiant)"
+data "Properties" "DealDamage(7d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+
+new entry "Interrupt_Smite_Branding_8"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DescriptionParams" "DealDamage(8d6,Radiant)"
+data "Properties" "DealDamage(8d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+
+new entry "Interrupt_Smite_Branding_9"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DescriptionParams" "DealDamage(9d6,Radiant)"
+data "Properties" "DealDamage(9d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+
+
+// ==========================================================================
+// Branding Smite Critical Reaction Interrupts
+
+new entry "Interrupt_Smite_Branding_Critical"
+type "InterruptData"
+using "Interrupt_Smite_Branding"
+data "DisplayName" "h2ac696c067934197879da5f478ee2bdae06e;1"
+//data "DisplayName" "h173217e36b3348808284dd74e87bc3631c5f;1"
+data "ExtraDescription" "hdc2303e587424555be5a1efcbdf554b9f364;1"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsSmiteSpells() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:2"
+
+new entry "Interrupt_Smite_Branding_Critical_3"
+type "InterruptData"
+using "Interrupt_Smite_Branding_Critical"
+data "DescriptionParams" "DealDamage(3d6,Radiant)"
+data "Properties" "DealDamage(3d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:3"
+
+new entry "Interrupt_Smite_Branding_Critical_4"
+type "InterruptData"
+using "Interrupt_Smite_Branding_Critical"
+data "DescriptionParams" "DealDamage(4d6,Radiant)"
+data "Properties" "DealDamage(4d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+
+new entry "Interrupt_Smite_Branding_Critical_5"
+type "InterruptData"
+using "Interrupt_Smite_Branding_Critical"
+data "DescriptionParams" "DealDamage(5d6,Radiant)"
+data "Properties" "DealDamage(5d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+
+new entry "Interrupt_Smite_Branding_Critical_6"
+type "InterruptData"
+using "Interrupt_Smite_Branding_Critical"
+data "DescriptionParams" "DealDamage(6d6,Radiant)"
+data "Properties" "DealDamage(6d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+
+new entry "Interrupt_Smite_Branding_Critical_7"
+type "InterruptData"
+using "Interrupt_Smite_Branding_Critical"
+data "DescriptionParams" "DealDamage(7d6,Radiant)"
+data "Properties" "DealDamage(7d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+
+new entry "Interrupt_Smite_Branding_Critical_8"
+type "InterruptData"
+using "Interrupt_Smite_Branding_Critical"
+data "DescriptionParams" "DealDamage(8d6,Radiant)"
+data "Properties" "DealDamage(8d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+
+new entry "Interrupt_Smite_Branding_Critical_9"
+type "InterruptData"
+using "Interrupt_Smite_Branding_Critical"
+data "DescriptionParams" "DealDamage(9d6,Radiant)"
+data "Properties" "DealDamage(9d6,Radiant,Magical,,0,,true,false);ApplyStatus(BLINDING_SMITE_BLINDED,100,10);ApplyStatus(INTERRUPT_SMITE_BRANDING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+
+
+// ==========================================================================
+// Branding Smite Passive Unlocker
+
+new entry "BrandingSmiteUnlock"
+type "PassiveData"
+data "DisplayName" "h08eee705cbc44e238b18531e636f4f6ed3de;1"
+//data "DisplayName" "h5776c9e34b83452bafe6bdc7116b08a1f31f;1"
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Target_Smite_Branding_Unlock);UnlockSpell(Target_Smite_Branding_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Branding);UnlockInterrupt(Interrupt_Smite_Branding_Critical)"
+

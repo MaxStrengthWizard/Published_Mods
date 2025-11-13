@@ -1,0 +1,311 @@
+// ==========================================================================
+// Staggering Smite
+
+// ==========================================================================
+// Staggering Smite Spell
+
+new entry "Target_StaggeringSmite"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite"
+data "SpellSchool" "Enchantment"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "Description" "hf8f404b236cc4d2ea2e2ac318cd1c1933f66;1"
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+data "TooltipUpcastDescriptionParams" "DealDamage(1d6,Psychic)"
+data "SpellFlags" "IsSpell;HasVerbalComponent;IsMelee;IsHarmful"
+
+new entry "Target_StaggeringSmite_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_5"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+
+new entry "Target_StaggeringSmite_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_6"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "TooltipUpcastDescription" "66388a6f-44dd-4c9f-a9e7-910c50e70755"
+
+new entry "Target_StaggeringSmite_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_StaggeringSmite"
+data "PowerLevel" "7"
+
+new entry "Target_StaggeringSmite_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(8d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_StaggeringSmite"
+data "PowerLevel" "8"
+
+new entry "Target_StaggeringSmite_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(9d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_StaggeringSmite"
+data "PowerLevel" "9"
+
+
+// ==========================================================================
+// Staggering Smite Status
+
+new entry "STAGGERING_SMITE"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "STUNNED"
+data "DisplayName" "hef8f87b528684b3386cfb883bd6a45240e54;1"
+data "ManagedStatusEffectType" "Negative"
+data "ManagedStatusEffectGroup" "6435c10a-c67d-4f79-8813-b84b0762f92b"
+
+
+// ==========================================================================
+// Staggering Smite Interrupt VFX
+
+new entry "INTERRUPT_SMITE_STAGGERING_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "INTERRUPT_SMITE_DIVINE_VFX"
+data "SoundStart" "Spell_Impact_Damage_StaggeringSmite_L4to5"
+data "StatusEffect" "5f5761d4-7c20-45bf-bb0c-b73002762687"
+
+
+// ==========================================================================
+// Staggering Smite Interrupt Prototypes
+
+new entry "Target_StaggeringSmite_Unlock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite"
+data "DisplayName" "h57e6aee32bf94bfcaafade975577d70fggd3;1"
+data "InterruptPrototype" "Interrupt_Smite_Staggering"
+
+new entry "Target_StaggeringSmite_Unlock_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "5"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_5"
+
+new entry "Target_StaggeringSmite_Unlock_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "6"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_6"
+
+new entry "Target_StaggeringSmite_Unlock_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "7"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_7"
+
+new entry "Target_StaggeringSmite_Unlock_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(8d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "8"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_8"
+
+new entry "Target_StaggeringSmite_Unlock_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(9d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "9"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_9"
+
+
+// ==========================================================================
+// Staggering Smite Critical Interrupt Prototypes
+
+new entry "Target_StaggeringSmite_Critical_Unlock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "DisplayName" "h7a39d36363dc4588bcd3f66cc40145fee77c;1"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "4"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_Critical"
+
+new entry "Target_StaggeringSmite_Critical_Unlock_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "5"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_Critical_5"
+
+new entry "Target_StaggeringSmite_Critical_Unlock_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "6"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_Critical_6"
+
+new entry "Target_StaggeringSmite_Critical_Unlock_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "7"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_Critical_7"
+
+new entry "Target_StaggeringSmite_Critical_Unlock_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(8d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "8"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_Critical_8"
+
+new entry "Target_StaggeringSmite_Critical_Unlock_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite_Unlock"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(9d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,1,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()))"
+data "RootSpellID" "Target_StaggeringSmite_Unlock"
+data "PowerLevel" "9"
+data "InterruptPrototype" "Interrupt_Smite_Staggering_Critical_9"
+
+
+// ==========================================================================
+// Staggering Smite Reaction Interrupts
+
+new entry "Interrupt_Smite_Staggering"
+type "InterruptData"
+data "DisplayName" "hca65760a0bd4412a964449d88abb2f274a5b;1"
+data "Description" "h129770bb88b04bfe8aab79c1a5179452bf77;1"
+data "DescriptionParams" "DealDamage(4d6,Psychic)"
+data "ExtraDescription" "hd906305d985c4d5988a8fc1a75180bdd95b5;1"
+data "Icon" "Spell_Evocation_StaggeringSmite"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsSmiteSpells() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Properties" "DealDamage(4d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+data "Stack" "StaggeringSmite"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "Interrupt_Smite_Staggering_5"
+type "InterruptData"
+using "Interrupt_Smite_Staggering"
+data "DescriptionParams" "DealDamage(5d6,Psychic)"
+data "Properties" "DealDamage(5d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+
+new entry "Interrupt_Smite_Staggering_6"
+type "InterruptData"
+using "Interrupt_Smite_Staggering"
+data "DescriptionParams" "DealDamage(6d6,Psychic)"
+data "Properties" "DealDamage(6d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+
+new entry "Interrupt_Smite_Staggering_7"
+type "InterruptData"
+using "Interrupt_Smite_Staggering"
+data "DescriptionParams" "DealDamage(7d6,Psychic)"
+data "Properties" "DealDamage(7d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+
+new entry "Interrupt_Smite_Staggering_8"
+type "InterruptData"
+using "Interrupt_Smite_Staggering"
+data "DescriptionParams" "DealDamage(8d6,Psychic)"
+data "Properties" "DealDamage(8d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+
+new entry "Interrupt_Smite_Staggering_9"
+type "InterruptData"
+using "Interrupt_Smite_Staggering"
+data "DescriptionParams" "DealDamage(9d6,Psychic)"
+data "Properties" "DealDamage(9d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+
+
+// ==========================================================================
+// Staggering Smite Critical Reaction Interrupts
+
+new entry "Interrupt_Smite_Staggering_Critical"
+type "InterruptData"
+using "Interrupt_Smite_Staggering"
+data "DisplayName" "h8716ae76a26842c9825f405db3aa6aed2dc1;1"
+data "ExtraDescription" "h04abdb8065c74d909872d93ff409b0529903;1"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsSmiteSpells() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:4"
+
+new entry "Interrupt_Smite_Staggering_Critical_5"
+type "InterruptData"
+using "Interrupt_Smite_Staggering_Critical"
+data "DescriptionParams" "DealDamage(5d6,Psychic)"
+data "Properties" "DealDamage(5d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+
+new entry "Interrupt_Smite_Staggering_Critical_6"
+type "InterruptData"
+using "Interrupt_Smite_Staggering_Critical"
+data "DescriptionParams" "DealDamage(6d6,Psychic)"
+data "Properties" "DealDamage(6d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+
+new entry "Interrupt_Smite_Staggering_Critical_7"
+type "InterruptData"
+using "Interrupt_Smite_Staggering_Critical"
+data "DescriptionParams" "DealDamage(7d6,Psychic)"
+data "Properties" "DealDamage(7d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+
+new entry "Interrupt_Smite_Staggering_Critical_8"
+type "InterruptData"
+using "Interrupt_Smite_Staggering_Critical"
+data "DescriptionParams" "DealDamage(8d6,Psychic)"
+data "Properties" "DealDamage(8d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+
+new entry "Interrupt_Smite_Staggering_Critical_9"
+type "InterruptData"
+using "Interrupt_Smite_Staggering_Critical"
+data "DescriptionParams" "DealDamage(9d6,Psychic)"
+data "Properties" "DealDamage(9d6,Psychic,Magical,,0,,true,false);ApplyStatus(STAGGERING_SMITE,100,10,,,,not SavingThrow(Ability.Wisdom, SourceSpellDC()));ApplyStatus(INTERRUPT_SMITE_STAGGERING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+
+
+// ==========================================================================
+// Staggering Smite Passive Unlocker
+
+new entry "StaggeringSmiteUnlock"
+type "PassiveData"
+data "DisplayName" "h1c8c8b7d844d4ae497736c5b299fdf1c0766;1"
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Target_StaggeringSmite_Unlock);UnlockSpell(Target_StaggeringSmite_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Staggering);UnlockInterrupt(Interrupt_Smite_Staggering_Critical)"
+

@@ -1,0 +1,304 @@
+// ==========================================================================
+// Banishing Smite
+
+// ==========================================================================
+// Banishing Smite Spell
+
+new entry "Target_Smite_Banishing"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing"
+//data "SpellSchool" "Conjuration"
+data "SpellContainerID" ""
+data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:DealDamage(5d10,Force,Magical,,0,,true,false)"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3)"
+//data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3,,,,not SavingThrow(Ability.Charisma, SourceSpellDC()))"
+data "DisplayName" "hd4f34b918c3e45aabdeb84ea4971dd0ef1b4;1"
+data "TooltipStatusApply" "ApplyStatus(BANISHING_SMITE,100,3)"
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+
+new entry "Target_Smite_Banishing_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_6"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3)"
+//data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3,,,,not SavingThrow(Ability.Charisma, SourceSpellDC()))"
+
+new entry "Target_Smite_Banishing_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3)"
+//data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3,,,,not SavingThrow(Ability.Charisma, SourceSpellDC()))"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Target_Smite_Banishing"
+data "PowerLevel" "7"
+
+new entry "Target_Smite_Banishing_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3)"
+//data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3,,,,not SavingThrow(Ability.Charisma, SourceSpellDC()))"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Target_Smite_Banishing"
+data "PowerLevel" "8"
+
+new entry "Target_Smite_Banishing_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3)"
+//data "SpellSuccess" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3,,,,not SavingThrow(Ability.Charisma, SourceSpellDC()))"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Target_Smite_Banishing"
+data "PowerLevel" "9"
+
+
+// ==========================================================================
+// Banishing Smite Projectile Spell
+// Turning it into its own thing if someone wants to use it
+
+new entry "Projectile_Smite_Banishing"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Banishing"
+//data "SpellSchool" "Conjuration"
+data "SpellContainerID" ""
+data "SpellSuccess" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE_RANGED,100,3)"
+//data "SpellSuccess" "DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d10,Force,Magical);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE_RANGED,100,3,,,,not SavingThrow(Ability.Charisma, SourceSpellDC()))"
+data "TooltipStatusApply" "ApplyStatus(BANISHING_SMITE_RANGED,100,3)"
+data "TooltipOnMiss" "4639a885-0f45-4bc9-93c7-1e0c39eb39ec"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+
+new entry "Projectile_Smite_Banishing_6"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Banishing_6"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+
+new entry "Projectile_Smite_Banishing_7"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Banishing"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Banishing_7);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+data "RootSpellID" "Projectile_Smite_Banishing"
+data "PowerLevel" "7"
+
+new entry "Projectile_Smite_Banishing_8"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Banishing"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Banishing_8);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+data "RootSpellID" "Projectile_Smite_Banishing"
+data "PowerLevel" "8"
+
+new entry "Projectile_Smite_Banishing_9"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Banishing"
+data "SpellFail" "IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_Smite_Banishing_9);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)"
+data "HitCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+data "RootSpellID" "Projectile_Smite_Banishing"
+data "PowerLevel" "9"
+
+
+// ==========================================================================
+// Banishing Smite Container Decomission
+
+new entry "Projectile_Smite_Banishing_Container"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Smite_Banishing_Container"
+data "ContainerSpells" ""
+data "SpellFlags" "IsSpell;HasVerbalComponent;IsConcentration;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+
+
+// ==========================================================================
+// Banishing Smite Interrupt VFX
+
+new entry "INTERRUPT_SMITE_BANISHING_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "INTERRUPT_SMITE_DIVINE_VFX"
+data "SoundStart" "Action_Cast_Gen_BanishingSmiteMelee"
+data "StatusEffect" "07f239ed-90e5-4c00-b18f-20ebf7853d77"
+
+
+// ==========================================================================
+// Banishing Smite Interrupt Prototypes
+
+new entry "Target_Smite_Banishing_Unlock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing"
+data "DisplayName" "h0e429a9cb76e4eb3afbf609549834ae7bb91;1"
+data "InterruptPrototype" "Interrupt_Smite_Banishing"
+
+new entry "Target_Smite_Banishing_Unlock_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "6"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_6"
+
+new entry "Target_Smite_Banishing_Unlock_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "7"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_7"
+
+new entry "Target_Smite_Banishing_Unlock_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "8"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_8"
+
+new entry "Target_Smite_Banishing_Unlock_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "9"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_9"
+
+
+// ==========================================================================
+// Banishing Smite Critical Interrupt Prototypes
+
+new entry "Target_Smite_Banishing_Critical_Unlock"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "DisplayName" "hbaddce55f98743a6a5d3b2f42e8046b543d4;1"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "5"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_Critical"
+
+new entry "Target_Smite_Banishing_Critical_Unlock_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "6"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_Critical_6"
+
+new entry "Target_Smite_Banishing_Critical_Unlock_7"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "7"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_Critical_7"
+
+new entry "Target_Smite_Banishing_Critical_Unlock_8"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "8"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_Critical_8"
+
+new entry "Target_Smite_Banishing_Critical_Unlock_9"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Banishing_Unlock"
+data "RootSpellID" "Target_Smite_Banishing_Unlock"
+data "PowerLevel" "9"
+data "InterruptPrototype" "Interrupt_Smite_Banishing_Critical_9"
+
+
+// ==========================================================================
+// Banishing Smite Reaction Interrupts
+
+new entry "Interrupt_Smite_Banishing"
+type "InterruptData"
+data "DisplayName" "hd1b20e61af434a1288c73475721e65c073be;1"
+data "Description" "hd188c42272f74186a7a9bcd645e115802a87;1"
+data "DescriptionParams" "DealDamage(5d10,Force)"
+data "ExtraDescription" "hdb857ddfc7914f9189189f0acade46dc8d7g;1"
+data "Icon" "Spell_Abjuration_BanishingSmite_Melee"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsSmiteSpells() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Properties" "DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3);ApplyStatus(INTERRUPT_SMITE_BANISHING_VFX,100,0)"
+//data "Properties" "DealDamage(5d10,Force,Magical,,0,,true,false);IF(HasHPLessThan(50) and not HasHPLessThan(1)):ApplyStatus(BANISHING_SMITE,100,3,,,,not SavingThrow(Ability.Charisma, SourceSpellDC());ApplyStatus(INTERRUPT_SMITE_BANISHING_VFX,100,0)"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "Stack" "BanishingSmite"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'})"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "Interrupt_Smite_Banishing_6"
+type "InterruptData"
+using "Interrupt_Smite_Banishing"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+
+new entry "Interrupt_Smite_Banishing_7"
+type "InterruptData"
+using "Interrupt_Smite_Banishing"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+
+new entry "Interrupt_Smite_Banishing_8"
+type "InterruptData"
+using "Interrupt_Smite_Banishing"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+
+new entry "Interrupt_Smite_Banishing_9"
+type "InterruptData"
+using "Interrupt_Smite_Banishing"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+
+
+// ==========================================================================
+// Banishing Smite Critical Reaction Interrupts
+
+new entry "Interrupt_Smite_Banishing_Critical"
+type "InterruptData"
+using "Interrupt_Smite_Banishing"
+data "DisplayName" "ha874f50c7ace4e89a43373f0c5aa2e55c05g;1"
+data "ExtraDescription" "h28a24f4aa0224769997643bd17071069d6fd;1"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self() and not Item() and IsMeleeAttack() and not IsSmiteSpells() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:5"
+data "InterruptDefaultValue" "Ask;Enabled"
+
+new entry "Interrupt_Smite_Banishing_Critical_6"
+type "InterruptData"
+using "Interrupt_Smite_Banishing_Critical"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:6"
+
+new entry "Interrupt_Smite_Banishing_Critical_7"
+type "InterruptData"
+using "Interrupt_Smite_Banishing_Critical"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:7"
+
+new entry "Interrupt_Smite_Banishing_Critical_8"
+type "InterruptData"
+using "Interrupt_Smite_Banishing_Critical"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:8"
+
+new entry "Interrupt_Smite_Banishing_Critical_9"
+type "InterruptData"
+using "Interrupt_Smite_Banishing_Critical"
+data "Cost" "BonusActionPoint:1;SpellSlotsGroup:1:1:9"
+
+
+// ==========================================================================
+// Banishing Smite Passive Unlocker
+
+new entry "BanishingSmiteUnlock"
+type "PassiveData"
+data "DisplayName" "hdda00b4142324d45a797e6595f3c5b3322d1;1"
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Target_Smite_Banishing_Unlock);UnlockSpell(Target_Smite_Banishing_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Banishing);UnlockInterrupt(Interrupt_Smite_Banishing_Critical)"
+
