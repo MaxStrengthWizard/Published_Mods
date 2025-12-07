@@ -1,0 +1,19 @@
+// ==========================================================================
+// Polymorph - Creature Passives
+
+new entry "BloodiedFury"
+type "PassiveData"
+data "DisplayName" "h9e33b0ecc1734ac99c186b26b604b8888cb5;1"
+data "Description" "hfe93a9aa48704f4c9feee19ce60f93a4bfg3;1"
+data "Icon" "PassiveFeature_Generic_Blood"
+data "Properties" "Highlighted"
+data "Boosts" "IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Source)):Advantage(AttackRoll)"
+
+new entry "Agile_Polymorph"
+type "PassiveData"
+data "DisplayName" "hb4e6a266a39f47f18288ad7510d96fdc64gb;1"
+data "Description" "hed64633af0e1448b943c350e039a2f4b889f;1"
+data "Icon" "statIcons_Disengage"
+data "Properties" "Highlighted"
+data "Boosts" "IgnoreLeaveAttackRange()"
+

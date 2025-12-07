@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h59f00857af234704b4a1474355949a4aagf1" version="1">You attempt to transform a creature that you can see within range into a Beast.</content>
+	<content contentuid="h099be08d5dbd4c7f8c666f97b86b25713691" version="1">If the beast's hit points drop to 0, the target reverts to its original form with its original hit points.</content>
+	<content contentuid="h540f2d56e302411687e1e867be53e7eegef0" version="1">Polymorph: Bat</content>
+	<content contentuid="h0ec89878df994f87aa54899e213e3ea7b185" version="1">Transform a creature into a bat.</content>
+	<content contentuid="h3822f98aaa154970ba46800ac11cc001bd4d" version="1">Polymorph: Cat</content>
+	<content contentuid="h52179d4a0ba44f88a3fb0c48390a3256304d" version="1">Transform a creature into a cat.</content>
+	<content contentuid="hde36b2d1e84d4f25beb6058762c0f4bb4442" version="1">Polymorph: Chicken</content>
+	<content contentuid="h3dee2e5d04fc4c91a89ec059d77876cc27cc" version="1">Transform a creature into a chicken.</content>
+	<content contentuid="h7ebd6aec89924135ac802562216306805b9b" version="1">Polymorph: Crab</content>
+	<content contentuid="h53d8e6a576284a13a04cb33867d0423ef1c8" version="1">Transform a creature into a crab.</content>
+	<content contentuid="hbac329a11cb144709356e6fe7530e0a76g35" version="1">Polymorph: Dog</content>
+	<content contentuid="hb8b501fa23474469add10e497b9066a2g8da" version="1">Transform a creature into a dog.</content>
+	<content contentuid="hcf5c202467684b7ba28720fff613e8ee87ee" version="1">Polymorph: Frog</content>
+	<content contentuid="haaf37e04196e44259a1c2eaa696f3cf9fbf0" version="1">Transform a creature into a frog.</content>
+	<content contentuid="he60c5f4f43d342efaff67d6af47fad19gebb" version="1">Polymorph: Rat</content>
+	<content contentuid="h35a4694ab3604756b1edaacb9e88a5736fbb" version="1">Transform a creature into a rat.</content>
+	<content contentuid="h5c3c1378765f45e784b7db4708aac558297e" version="1">Polymorph: Hyena</content>
+	<content contentuid="h9692faff118d45f882ac479e772b231539e4" version="1">Transform a creature into a hyena.</content>
+	<content contentuid="h1513a6b556594e0bb891935e7a63e2860514" version="1">Polymorph: Pig</content>
+	<content contentuid="h7fe15136b4374a68bbf7bf17e565ca67a7dc" version="1">Transform a creature into a pig.</content>
+	<content contentuid="h6b7254bc86ad4c3f9afc2ca9d7fc4248133f" version="1">Polymorph: Rabbit</content>
+	<content contentuid="hcc836b705e7e443db6bad8ef7066c632ac56" version="1">Transform a creature into a rabbit.</content>
+	<content contentuid="h8f955120f97544ea819d32c4d0697f6024g8" version="1">Polymorph: Raven</content>
+	<content contentuid="hd3fc8d7302ed4133a7a6181bf3ac8068a07d" version="1">Transform a creature into a raven.</content>
+	<content contentuid="h5fc97ed5b8224d059723b1373bca4a5659d6" version="1">Polymorph: Spider</content>
+	<content contentuid="h6ad7c80784d043a8b43b4a48202c022c65a2" version="1">Transform a creature into a spider.</content>
+	<content contentuid="h5c283468edfd4c3190503c19c503e00b87f9" version="1">Polymorph: Squirrel</content>
+	<content contentuid="he03da482f39940b49faf46270f04aafc44a5" version="1">Transform a creature into a squirrel.</content>
+	<content contentuid="h9c815ae16f6e4cb995aac03bc900f5d1ca67" version="1">Polymorph: Sheep</content>
+	<content contentuid="hcf8c46df99304965bade36d364b846e6e186" version="1">Transform a creature into a sheep.</content>
+	<content contentuid="hc199bf112c824870a9339e3e3deef91ae999" version="1">Polymorph: Snake</content>
+	<content contentuid="h7f24c874efb8497698ee54325edfdc09190g" version="1">Transform a creature into a snake.</content>
+	<content contentuid="h216cd50d4ec54123925c3aebb7f43dc917d8" version="1">Polymorph: Deep Rothé</content>
+	<content contentuid="hb15946ec35f6411db2fa8c63d98ebfd782bd" version="1">Transform a creature into a deep rothé.</content>
+	<content contentuid="h01548744873241958840d600e1bf7d85g393" version="1">Polymorph: Boar</content>
+	<content contentuid="hcfb1d494a4b14274bf1d47b1f1e6aeb6928g" version="1">Transform a creature into a boar.</content>
+	<content contentuid="h0653d00174ab4949a30a6008a16a64bff6e1" version="1">Polymorph: Giant Badger</content>
+	<content contentuid="he8e91d93768c48c49e0541f6a29c018909af" version="1">Transform a creature into a badger.</content>
+	<content contentuid="h9a22a3fe961a48cd9e016883e22c917695c8" version="1">Polymorph: Ox</content>
+	<content contentuid="hc36d1eb04c444df7bc798d87c1e277e66339" version="1">Transform a creature into an ox.</content>
+	<content contentuid="h5003e7456fd24be0bba8bb8b654f771371g0" version="1">Polymorph: Panther</content>
+	<content contentuid="h9a61f6127d11494b908b0b44e79c174f319e" version="1">Transform a creature into a panther.</content>
+	<content contentuid="h3774943b773a493ba70d264e8c7be1b00390" version="1">Polymorph: Wolf</content>
+	<content contentuid="he88b739d15354e2b933c432d80ea9b023eb7" version="1">Transform a creature into a wolf.</content>
+	<content contentuid="h1774ebcd412647ceb86736cc5270c8ee44a7" version="1">Polymorph: Bear</content>
+	<content contentuid="h7fc480fa3d054d6da1ca8d8eac85ed70383g" version="1">Transform a creature into a bear.</content>
+	<content contentuid="hd11371a90c614fa1bb3a2188ce28ea9fee39" version="1">Polymorph: Eagle</content>
+	<content contentuid="h0f25d309fe47477e9fcac42f2ec55756g9e5" version="1">Transform a creature into an eagle.</content>
+	<content contentuid="hf2ce15c999ac4296b385fd50112c06f22f13" version="1">Polymorph: Giant Spider</content>
+	<content contentuid="hcff2ce03458945be9f54271baa948f022c11" version="1">Transform a creature into a giant spider.</content>
+	<content contentuid="h7fc403589f564986900963c514c1105c301g" version="1">Polymorph: Dinosaur</content>
+	<content contentuid="h0e1ce92f3d59403aa0cdba0e2c9cd5516984" version="1">Transform a creature into a dinosaur.</content>
+	<content contentuid="hde4156f2b77c4526a89edfa7a80159807349" version="1">Polymorph: Saber-Toothed Tiger</content>
+	<content contentuid="hd7de98ef2423419c825f91afded82fccbcae" version="1">Transform a creature into a sabertooth tiger.</content>
+	<content contentuid="h9e33b0ecc1734ac99c186b26b604b8888cb5" version="1">Bloodied Fury</content>
+	<content contentuid="hfe93a9aa48704f4c9feee19ce60f93a4bfg3" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; while under 50% &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="h34f2bd6b81824229bf3f23aa7950d0db4f7d" version="1">Brown Bear</content>
+	<content contentuid="hb4e6a266a39f47f18288ad7510d96fdc64gb" version="1">Agile</content>
+	<content contentuid="hed64633af0e1448b943c350e039a2f4b889f" version="1">Can move without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+	<content contentuid="haa0011e172104fa485a399746ce8e987cedb" version="1">Saber-Toothed Tiger</content>
+	<content contentuid="h5311bfc8cc62484f828459939479340d1efe" version="1">Venomous Snake</content>
+	<content contentuid="hf347646509a940d097cbb8d5f31e407e8148" version="1">Shapechanger</content>
+	<content contentuid="hc3f4bf9004b944a18ec0caae02931fc93cf2" version="1">You can cast &lt;LSTag Type="Spell" Tooltip="Target_Polymorph"&gt;Polymorph&lt;/LSTag&gt; without a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="he33bf4fe971f41848e53f5f66a9d730caaf4" version="1">Transform yourself into a creature of your choice. You retain your mental stats and ability to speak while in this form.</content>
+	<content contentuid="h542634b6191a4523886e0a6618a4adf3f26g" version="1">If the transformation's &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; drop to 0, you revert to your original form with original hit points.</content>
+	<content contentuid="h97cfcd48b7224b9f98a38a54e4d15e0d2ff9" version="1">Shapechanger: Blue Jay</content>
+	<content contentuid="hbdff68148e72425890c70ed031b8ab38bf5c" version="1">Transform yourself into a blue jay.</content>
+	<content contentuid="h61dcbe316a854b56b267c679d3f4ff4cg285" version="1">Shapechanger: Bat</content>
+	<content contentuid="h8ff39b23f57e41678f55accb3d436c10c7a2" version="1">Shapechanger: Cat</content>
+	<content contentuid="hba030976b70d4c5ba5b33a85d7232242da33" version="1">Shapechanger: Chicken</content>
+	<content contentuid="h6467d1a704d4446f8df6b852c997cf63b93b" version="1">Shapechanger: Crab</content>
+	<content contentuid="h4bdef371a8ee40539ca24292d62574fdg042" version="1">Shapechanger: Dog</content>
+	<content contentuid="h9f65ce418f3a4522b9e3741781ec9df75c88" version="1">Shapechanger: Frog</content>
+	<content contentuid="hb3ad86bd5200434c83ea93b9fe8f82a3bg24" version="1">Shapechanger: Rat</content>
+	<content contentuid="h824bfdd82de94889b356c8541b79e5475935" version="1">Shapechanger: Hyena</content>
+	<content contentuid="h16bf1cf49b53453d920744f8e04a671ee2f7" version="1">Shapechanger: Pig</content>
+	<content contentuid="h580f8e7346df4be0b41ab62b37642e0bc558" version="1">Shapechanger: Rabbit</content>
+	<content contentuid="h9c93ed3c734f448e847e78b6a0eb52621657" version="1">Shapechanger: Raven</content>
+	<content contentuid="h5d9737f95a1845e2bc771485fae221409eff" version="1">Shapechanger: Spider</content>
+	<content contentuid="h1b86808b52cf4c8eadb66e60f00465a9a62b" version="1">Shapechanger: Squirrel</content>
+	<content contentuid="h5c4d9abdd8c1468c826032524b235ba3c257" version="1">Shapechanger: Sheep</content>
+	<content contentuid="hfc114535263a4dd9a248d4e9b3d6b5f3340g" version="1">Shapechanger: Venomous Snake</content>
+	<content contentuid="h965a1aa8aa15448881b3345b544dc7cbc221" version="1">Shapechanger: Deep Rothé</content>
+	<content contentuid="h43d50b66248447d9b0a8406fd27b423b0cf4" version="1">Shapechanger: Boar</content>
+	<content contentuid="h3bfbfd5be03a41ae95d799fed7e4101a3c5c" version="1">Shapechanger: Giant Badger</content>
+	<content contentuid="h9eb55fb63a604eef8f1ed781d96ee50150gf" version="1">Shapechanger: Ox</content>
+	<content contentuid="h3b934e91e6024019b9def24e0f2beed5g06d" version="1">Shapechanger: Panther</content>
+	<content contentuid="h83f8f8b0c2f348798c6df858fafa4dd6aa05" version="1">Shapechanger: Wolf</content>
+	<content contentuid="he6539c411752402d97a0e5c5f42ef23b8718" version="1">Shapechanger: Bear</content>
+	<content contentuid="h019cf47cf5ec462382c9b987b2fc49c1ab7a" version="1">Shapechanger: Eagle</content>
+	<content contentuid="h94a99b1f5e664817a77c92491b89fc2ecgf2" version="1">Shapechanger: Giant Spider</content>
+	<content contentuid="hf19e0c72ad22437ca5379fa8ef8146e07c7a" version="1">Shapechanger: Dilophosaurus</content>
+	<content contentuid="h52cb31bf3dde4ce5a91d91021fe140c0b43b" version="1">Shapechanger: Saber-Toothed Tiger</content>
+	<content contentuid="h13a5b49b869948f59bdc4966bee93e514dad" version="1">Polymorph Self</content>
+	<content contentuid="h5a270f301ce44338a409866e6a34a5f9gd00" version="1">Mass Polymorph</content>
+	<content contentuid="h3d24c69cb5734f1b92b6c95d1c171ddb52a9" version="1">Attempt to transform up to [1] creatures that you can see within range into a Beast.</content>
+	<content contentuid="he1536e929fcf49e5af4b8cd62404515f1abe" version="1">True Polymorph</content>
+	<content contentuid="h05997ae67fca4fe79a12f42a72c788ac7b7b" version="1">Attempt to transform a nearby creature into something else.</content>
+	<content contentuid="hafc5b990ae46456d8377a24b4020baab288a" version="1">If the transformed creature's hit points drop to 0, the target reverts to its original form with its original hit points.</content>
+
+
+
+
+
+
+
+
+
+
+</contentList>

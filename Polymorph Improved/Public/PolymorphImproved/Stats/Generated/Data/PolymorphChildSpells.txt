@@ -1,0 +1,37 @@
+// ==========================================================================
+// Polymorph Child Spells
+
+new entry "Target_LOW_Polymorph_Trap"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_LOW_Polymorph_Trap"
+data "ContainerSpells" ""
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+
+new entry "Target_LOW_Hag_Polymorph"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_LOW_Hag_Polymorph"
+data "ContainerSpells" ""
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell"
+
+new entry "Target_EPI_Polymorph_GaleGod"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EPI_Polymorph_GaleGod"
+data "ContainerSpells" ""
+
+new entry "Target_WYR_PolymorhphCheese_Djinni"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_WYR_PolymorhphCheese_Djinni"
+data "ContainerSpells" ""
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell"
+
+new entry "Target_HAV_DevilishOX_AlternateForm_DireWolf"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_HAV_DevilishOX_AlternateForm_DireWolf"
+data "ContainerSpells" ""
+

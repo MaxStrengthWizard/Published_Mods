@@ -1,0 +1,93 @@
+// ==========================================================================
+// True Polymorph
+
+new entry "Target_TruePolymorph"
+type "SpellData"
+data "SpellType" "Target"
+data "Level" "9"
+data "SpellSchool" "Transmutation"
+data "ContainerSpells" ""
+data "TargetRadius" "9"
+data "SpellRoll" "SpellAutoResolveOnAlly(Ability.Wisdom, SourceSpellDC(), true)"
+data "TargetConditions" "Character() and not Dead() and not IsImmuneToStatus('SG_Polymorph')"
+data "Icon" "Spell_Transmutation_Polymorph"
+data "DisplayName" "he1536e929fcf49e5af4b8cd62404515f1abe;1"
+data "Description" "h05997ae67fca4fe79a12f42a72c788ac7b7b;1"
+data "ExtraDescription" "hafc5b990ae46456d8377a24b4020baab288a;1"
+data "TooltipAttackSave" "Wisdom"
+data "PrepareSound" "Spell_Prepare_Control_Gen_L1to3_01"
+data "PrepareLoopSound" "Spell_Prepare_Control_Gen_L1to3_01_Loop"
+data "CastSound" "Spell_Cast_Control_Polymorph_L4"
+data "TargetSound" "Spell_Impact_Control_Polymorph_L4"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
+data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell"
+data "MemoryCost" "1"
+data "PrepareEffect" "2fa6b127-6f8a-4150-8be6-6f62b7a85911"
+data "CastEffect" "d2ef6b50-243f-478d-85c6-892086a1477e"
+data "TargetEffect" "0f5002c7-3571-4dbc-a7e8-9a8c1e43d91e"
+
+
+
+
+Target_TruePolymorph_Tadpole
+
+Target_TruePolymorph_Hollyphant
+
+Target_TruePolymorph_Djinni
+
+Target_TruePolymorph_Cambion
+Target_TruePolymorph_Orthon
+Target_TruePolymorph_Succubus
+
+Target_TruePolymorph_Ogre
+
+Target_TruePolymorph_Bugbear
+Target_TruePolymorph_Kobold
+Target_TruePolymorph_Kuo-toa
+Target_TruePolymorph_Werewolf
+
+Target_TruePolymorph_Drider
+Target_TruePolymorph_Minotaur
+
+Target_TruePolymorph_Ooze
+
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_
+Target_TruePolymorph_Box
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
