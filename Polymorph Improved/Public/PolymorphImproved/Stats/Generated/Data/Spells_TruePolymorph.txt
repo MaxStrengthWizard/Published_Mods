@@ -34,14 +34,36 @@ data "TargetEffect" "0f5002c7-3571-4dbc-a7e8-9a8c1e43d91e"
 
 
 
+
+
+Target_TruePolymorph_DeathKnight;
+9642d444-228a-4cc7-aaa5-6153ad9b9987
+
+Target_TruePolymorph_IronGolem;
+11904505-680e-440e-9e27-a268ed90429c
+
+Target_TruePolymorph_Cambion;
+464f14a2-c0a4-4ebe-b386-df8d1fb2a8ee
+
+Target_TruePolymorph_Orthon;
+e45ae94c-c77e-48c3-b4ba-c2b2f3e78aee
+
+
+
+
+
+
+
+
+
+
 Target_TruePolymorph_Tadpole
 
 Target_TruePolymorph_Hollyphant
 
 Target_TruePolymorph_Djinni
 
-Target_TruePolymorph_Cambion
-Target_TruePolymorph_Orthon
+
 Target_TruePolymorph_Succubus
 
 Target_TruePolymorph_Ogre
@@ -56,8 +78,6 @@ Target_TruePolymorph_Minotaur
 
 Target_TruePolymorph_Ooze
 
-Target_TruePolymorph_
-Target_TruePolymorph_
 Target_TruePolymorph_
 Target_TruePolymorph_
 Target_TruePolymorph_

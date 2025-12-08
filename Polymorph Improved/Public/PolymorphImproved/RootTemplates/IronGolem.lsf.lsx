@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hf595da95da284adaa8aafa98f314cd482875" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_IronGolem_BigWhackAMoleStick" />
+					<attribute id="Faction" type="guid" value="a66b2d45-1b6c-082d-8a01-c6d975ead314" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="16" />
+					<attribute id="MapKey" type="FixedString" value="11904505-680e-440e-9e27-a268ed90429c" />
+					<attribute id="Name" type="LSString" value="TruePolymorph_IronGolem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="27385ea6-d768-47ce-91b8-8d957c0aabd9" />
+					<attribute id="Race" type="guid" value="959e884c-d96c-4f09-91ea-e94a5835bf71" />
+					<attribute id="Stats" type="FixedString" value="IronGolem_TruePolymorph" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_IronGolem_UnarmedStrike" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_SteelWatcher_Biped_Jump" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Zone_BreathWeapon_Poison_IronGolem" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="IRONGOLEM_OVERRIDE_MHA" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="22e5209c-eaeb-40dc-b6ef-a371794110c2" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="53c3304c-032d-4c49-86df-00b3b03a6b13" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="abadcad5-9229-4999-8c7a-cd557ff2c95c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he7e38838d3664662ac275259b90ffab67g65" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Greatsword_B_0" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f07eb649-e73d-42a9-95b3-1901681535cf" />
+					<attribute id="Name" type="LSString" value="WPN_IronGolem_Sword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ebdf1022-bb30-4a03-ac29-82f488bfce4f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="38e60210-779c-c989-4e98-c8280f019968" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="Stats" type="FixedString" value="WPN_IronGolem_Sword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="82f70a4d-a47a-52cf-39ee-a8576d5009e6" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

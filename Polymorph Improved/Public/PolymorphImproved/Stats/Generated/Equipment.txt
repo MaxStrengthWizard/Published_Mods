@@ -1,0 +1,24 @@
+new equipment "EQP_IronGolem_BigWhackAMoleStick"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_IronGolem_Sword"
+
+new equipment "EQP_Cambion_TruePolymorph"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_TruePolymorph_Cambion_Spear"
+add equipmentgroup
+add equipment entry "ARM_ScaleMail_Body"
+
+
+
+
+
+
+
+
+
+
+
+
+

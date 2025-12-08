@@ -99,6 +99,50 @@
 	<content contentuid="he1536e929fcf49e5af4b8cd62404515f1abe" version="1">True Polymorph</content>
 	<content contentuid="h05997ae67fca4fe79a12f42a72c788ac7b7b" version="1">Attempt to transform a nearby creature into something else.</content>
 	<content contentuid="hafc5b990ae46456d8377a24b4020baab288a" version="1">If the transformed creature's hit points drop to 0, the target reverts to its original form with its original hit points.</content>
+	<content contentuid="hf595da95da284adaa8aafa98f314cd482875" version="1">Iron Golem</content>
+	<content contentuid="he7e38838d3664662ac275259b90ffab67g65" version="1">Iron Golem Sword</content>
+	<content contentuid="h4b46013c62e94bd69c29dd9ed181c6a415dg" version="1">Poison Breath</content>
+	<content contentuid="h26a6742a59dd4041a564f6be22176f7c4920" version="1">Exhale a cone of poisonous gas.</content>
+	<content contentuid="hadf727153592409a914d37a9cd34e4f57gc2" version="1">Poison Breath Recharge</content>
+	<content contentuid="hffc11d12c90f4816b98c590cd86ed7aa9b2a" version="1">Golem must recharge before it can use Poison Breath again.</content>
+	<content contentuid="hfaace98ae5044e83b31e03bff029a954e439" version="1">Fire Absorption</content>
+	<content contentuid="h3b66f999e5864c34bff2f079c521f1e1f1ab" version="1">When this entity is subjected to Fire damage, it takes no damage and instead regains hit points equal to the Fire damage dealt.</content>
+	<content contentuid="h654234069b7c4e888d0260d19ddfcb39cc01" version="1">Strike with a colossal blade.</content>
+	<content contentuid="h16f95dd585fa4454b1f0486a871707dag2ag" version="1">Slam</content>
+	<content contentuid="h287f0da6efef406888cac08e49d598eedgbf" version="1">Infernal Strikes</content>
+	<content contentuid="hde690c7cf01d4ca0adca494c8efe0f162g4c" version="1">This fiendish creature's weapon attacks deal an additional [1]. </content>
+	<content contentuid="haf96994f38d34ee2a533781d0d446e4acaed" version="1">Fire Ray</content>
+	<content contentuid="habf8ed1cf1bc48bd98f86e4a4cbdb821e30d" version="1">Hurl [2] fiendish rays of fire. Each ray deals [1].</content>
+	<content contentuid="hf87299ad088445bc80dddc62ce605c1498ac" version="1">Orthon</content>
+	<content contentuid="h23a2e93349924448bfd5d1fad66148714c44" version="1">Concussive Burst</content>
+	<content contentuid="h0cd3a8defd2a43b497f680ba514d2fb13457" version="1">A thunderous blast that ripples over your foes and pushes them back.</content>
+	<content contentuid="h93e3f45e19794af09070e42b744a8861f01a" version="1">Acidic Bolt</content>
+	<content contentuid="h6f079f3e0ee14e2e981a478c16051ecba15d" version="1">Deals [1] and explodes in a spray of acid that deals an additional [2].</content>
+	<content contentuid="ha185092c8dd04b07bc690b91c6869dc5eacg" version="1">Blinding Strike</content>
+	<content contentuid="heaa3cf48394746cda9bf0b13a34a7597c49g" version="1">A searing light that deals Radiant damage and possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; your foes.</content>
+	<content contentuid="he963b0fe8a954c04a8c59ed12adaed1578e6" version="1">Paralytic Shot</content>
+	<content contentuid="h3b89c47c736d4e869b209c20af9067e3f4c4" version="1">An electric blast that &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Parlyzes&lt;/LSTag&gt; targets caught in the shot.</content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

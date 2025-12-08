@@ -1,0 +1,101 @@
+// ==========================================================================
+// True Polymorph - Creature Passives
+
+new entry "IronGolem_FireAbsortion"
+type "PassiveData"
+data "DisplayName" "hfaace98ae5044e83b31e03bff029a954e439;1"
+data "Description" "h3b66f999e5864c34bff2f079c521f1e1f1ab;1"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "Properties" "Highlighted"
+data "BoostContext" "OnDamaged"
+data "Boosts" "IF(IsDamageTypeFire()):DamageReduction(Fire,Flat,1000)"
+data "StatsFunctorContext" "OnDamagedPrevented"
+data "StatsFunctors" "RegainHitPoints(DamageDone)"
+
+new entry "TruePolymorph_Cambion_FireDamage"
+type "PassiveData"
+data "DisplayName" "h287f0da6efef406888cac08e49d598eedgbf;1"
+data "Description" "hde690c7cf01d4ca0adca494c8efe0f162g4c;1"
+data "DescriptionParams" "DealDamage(1d6,Fire)"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "BoostContext" "OnCreate"
+data "Boosts" "IF(IsMeleeWeaponAttack()):CharacterWeaponDamage(1d6,Fire)"
+data "StatsFunctorContext" "OnDamage"
+
+new entry "TruePolymorph_FiendishBlessing"
+type "PassiveData"
+using "FiendishBlessing"
+data "DescriptionParams" "3"
+data "Boosts" "AC(3)"
+
+new entry "TruePolymorph_TrueSight"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate"
+data "Conditions" "not HasStatus('TRUESIGHT_TRUE_POLYMORPH')"
+data "StatsFunctors" "ApplyStatus(TRUESIGHT_TRUE_POLYMORPH,100,-1)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==========================================================================
+// True Polymorph - Creature Statuses
+
+new entry "IRONGOLEM_OVERRIDE_MHA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "STEELWATCHER_OVERRIDE_MHA"
+data "Boosts" "AttackSpellOverride(Target_IronGolem_Sword, Target_MainHandAttack)"
+
+new entry "TRUESIGHT_TRUE_POLYMORPH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "TRUESIGHT"
+data "AuraRadius" "9"
+data "Boosts" "DarkvisionRangeMin(9);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);UnlockInterrupt(Interrupt_Truesight)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

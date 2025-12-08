@@ -1,0 +1,43 @@
+// ==========================================================================
+// True Polymorph Item Stats
+
+new entry "WPN_IronGolem_Sword"
+type "Weapon"
+using "WPN_Greatsword"
+data "RootTemplate" "f07eb649-e73d-42a9-95b3-1901681535cf"
+data "Damage" "3d10"
+data "Weight" "100"
+data "GameSize" "Huge"
+data "BoostsOnEquipMainHand" ""
+data "Weapon Properties" "Heavy;Melee;Magical"
+
+new entry "WPN_TruePolymorph_Cambion_Spear"
+type "Weapon"
+using "WPN_Spear"
+data "RootTemplate" "7c4b2e20-d28d-460b-9c0a-6fafbe432497"
+data "Rarity" "Uncommon"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
