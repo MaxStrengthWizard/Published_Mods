@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="TransmutationSchool"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c84d130d-ab4a-4ac8-a8ed-880d18fe03cd,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="0bf3a1fe-f4e0-4bd3-aa97-ceec14afa407"/>
+                    <attribute id="UUID" type="guid" value="aee907e6-6847-4b87-ba3d-f87e8a8ec9c5"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -202,44 +202,45 @@ data "CastEffect" "1b458190-cd91-4cca-a048-6ecefedc2cf2"
 data "HitEffect" "c0faba43-8838-4e9a-ac41-126d46d67d39"
 data "DamageType" "Radiant"
 
-
-
-
-
-
 new entry "Projectile_Paralysis_TruePolymorph_Orthon"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_MainHandAttack"
-data "Cooldown" "OncePerLongRest"
+data "Cooldown" "OncePerRest"
 data "SpellProperties" "IF(not SavingThrow(Ability.Constitution,17)):ApplyStatus(PARALYZED,100,10);DealDamage(4d10,Lightning,Magical)"
 data "SpellRoll" "Attack(AttackType.RangedWeaponAttack)"
 data "SpellSuccess" "TARGET:DealDamage(max(1,2d10+3),Piercing);TARGET:ExecuteWeaponFunctors(MainHand)"
+data "Trajectories" "512a30e4-8f8b-464a-b626-4428d1d1ec18"
 data "DisplayName" "he963b0fe8a954c04a8c59ed12adaed1578e6;1"
 data "Description" "h3b89c47c736d4e869b209c20af9067e3f4c4;1"
 data "TooltipDamageList" "DealDamage(2d10,Piercing);DealDamage(4d10,Lightning)"
 data "TooltipAttackSave" "RangedWeaponAttack;Constitution"
 data "TooltipStatusApply" "ApplyStatus(PARALYZED,100,10)"
-data "CastSound" "Spell_Cast_Damage_StaggeringSmite_L4to5"
-data "TargetSound" "Spell_Impact_Damage_StaggeringSmite_L4to5"
+data "PrepareSound" "Spell_Prepare_Damage_Lightning_LightningArrow_L1to3"
+data "CastSound" "Spell_Cast_Damage_Lightning_LightningArrow_L1to3"
 data "UseCosts" "ActionPoint:1"
 data "SpellAnimation" "71369b20-18f1-4d33-89ad-a99b10f0444c,,;9583ecee-cf6c-4735-86db-7ebf1df15eae,,;de006e3f-70fb-4eb7-a98d-d845d15b20e8,,;50696db7-d931-4734-915d-32d038ba99a5,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;c36ed247-2272-492b-99c2-2ca10b014670,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
 data "SpellFlags" "HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
 data "HitAnimationType" "MagicalDamage_External"
-data "PrepareEffect" "4b396c2f-c264-4aeb-8645-aa358d441571"
-data "CastEffect" "cbd7dbb5-8f0f-4218-9c02-c54c830346aa"
+data "PrepareEffect" "caa1e7a2-b8de-4585-b46b-51488cecf495"
+data "CastEffect" "b4286edf-799b-461c-8f56-0bb6b816512b"
 data "DamageType" "Lightning"
 
+new entry "PARALYZED_ORTHON"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "PARALYZED"
+data "TickType" "EndTurn"
+data "RemoveConditions" "SavingThrow(Ability.Constitution, 17)"
+data "TooltipSave" "Constitution"
+data "StatusPropertyFlags" "InitiateCombat;OverheadOnTurn"
+data "RemoveEvents" "OnTurn"
 
-
-
-
-
-Paralysis (1/Day)
-The target takes 22 (4d10) lightning damage and must make a successful DC 17 Constitution saving throw or be paralyzed for 1 minute.
-The paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-
-
-
+new entry "Target_KoboldChieftan_Shortsword"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MainHandAttack"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon),MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(not SavingThrow(Ability.Constitution,12)):ApplyStatus(POISONED,100,10)"
+data "TooltipAttackSave" "MeleeWeaponAttack;Constitution"
+data "TooltipStatusApply" "ApplyStatus(POISONED,100,10)"
 

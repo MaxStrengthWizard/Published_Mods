@@ -592,15 +592,3 @@ data "OnApplyFunctors" "ApplyStatus(UNSUMMON_ABLE,100,100)"
 data "OnRemoveFunctors" "RemoveStatus(UNSUMMON_ABLE);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)"
 data "Rules" "26b5044f-182d-46b2-8ff0-c23e31d0a110"
 
-
-
-
-
-
-
-
-
-
-
-
-

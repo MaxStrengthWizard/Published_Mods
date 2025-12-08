@@ -10,7 +10,12 @@ add equipment entry "WPN_TruePolymorph_Cambion_Spear"
 add equipmentgroup
 add equipment entry "ARM_ScaleMail_Body"
 
-
+new equipment "EQP_Kobold_Chieftan_TruePolymorph"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
 
 
 

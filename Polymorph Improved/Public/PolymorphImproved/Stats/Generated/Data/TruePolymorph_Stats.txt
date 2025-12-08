@@ -34,7 +34,7 @@ data "Vitality" "210"
 data "XPReward" "40806669-8c6b-4068-8bc4-07e4981bb020"
 data "Weight" "2300"
 data "StepsType" "Metal"
-data "DefaultBoosts" "BlockRegainHP(Undead;Living)"
+data "DefaultBoosts" "DialogueBlock();BlockRegainHP(Undead;Living)"
 data "PersonalStatusImmunities" "SG_Charmed;SG_Exhausted;SG_Frightened;PARALYZED;PETRIFIED;SG_Poisoned;UNCONSCIOUS;KNOCKED_OUT;BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Sleeping"
 data "ProficiencyBonus" "5"
 data "Passives" "ImmuneToDisarm;AttackOfOpportunity;DarknessRules;SuperiorDarkvision;MagicResistance;IronGolem_FireAbsortion;ExtraAttack;ShortResting"
@@ -63,46 +63,27 @@ using "Orthon"
 data "Level" "10"
 data "DefaultBoosts" "ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Constitution);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(Skill,Perception);ProficiencyBonus(Skill,Stealth);ProficiencyBonus(Skill,Survival);Skill(Perception,4);Skill(Stealth,4);Skill(Survival,4);BlockRegainHP(Undead;Construct)"
 data "PersonalStatusImmunities" "SG_Poisoned;SG_Charmed;SG_Exhausted;BURNING;BURNING_HELLFIRE"
-data "Passives" "DevilsSight;MagicResistance;AttackOfOpportunity;SuperiorDarkvision;DarknessRules"
+data "Passives" "DevilsSight;MagicResistance;AttackOfOpportunity;SuperiorDarkvision;DarknessRules;ShortResting"
 data "DarkvisionRange" "18"
 data "DifficultyStatuses" ""
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+new entry "KoboldChieftan_TruePolymorph"
+type "Character"
+using "Kobold"
+data "Level" "4"
+data "Strength" "10"
+data "Dexterity" "17"
+data "Constitution" "14"
+data "Intelligence" "11"
+data "Wisdom" "13"
+data "Charisma" "14"
+data "Armor" "12"
+data "Vitality" "82"
+data "SoundSize" "Small"
+data "DefaultBoosts" "ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Charisma);ProficiencyBonus(Skill,Intimidation);ProficiencyBonus(Skill,Stealth);Skill(Intimidation,2);Skill(Stealth,2);BlockRegainHP(Undead;Construct)"
+data "PersonalStatusImmunities" "SG_Charmed;SG_Frightened"
+data "ProficiencyBonus" "2"
+data "Passives" "PackTactics;SunlightSensitivity;AttackOfOpportunity;Darkvision;DarknessRules;TruePolymorph_Kobold_PoisonDamage;ExtraAttack;ShortResting"
+data "Proficiency Group" "SimpleWeapons;Shortswords;LightArmor"
+data "DifficultyStatuses" ""
 

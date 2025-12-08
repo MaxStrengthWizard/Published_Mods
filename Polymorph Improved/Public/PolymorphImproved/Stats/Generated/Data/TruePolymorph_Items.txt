@@ -17,27 +17,3 @@ using "WPN_Spear"
 data "RootTemplate" "7c4b2e20-d28d-460b-9c0a-6fafbe432497"
 data "Rarity" "Uncommon"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

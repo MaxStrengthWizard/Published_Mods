@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="a64562d9-a42e-bc2e-9cc2-69a3ab72bd37" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h980251f8d7d64271b232f7bfcf9e432792e2" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Kobold_Chieftan_TruePolymorph" />
+					<attribute id="Icon" type="FixedString" value="a64562d9-a42e-bc2e-9cc2-69a3ab72bd37-EQP_Dagger_(Icon_Kobold)" />
+					<attribute id="IsEquipmentLootable" type="bool" value="false" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="53e8a92f-4dca-4d0d-ab7d-5652f4c41b62" />
+					<attribute id="Name" type="LSString" value="TruePolymorph_KoboldChieftan" />
+					<attribute id="ParentTemplateId" type="FixedString" value="dfdcfbaa-ed9b-48ba-8302-927c5f5af12d" />
+					<attribute id="Stats" type="FixedString" value="KoboldChieftan_TruePolymorph" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="EquipmentTypes">
+							<children>
+								<node id="">
+									<attribute id="Object" type="guid" value="d2141ff0-1368-4c35-b438-e9cd208182f8" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="2d85d633-d496-44a1-a643-0e95ef879a6d" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="7883d641-2b8b-40dc-85d8-51751dd42bbc" />
+								</node>
+								<node id="">
+									<attribute id="Object" type="guid" value="edb9b30a-3db2-4a36-b77d-fdfb5eda50f4" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_KoboldChieftan_Shortsword" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="KOBOLD_CHIEFTAN_OVERRIDE_MHA" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

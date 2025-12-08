@@ -6,7 +6,7 @@ type "SpellData"
 data "SpellType" "Target"
 data "Level" "9"
 data "SpellSchool" "Transmutation"
-data "ContainerSpells" ""
+data "ContainerSpells" "Target_TruePolymorph_Cambion;Target_TruePolymorph_DeathKnight;Target_TruePolymorph_IronGolem;Target_TruePolymorph_Kobold;Target_TruePolymorph_Orthon"
 data "TargetRadius" "9"
 data "SpellRoll" "SpellAutoResolveOnAlly(Ability.Wisdom, SourceSpellDC(), true)"
 data "TargetConditions" "Character() and not Dead() and not IsImmuneToStatus('SG_Polymorph')"
@@ -25,88 +25,132 @@ data "CycleConditions" "Enemy() and not Dead()"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:9"
 data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
 data "VerbalIntent" "Control"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell;IsLinkedSpellContainer"
 data "MemoryCost" "1"
 data "PrepareEffect" "2fa6b127-6f8a-4150-8be6-6f62b7a85911"
 data "CastEffect" "d2ef6b50-243f-478d-85c6-892086a1477e"
 data "TargetEffect" "0f5002c7-3571-4dbc-a7e8-9a8c1e43d91e"
 
+new entry "Target_TruePolymorph_DeathKnight"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TruePolymorph"
+data "SpellContainerID" "Target_TruePolymorph"
+data "ContainerSpells" ""
+data "SpellSuccess" "ApplyStatus(TRUE_POLYMORPH_DEATH_KNIGHT,100,-1)"
+data "DisplayName" "h9681e3e3b0634c1bbb6bbfd8a41919ff9g79;1"
+data "Description" "hd50b9931d9b346cdbba0b03f84781de3f5e8;1"
+data "TooltipStatusApply" "ApplyStatus(TRUE_POLYMORPH_DEATH_KNIGHT,100,-1)"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsConcentration;IsSpell"
+
+new entry "Target_TruePolymorph_IronGolem"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TruePolymorph_DeathKnight"
+data "SpellSuccess" "ApplyStatus(TRUE_POLYMORPH_IRON_GOLEM,100,-1)"
+data "DisplayName" "haa052751407e41cd932e0bc5e17fde391254;1"
+data "Description" "h7658b25dc8dc4b8cbd34d4efa97d71504973;1"
+data "TooltipStatusApply" "ApplyStatus(TRUE_POLYMORPH_IRON_GOLEM,100,-1)"
+
+new entry "Target_TruePolymorph_Cambion"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TruePolymorph_DeathKnight"
+data "SpellSuccess" "ApplyStatus(TRUE_POLYMORPH_CAMBION,100,-1)"
+data "DisplayName" "h9a94bc04059e4d7995ce06f755bc54a2c158;1"
+data "Description" "h4fe201d17a3f44a9a57238f6238577b4bdff;1"
+data "TooltipStatusApply" "ApplyStatus(TRUE_POLYMORPH_CAMBION,100,-1)"
+
+new entry "Target_TruePolymorph_Orthon"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TruePolymorph_DeathKnight"
+data "SpellSuccess" "ApplyStatus(TRUE_POLYMORPH_ORTHON,100,-1)"
+data "DisplayName" "h8c31aafa04a547e988bf60eb725d58deb0a0;1"
+data "Description" "hd3b3895436254bf596408540cfa63ac17b1f;1"
+data "TooltipStatusApply" "ApplyStatus(TRUE_POLYMORPH_ORTHON,100,-1)"
+
+new entry "Target_TruePolymorph_Kobold"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_TruePolymorph_DeathKnight"
+data "SpellSuccess" "ApplyStatus(TRUE_POLYMORPH_KOBOLD_CHIEFTAN,100,-1)"
+data "DisplayName" "hbe385a311f8c47e6aa5a16a51f5808dfge9g;1"
+data "Description" "had3f518fd893471ba09a11585b01a0283747;1"
+data "TooltipStatusApply" "ApplyStatus(TRUE_POLYMORPH_KOBOLD_CHIEFTAN,100,-1)"
+
+new entry "TRUE_POLYMORPH_BASE"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+data "DisplayName" "h8ccfd747bc6748639983094011338bef7e45;1"
+data "Icon" "Spell_Transmutation_Polymorph"
+data "SoundStop" "Spell_Impact_Control_Polymorph_L4"
+data "StackId" "POLYMORPH"
+data "Boosts" "Tag(POLYMORPHED_UNWILLING)"
+data "OnRemoveFunctors" "ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)"
+data "Rules" "ff8fc783-c965-4a93-86e1-b6248f8fa0f4"
+data "StatusGroups" "SG_Polymorph"
+data "StatusEffect" "255c27f3-a61c-4aae-9868-4a35fa6f5d40"
+
+new entry "TRUE_POLYMORPH_DEATH_KNIGHT"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "TRUE_POLYMORPH_BASE"
+data "Description" "h15e148aae2dd408392a1e0fac5cd0c8c6036;1"
+data "TemplateID" "9642d444-228a-4cc7-aaa5-6153ad9b9987"
+
+new entry "TRUE_POLYMORPH_IRON_GOLEM"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "TRUE_POLYMORPH_BASE"
+data "Description" "h77476f29d8854816be762a7da2bf5f96caad;1"
+data "TemplateID" "11904505-680e-440e-9e27-a268ed90429c"
+
+new entry "TRUE_POLYMORPH_CAMBION"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "TRUE_POLYMORPH_BASE"
+data "Description" "hd371b62743be4543b7f926981a55c3b8e53e;1"
+data "TemplateID" "464f14a2-c0a4-4ebe-b386-df8d1fb2a8ee"
+
+new entry "TRUE_POLYMORPH_ORTHON"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "TRUE_POLYMORPH_BASE"
+data "Description" "h91a0738246b948b5be5ae1e463b9ba5400fe;1"
+data "TemplateID" "e45ae94c-c77e-48c3-b4ba-c2b2f3e78aee"
+
+new entry "TRUE_POLYMORPH_KOBOLD_CHIEFTAN"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "TRUE_POLYMORPH_BASE"
+data "Description" "h3abc192a39414968aa97a5aca34fe022gf74;1"
+data "TemplateID" "53e8a92f-4dca-4d0d-ab7d-5652f4c41b62"
 
 
 
+//Target_TruePolymorph_Tadpole
+//Target_TruePolymorph_Flumph
 
+//Target_TruePolymorph_Hollyphant
 
-Target_TruePolymorph_DeathKnight;
-9642d444-228a-4cc7-aaa5-6153ad9b9987
+//Target_TruePolymorph_Djinni
 
-Target_TruePolymorph_IronGolem;
-11904505-680e-440e-9e27-a268ed90429c
+//Target_TruePolymorph_Succubus
 
-Target_TruePolymorph_Cambion;
-464f14a2-c0a4-4ebe-b386-df8d1fb2a8ee
+//Target_TruePolymorph_Ogre
 
-Target_TruePolymorph_Orthon;
-e45ae94c-c77e-48c3-b4ba-c2b2f3e78aee
+//Target_TruePolymorph_Bugbear
 
+//Target_TruePolymorph_Kuo-toa
+//Target_TruePolymorph_Werewolf
 
+//Target_TruePolymorph_Drider
+//Target_TruePolymorph_Minotaur
 
+//Target_TruePolymorph_Ooze
 
-
-
-
-
-
-
-Target_TruePolymorph_Tadpole
-
-Target_TruePolymorph_Hollyphant
-
-Target_TruePolymorph_Djinni
-
-
-Target_TruePolymorph_Succubus
-
-Target_TruePolymorph_Ogre
-
-Target_TruePolymorph_Bugbear
-Target_TruePolymorph_Kobold
-Target_TruePolymorph_Kuo-toa
-Target_TruePolymorph_Werewolf
-
-Target_TruePolymorph_Drider
-Target_TruePolymorph_Minotaur
-
-Target_TruePolymorph_Ooze
-
-Target_TruePolymorph_
-Target_TruePolymorph_
-Target_TruePolymorph_
-Target_TruePolymorph_
-Target_TruePolymorph_
-Target_TruePolymorph_
-Target_TruePolymorph_
-Target_TruePolymorph_Box
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Target_TruePolymorph_Box
 
 
 

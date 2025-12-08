@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard Transmutation 10"/>
+                    <attribute id="Spells" type="LSString" value="Target_Polymorph;Target_Polymorph_Shapechanger"/>
+                    <attribute id="UUID" type="guid" value="c84d130d-ab4a-4ac8-a8ed-880d18fe03cd"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -122,35 +122,23 @@
 	<content contentuid="heaa3cf48394746cda9bf0b13a34a7597c49g" version="1">A searing light that deals Radiant damage and possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; your foes.</content>
 	<content contentuid="he963b0fe8a954c04a8c59ed12adaed1578e6" version="1">Paralytic Shot</content>
 	<content contentuid="h3b89c47c736d4e869b209c20af9067e3f4c4" version="1">An electric blast that &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Parlyzes&lt;/LSTag&gt; targets caught in the shot.</content>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<content contentuid="h980251f8d7d64271b232f7bfcf9e432792e2" version="1">Kobold Chieftan</content>
+	<content contentuid="hd83180f85b7f4263a0951bc7b17ae7a5c64e" version="1">Kobold Venom</content>
+	<content contentuid="h7edce4d7592f43bb8d4b456bdca3680ag2cb" version="1">Kobold's don't actually have venom but this creature's weapon attacks still deal an additional [1]. </content>
+	<content contentuid="h8ccfd747bc6748639983094011338bef7e45" version="1">True Polymorphed</content>
+	<content contentuid="h9681e3e3b0634c1bbb6bbfd8a41919ff9g79" version="1">True Polymorph: Death Knight</content>
+	<content contentuid="hd50b9931d9b346cdbba0b03f84781de3f5e8" version="1">Transform a creature into a death knight.</content>
+	<content contentuid="h15e148aae2dd408392a1e0fac5cd0c8c6036" version="1">Changed into a death knight.</content>
+	<content contentuid="haa052751407e41cd932e0bc5e17fde391254" version="1">True Polymorph: Iron Golem</content>
+	<content contentuid="h7658b25dc8dc4b8cbd34d4efa97d71504973" version="1">Transform a creature into an iron golem.</content>
+	<content contentuid="h77476f29d8854816be762a7da2bf5f96caad" version="1">Changed into an iron golem.</content>
+	<content contentuid="h9a94bc04059e4d7995ce06f755bc54a2c158" version="1">True Polymorph: Cambion</content>
+	<content contentuid="h4fe201d17a3f44a9a57238f6238577b4bdff" version="1">Transform a creature into a cambion.</content>
+	<content contentuid="hd371b62743be4543b7f926981a55c3b8e53e" version="1">Changed into a cambion.</content>
+	<content contentuid="h8c31aafa04a547e988bf60eb725d58deb0a0" version="1">True Polymorph: Orthon</content>
+	<content contentuid="hd3b3895436254bf596408540cfa63ac17b1f" version="1">Transform a creature into an orthon.</content>
+	<content contentuid="h91a0738246b948b5be5ae1e463b9ba5400fe" version="1">Changed into an orthon.</content>
+	<content contentuid="hbe385a311f8c47e6aa5a16a51f5808dfge9g" version="1">True Polymorph: Kobold Chieftan</content>
+	<content contentuid="had3f518fd893471ba09a11585b01a0283747" version="1">Transform a creature into a kobold chieftan.</content>
+	<content contentuid="h3abc192a39414968aa97a5aca34fe022gf74" version="1">Changed into a kobold chieftan.</content>
 </contentList>
