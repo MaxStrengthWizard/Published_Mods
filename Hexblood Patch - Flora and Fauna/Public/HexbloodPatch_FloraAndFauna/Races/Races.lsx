@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="Races">
+    <node id="root">
+      <children>
+        <node id="Race">
+                    <attribute id="MergedInto" type="guid" value="629f9e14-c756-4e1d-9743-75dbfcc7f886" />
+                    <attribute id="Name" type="FixedString" value="FFHorns_Hexblood" />
+                    <attribute id="UUID" type="guid" value="f12803e3-a8fb-4ea3-ac0f-74f90b7cd2a9" />
+                    <children>
+                        <node id="Visuals"> Ivy Stems (Spring)
+                            <attribute id="Object" type="guid" value="002c072a-d492-4f68-b219-13c878cfe1e5" />
+                        </node>
+                        <node id="Visuals"> Ivy Stems (Fall)
+                            <attribute id="Object" type="guid" value="ba5fd6cb-6c68-46b1-bb5c-609bf542a340" />
+                        </node>
+                        <node id="Visuals"> Fungi Coils (Forest)
+                            <attribute id="Object" type="guid" value="4cffc1e4-8aa7-4600-b946-4bd45f82322b" />
+                        </node>
+                        <node id="Visuals"> Fungi Coils (Underdark)
+                            <attribute id="Object" type="guid" value="247a2fe4-3889-4276-ae0c-b1249b897716" />
+                        </node>
+                        <node id="Visuals"> Fungi Coils (Desert)
+                            <attribute id="Object" type="guid" value="29edf01d-7914-4bf3-a7c8-fe3d686bb852" />
+                        </node>
+                        <node id="Visuals"> Fey Roots
+                            <attribute id="Object" type="guid" value="18fab132-895f-4bac-aab3-db6e730e8d40" />
+                        </node>
+                        <node id="Visuals"> Cursed Roots
+                            <attribute id="Object" type="guid" value="73f17a07-5d75-4517-b57b-179d60978761" />
+                        </node>
+                        <node id="Visuals"> Blooming Ramhorns
+                            <attribute id="Object" type="guid" value="a3e7faf4-b4e4-4e58-ad7c-52be7794c174" />
+                        </node>
+                        <node id="Visuals"> Fungi Stalks (Forest)
+                            <attribute id="Object" type="guid" value="23e20bcd-278f-48b8-a266-fe17e85101c2" />
+                        </node>
+                        <node id="Visuals"> Fungi Stalks (Underdark)
+                            <attribute id="Object" type="guid" value="609154a5-165c-4338-b5b2-608553590457" />
+                        </node>
+                        <node id="Visuals"> Fungi Stalks (Desert)
+                            <attribute id="Object" type="guid" value="43cbbe34-1ca7-4d5f-9338-643d61f9740c" />
+                        </node>
+                        <node id="Visuals"> Fungi Shoots (Forest)
+                            <attribute id="Object" type="guid" value="4dc7febe-46dd-4918-a07b-0413e87ec624" />
+                        </node>
+                        <node id="Visuals"> Fungi Shoots (Underdark)
+                            <attribute id="Object" type="guid" value="fb4baa0a-5a00-4f3f-8d27-cb1f1b4eb3f3" />
+                        </node>
+                        <node id="Visuals"> Fungi Shoots (Desert)
+                            <attribute id="Object" type="guid" value="4f6edb67-4d86-45d1-93bb-228ac17c4803" />
+                        </node>
+                        <node id="Visuals"> Abyssal Reef
+                            <attribute id="Object" type="guid" value="366f205d-ff28-44e9-945b-69ba725fc0a9" />
+                        </node>
+                        <node id="Visuals"> Abyssal Ridge
+                            <attribute id="Object" type="guid" value="6563b549-d377-44fc-add8-c2d33e96cd87" />
+                        </node>
+                        <node id="Visuals"> Cradling Branches (Blue Jay)
+                            <attribute id="Object" type="guid" value="c3c3c235-7510-4caa-8d79-2c352e0e5aa2" />
+                        </node>
+                        <node id="Visuals"> Cradling Branches (Auburn)
+                            <attribute id="Object" type="guid" value="94aa7bad-f0df-42a2-9093-62831eb2440e" />
+                        </node>
+                        <node id="Visuals"> Vacant Branches
+                            <attribute id="Object" type="guid" value="935d3533-a9d5-4331-a785-45722d3b24ee" />
+                        </node>
+                    </children>
+                </node>
+      </children>
+    </node>
+  </region>
+</save>
