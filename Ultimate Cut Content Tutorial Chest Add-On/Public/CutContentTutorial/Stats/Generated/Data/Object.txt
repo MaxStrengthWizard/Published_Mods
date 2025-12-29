@@ -1,0 +1,6 @@
+new entry "OBJ_Cut_Content_Chest"
+type "Object"
+using "OBJ_Chest_Heavy"
+data "RootTemplate" "c24c5402-f864-4044-a65d-7d92ae58dc8d"
+data "Weight" "0.1"
+

@@ -479,6 +479,7 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="DevComment" type="LSString" value="Reference to the ring from BG that gives invisibility." />
+					<attribute id="Description" type="TranslatedString" handle="h1e098b06c6a442be8c4e4ce8e566da05ea2b" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hc1e7d4d4g04b1g4667ga8afg753914733cdf" version="2" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="bf2949fe-6739-4149-ac68-106a00eec905" />

@@ -1,0 +1,279 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+
+new treasuretable "Alchemy_Poison"
+CanMerge 1
+new subtable "1,1"
+EndLevel "5"
+object category "I_OBJ_AssassinsBlood",2,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "6"
+EndLevel "8"
+object category "I_OBJ_AssassinsBlood",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_OBJ_AssassinsBlood",0,0,0,0,0,0,0,0
+
+new treasuretable "LOW_MurderTribunal_Container_Coatings"
+CanMerge 1
+new subtable "1,1;2,1"
+object category "I_OBJ_AssassinsBlood",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_Stash_Hunter_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_Oil_Of_Sharpness",1,0,0,0,0,0,0,0
+
+new treasuretable "Alchemy_Oil"
+CanMerge 1
+new subtable "1,1"
+StartLevel "1"
+EndLevel "5"
+object category "I_OBJ_Oil_Of_Sharpness",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "6"
+object category "I_OBJ_Oil_Of_Sharpness",2,0,0,0,0,0,0,0
+
+new treasuretable "Alchemy_Potion_Utility"
+CanMerge 1
+new subtable "1,1"
+StartLevel "1"
+EndLevel "5"
+object category "I_OBJ_Potion_Bottle_Breath",2,0,0,0,0,0,0,0
+object category "I_OBJ_Oil_Of_Slipperiness",0,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Force_Resistance",0,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Fire_Breath",0,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "6"
+EndLevel "8"
+object category "I_OBJ_Potion_Bottle_Breath",2,0,0,0,0,0,0,0
+object category "I_OBJ_Oil_Of_Slipperiness",1,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Force_Resistance",0,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Fire_Breath",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_OBJ_Potion_Bottle_Breath",2,0,0,0,0,0,0,0
+object category "I_OBJ_Oil_Of_Slipperiness",1,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Force_Resistance",1,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Fire_Breath",1,0,0,0,0,0,0,0
+
+new treasuretable "Alchemy_Potion_Elixir_1"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_Potion_Of_Thunder_Resistance",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_KC_JellyJunk"
+CanMerge 1
+new subtable "1,1;2,2"
+object category "I_ARM_Helmet_Watch_Metal_A",1,0,0,0,0,0,0,0
+
+new treasuretable "EquipmentTrader_SecondaryArmor_Metal"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Helmet_Watch_Metal_A",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_FlamingFist_Quartermaster_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Robe_FlamingFist",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_SorcerousSundries_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Robe_Body_B",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_Gith_Armor"
+new subtable "1,1"
+object category "I_ARM_Boots_Metal_Githyanki",1,0,0,0,0,0,0,0
+object category "I_ARM_Gloves_Metal_Githyanki",1,0,0,0,0,0,0,0
+object category "I_ARM_HalfPlate_Body_Githyanki",1,0,0,0,0,0,0,0
+object category "I_ARM_Breastplate_Body_Githyanki",1,0,0,0,0,0,0,0
+object category "I_ARM_HalfPlate_Leather_B_Githyanki",1,0,0,0,0,0,0,0
+object category "I_ARM_HalfPlate_Body_Githyanki_B",1,0,0,0,0,0,0,0
+object category "I_ARM_HalfPlate_Body_Githyanki_C",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_Gith_Armor_Supply"
+new subtable "2,1;3,1"
+object category "T_CRE_Gith_Armor",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_GithQuartermistress_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "T_CRE_Gith_Armor_Supply",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_DEN_Entrance_Trade_Armor"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Purple",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Orange",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Red",1,0,0,0,0,0,0,0
+
+new treasuretable "DEN_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Purple",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Orange",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Red",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_Expeditioner_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Purple",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Orange",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Leather_Body_Druid_A_2_Red",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Pike_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Trident_2",1,0,0,0,0,0,0,0
+
+new treasuretable "SHA_MerregonTrader"
+CanMerge 1
+new subtable "1,1"
+object category "I_MAG_Infernal_Longsword",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_Infernal_Warhammer",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_DevilsFee_Diabolist_Trade_Magic"
+CanMerge 1
+new subtable "1,1"
+object category "I_MAG_Infernal_Longsword",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_Infernal_Warhammer",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_Infernal_Mace",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_Infernal_Spear",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Danthelon_Trader"
+CanMerge 1
+new subtable "-1"
+object category "I_MAG_Cunning_HandCrossbow",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Greatsword_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Halberd_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Maul_2",1,0,0,0,0,0,0,0
+
+new treasuretable "EquipmentTrader_Shield"
+CanMerge 1
+new subtable "1,1"
+StartLevel "12"
+object category "I_ARM_Shield_2",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Ironhand_Merchant"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_LightHammer_2",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_SharranInformer_Basic"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Shortbow_2",1,0,0,0,0,0,0,0
+object category "I_WPN_Flail_2",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_OrinsImpersonation_Smith"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Battleaxe_2",1,0,0,0,0,0,0,0
+object category "I_WPN_Spear_2",1,0,0,0,0,0,0,0
+object category "I_WPN_HeavyCrossbow_2",1,0,0,0,0,0,0,0
+
+new treasuretable "S_WYR_BuriedChest_02"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Longbow_2",1,0,0,0,0,0,0,0
+
+new treasuretable "S_WYR_BuriedChest_08"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Greatclub_2",1,0,0,0,0,0,0,0
+
+new treasuretable "S_WYR_BuriedChest_11"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Glaive_2",1,0,0,0,0,0,0,0
+
+new treasuretable "S_LOW_BuriedChest_04"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_LightCrossbow_2",1,0,0,0,0,0,0,0
+
+new treasuretable "S_LOW_BuriedChest_08"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_WarPick_2",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_CountingHouse_HighSecurityVault_8"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Morningstar_2",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_CountingShouse_Vault9_Treasure"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Javelin_2",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_Cave_Crate_Weapons"
+CanMerge 1
+new subtable "2,1"
+object category "I_WPN_Sling",1,0,0,0,0,0,0,0
+object category "I_WPN_Dart",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentHideout_Container_Weapons_Sling"
+new subtable "1,1; 2,1"
+object category "I_WPN_Sling",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentHideout_Container_Weapons_Dart"
+new subtable "1,1; 2,1"
+object category "I_WPN_Dart",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_ZhentHideout_Container_Weapons_Random"
+CanMerge 1
+new subtable "0,1; 1,3; 2,1"
+object category "T_PLA_ZhentHideout_Container_Weapons_Sling",1,0,0,0,0,0,0,0
+object category "T_PLA_ZhentHideout_Container_Weapons_Dart",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_ZhentPort_Weapons"
+CanMerge 1
+new subtable "2,1"
+object category "T_PLA_ZhentHideout_Container_Weapons_Sling",1,0,0,0,0,0,0,0
+object category "T_PLA_ZhentHideout_Container_Weapons_Dart",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_KC_Shar_Weapons_Small"
+CanMerge 1
+new subtable "0,1; 1,2; 2,1"
+object category "I_WPN_Sling",3,0,0,0,0,0,0,0
+object category "I_WPN_Dart",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_SimpleRangedWeapons"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Sling",1,0,0,0,0,0,0,0
+object category "I_WPN_Dart",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_AllSimpleRangedWeapons"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Sling",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_WPN_Dart",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_SimpleRangedWeapons_1"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Dart_1",1,0,0,0,0,0,0,0

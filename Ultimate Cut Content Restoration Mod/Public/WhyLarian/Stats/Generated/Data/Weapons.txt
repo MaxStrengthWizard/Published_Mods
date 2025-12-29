@@ -105,6 +105,12 @@ data "StatusType" "BOOST"
 using "MAG_WEAPON_BOND_CLEANER"
 data "OnApplyFunctors" "RemoveStatus(MAG_BONDED_THROWING);RemoveStatus(MAG_THUNDER_THROW);RemoveStatus(MAG_WEAPON_ATTACK_ROLL_BONUS);RemoveStatus(MAG_WEAPON_PROFICIENCY_BONUS_DAMAGE);RemoveStatus(MAG_CHARGED_LIGHTNING_LIGHTNING_GREATER_WEAPON)"
 
+// Githyanki Longsword (Psionic)
+new entry "MAG_LowHP_IncreaseDamagePsychic_GithLongsword"
+type "Weapon"
+using "MAG_LowHP_IncreaseDamagePsychic_GithLongsword"
+data "Unique" "1"
+
 
 // ==========================================================================
 // Morningstar

@@ -13,3 +13,9 @@ data "Rarity" "Uncommon"
 data "Boosts" "Skill(Perception,2)"
 data "Unique" "1"
 
+// Sandthief Ring
+new entry "SHA_SandthiefsRing"
+type "Armor"
+using "SHA_SandthiefsRing"
+data "Unique" "1"
+

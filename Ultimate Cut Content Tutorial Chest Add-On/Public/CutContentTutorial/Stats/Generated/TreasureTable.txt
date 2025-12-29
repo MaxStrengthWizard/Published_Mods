@@ -1,20 +1,19 @@
 treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
-new treasuretable "TUT_Chest_Potions"
-CanMerge 1
+new treasuretable "Cut_Content_Goodies_TT"
 new subtable "-1"
-object category "I_OBJ_AssassinsBlood",5,0,0,0,0,0,0,0
+object category "I_OBJ_AssassinsBlood",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_OBJ_Oil_Of_Sharpness",5,0,0,0,0,0,0,0
+object category "I_OBJ_Oil_Of_Sharpness",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_OBJ_Potion_Bottle_Breath",5,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Bottle_Breath",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_OBJ_Oil_Of_Slipperiness",5,0,0,0,0,0,0,0
+object category "I_OBJ_Oil_Of_Slipperiness",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_OBJ_Potion_Of_Force_Resistance",5,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Force_Resistance",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_OBJ_Potion_Of_Fire_Breath",5,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Fire_Breath",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_OBJ_Potion_Of_Thunder_Resistance",5,0,0,0,0,0,0,0
+object category "I_OBJ_Potion_Of_Thunder_Resistance",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_MAG_Oathbreaker_Platemail",1,0,0,0,0,0,0,0
 new subtable "-1"
@@ -31,10 +30,6 @@ new subtable "-1"
 object category "I_MAG_ZOC_ForceConduitWhileSurounded_Boots",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_ARM_Robe_Body_B",1,0,0,0,0,0,0,0
-new subtable "-1"
-object category "I_ARM_Boots_Metal_Githyanki",1,0,0,0,0,0,0,0
-new subtable "-1"
-object category "I_ARM_Gloves_Metal_Githyanki",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_ARM_HalfPlate_Body_Githyanki",1,0,0,0,0,0,0,0
 new subtable "-1"
@@ -279,3 +274,7 @@ new subtable "-1"
 object category "I_WPN_Javelin_2",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_ARM_Shield_2",1,0,0,0,0,0,0,0
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "-1"
+object category "I_OBJ_Cut_Content_Chest",1,0,0,0,0,0,0,0
