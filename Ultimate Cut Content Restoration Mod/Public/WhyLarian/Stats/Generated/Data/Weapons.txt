@@ -111,6 +111,12 @@ type "Weapon"
 using "MAG_LowHP_IncreaseDamagePsychic_GithLongsword"
 data "Unique" "1"
 
+// Moonblade
+new entry "Quest_SCL_Moonblade"
+type "Weapon"
+using "Quest_SCL_Moonblade"
+data "RootTemplate" "9046e0e3-1e70-4267-9430-3901201e8cbd"
+
 
 // ==========================================================================
 // Morningstar
@@ -130,7 +136,7 @@ data "SpellSuccess" "TARGET:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType
 new entry "WPN_MAG_Zhentarim_Ratcaller_Rapier"
 type "Weapon"
 using "WPN_Rapier_1"
-data "RootTemplate" "5a6cea10-b3f6-4370-8eed-0b69b4ba531a"
+data "RootTemplate" "31a0245d-48fe-462e-b4bc-4bfe906e49fd"
 data "Boosts" "UnlockSpell(Target_MAG_FindFamiliar_Rat_Verminsign)"
 data "Unique" "1"
 
