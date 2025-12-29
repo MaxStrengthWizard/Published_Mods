@@ -1,0 +1,12 @@
+// ==========================================================================
+// Weapon Types
+
+// ==========================================================================
+// Slings
+
+new entry "Projectile_Headcrack"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Headcrack"
+data "Icon" "Action_KnockOut"
+

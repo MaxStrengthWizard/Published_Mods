@@ -1,0 +1,35 @@
+// ==========================================================================
+// Cut actions, abilities, and passives but missing associated items
+
+// ==========================================================================
+// Goading Blast
+
+new entry "MAG_ZOC_GoadingBlast_Amulet"
+type "Armor"
+using "_Amulet_Magic"
+data "RootTemplate" "83f25aa0-2de0-4378-b023-b50b4ef8c82c"
+data "ItemGroup" ""
+data "Rarity" "Uncommon"
+data "Boosts" "UnlockSpell(Shout_MAG_ZOC_GoadingBlast)"
+data "Unique" "1"
+
+new entry "Shout_MAG_ZOC_GoadingBlast"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MAG_ZOC_GoadingBlast"
+data "Icon" "Action_Mag_GoadingBlast"
+
+
+// ==========================================================================
+// Ring of Gorgeous Bolts
+
+new entry "MAG_ChargedLightning_ExtraDamage_Ring"
+type "Armor"
+using "_Ring_Magic"
+data "RootTemplate" "ba91e42a-8d30-405b-9357-30a5ea17ba80"
+data "ItemGroup" ""
+data "ValueUUID" "94356ef2-bb14-4595-88cf-86f544ef12eb"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "MAG_ChargedLightning_ExtraDamage_Ring_Passive"
+data "Unique" "1"
+

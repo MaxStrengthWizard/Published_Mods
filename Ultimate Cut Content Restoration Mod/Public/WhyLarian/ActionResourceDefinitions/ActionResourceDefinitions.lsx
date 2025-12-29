@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbaa493c42f3e486fa68129df160ffecf90g5" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Potion_FireBreath_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
+                    <attribute id="UUID" type="guid" value="910dd60b-68ec-40b2-983b-db522d7d67e9"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

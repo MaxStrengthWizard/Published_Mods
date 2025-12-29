@@ -1,0 +1,5 @@
+new entry "Shout_InspiringLeader"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_InspiringLeader"
+data "SpellProperties" "ApplyStatus(INSPIRING_LEADER,100,-1);ApplyStatus(INSPIRING_LEADER_INSPIRED,100,-1)"

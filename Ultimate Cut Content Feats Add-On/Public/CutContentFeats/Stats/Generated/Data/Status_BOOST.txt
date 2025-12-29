@@ -1,0 +1,12 @@
+new entry "INSPIRING_LEADER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "INSPIRING_LEADER"
+data "Description" "h61ff095bf8c54be78ab03f346bae28ebag47;1"
+data "Boosts" "TemporaryHP(Cause.Level+Cause.CharismaModifier)"
+
+new entry "INSPIRING_LEADER_INSPIRED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "InspiringLeader_Blocker_ShortRest"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"

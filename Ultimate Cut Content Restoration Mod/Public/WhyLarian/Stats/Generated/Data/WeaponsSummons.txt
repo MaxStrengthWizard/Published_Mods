@@ -1,0 +1,120 @@
+// ==========================================================================
+// Weapons - Summons
+
+// ==========================================================================
+// Flail
+
+// Flail of the Vortex
+new entry "WPN_Flail_Air_Myrmidon_Player"
+type "Weapon"
+using "WPN_Flail_Air_Myrmidon_ConjureElemental"
+data "RootTemplate" "2887d839-642d-400f-b45e-9299530f17d9"
+data "Boosts" "UnlockSpell(Target_LightningStrike_Myrmidon_Air_Player)"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+new entry "Target_LightningStrike_Myrmidon_Air_Player"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_LightningStrike_Myrmidon_Air"
+data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "SpellFlags" "IsHarmful;IsMelee"
+
+
+// ==========================================================================
+// Mace
+
+// Deva Mace
+new entry "WPN_Mace_Deva_Player"
+type "Weapon"
+using "WPN_Mace_Deva"
+data "RootTemplate" "4723404f-0536-430b-9d48-082bd2e51ebf"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Quarterstaff
+
+// Twisted Oak Crook
+new entry "WPN_Quaterstaff_Dryad_Player"
+type "Weapon"
+using "WPN_Quaterstaff_Dryad_ConjureWoodlandBeings"
+data "RootTemplate" "b55fb5ec-57d6-4b7d-b321-e205a81f0576"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Scimitar
+
+// Djinni Scimitar
+new entry "WPN_Djinni_Scimitar_Player"
+type "Weapon"
+using "WPN_Djinni_Scimitar_PlanarAlly"
+data "RootTemplate" "559ef1dc-ed9f-432d-bd75-bde0be3230bc"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+// Scimitar of Cinder
+new entry "WPN_Scimitar_Fire_Myrmidon_Player"
+type "Weapon"
+using "WPN_Scimitar_Fire_Myrmidon_ConjureElemental"
+data "RootTemplate" "6b906250-965e-40e3-abb7-e2df322426e0"
+data "Boosts" "UnlockSpell(Target_FieryStrike_Myrmidon_Fire_Player)"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+new entry "Target_FieryStrike_Myrmidon_Fire_Player"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FieryStrike_Myrmidon_Fire"
+data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "SpellFlags" "IsHarmful;IsMelee"
+
+
+// ==========================================================================
+// Shortbow
+
+// Makeshift Bow
+new entry "WPN_Shortbow_Makeshift_Player"
+type "Weapon"
+using "WPN_Shortbow_Makeshift"
+data "RootTemplate" "46428b3d-75b1-4c9f-bd06-f82f496aca48"
+data "Damage" "1d6"
+data "DefaultBoosts" "WeaponDamage(1d10, Necrotic);IgnoreResistance(Piercing,Resistant)"
+data "Rarity" "Uncommon"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Trident
+
+// Trident of the Depths
+new entry "WPN_Trident_Water_Myrmidon_Player"
+type "Weapon"
+using "WPN_Trident_Water_Myrmidon_ConjureElemental"
+data "RootTemplate" "93d2cbfd-9d57-4d61-9cc1-81daab0dc60c"
+data "Boosts" "UnlockSpell(Target_FreezingStrike_Myrmidon_Water_Player)"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+new entry "Target_FreezingStrike_Myrmidon_Water_Player"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FreezingStrike_Myrmidon_Water"
+data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;,,;,,;,,"
+data "SpellFlags" "IsHarmful;IsMelee"
+
+
+// ==========================================================================
+// Warhammer
+
+// Azer Warhammer
+new entry "WPN_Warhammer_Azer_Player"
+type "Weapon"
+using "WPN_Warhammer_Azer"
+data "RootTemplate" "d0477c9c-0546-4d69-a3ae-e53aa037fb25"
+data "Rarity" "Rare"
+data "Unique" "1"
+

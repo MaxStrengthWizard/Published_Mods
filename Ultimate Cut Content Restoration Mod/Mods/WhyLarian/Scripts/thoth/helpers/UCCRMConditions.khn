@@ -1,0 +1,16 @@
+local __util = require 'larian.util'
+
+-- Trying to work out a way to restrict Oil of Sharpness 
+function CanOilSharpiBoi(entity)
+	local entity = entity or context.Source
+
+	local mainHandSmash = IsWeaponOfProficiencyGroup('Clubs|Flails|Greatclubs|LightHammers|Maces|Mauls|Quarterstaffs|Slings|Warhammers', GetActiveWeapon(entity, true))
+	local offHandSmash = IsWeaponOfProficiencyGroup('Clubs|Flails|Greatclubs|LightHammers|Maces|Mauls|Quarterstaffs|Slings|Warhammers', GetActiveWeapon(entity, false))
+	local isMainFlameySword = (HasStatus('FLAME_BLADE', GetActiveWeapon(entity, true)) | HasStatus('FLAME_BLADE_3', GetActiveWeapon(entity, true)) | HasStatus('FLAME_BLADE_4', GetActiveWeapon(entity, true)) | HasStatus('FLAME_BLADE_5', GetActiveWeapon(entity, true)) | HasStatus('FLAME_BLADE_6', GetActiveWeapon(entity, true)) | HasStatus('FLAME_BLADE_7', GetActiveWeapon(entity, true)) | HasStatus('FLAME_BLADE_8', GetActiveWeapon(entity, true)) | HasStatus('FLAME_BLADE_9', GetActiveWeapon(entity, true)))
+	local isOffFlameySword = (HasStatus('FLAME_BLADE', GetActiveWeapon(entity, false)) | HasStatus('FLAME_BLADE_3', GetActiveWeapon(entity, false)) | HasStatus('FLAME_BLADE_4', GetActiveWeapon(entity, false)) | HasStatus('FLAME_BLADE_5', GetActiveWeapon(entity, false)) | HasStatus('FLAME_BLADE_6', GetActiveWeapon(entity, false)) | HasStatus('FLAME_BLADE_7', GetActiveWeapon(entity, false)) | HasStatus('FLAME_BLADE_8', GetActiveWeapon(entity, false)) | HasStatus('FLAME_BLADE_9', GetActiveWeapon(entity, false)))
+	local isMainShadowySword = (HasStatus('SHADOW_BLADE', GetActiveWeapon(entity, true)) | HasStatus('SHADOWBLADE_TECHNICAL', GetActiveWeapon(entity, true)) | HasStatus('SHADOWBLADE_TECHNICAL_1', GetActiveWeapon(entity, true)) | HasStatus('SHADOWBLADE_TECHNICAL_2', GetActiveWeapon(entity, true)) | HasStatus('SHADOWBLADE_TECHNICAL_3', GetActiveWeapon(entity, true)))
+	local isOffShadowySword = (HasStatus('SHADOW_BLADE', GetActiveWeapon(entity, false)) | HasStatus('SHADOWBLADE_TECHNICAL', GetActiveWeapon(entity, false)) | HasStatus('SHADOWBLADE_TECHNICAL_1', GetActiveWeapon(entity, false)) | HasStatus('SHADOWBLADE_TECHNICAL_2', GetActiveWeapon(entity, false)) | HasStatus('SHADOWBLADE_TECHNICAL_3', GetActiveWeapon(entity, false)))
+
+	result = ~(mainHandSmash | offHandSmash) & ~(isMainFlameySword | isOffFlameySword) & ~(isMainShadowySword | isOffShadowySword)
+	return ConditionResult(result.Result, {ConditionError("HasNotSharpyWeapon")})
+end

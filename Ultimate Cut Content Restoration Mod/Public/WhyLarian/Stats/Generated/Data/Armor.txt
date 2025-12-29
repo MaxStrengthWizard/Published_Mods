@@ -1,0 +1,71 @@
+// ==========================================================================
+// Armor
+
+// ==========================================================================
+// Medium Armor
+
+// Nightsinger's Half-Plate
+new entry "ARM_HalfPlate_DarkJusticiarArmor"
+type "Armor"
+using "ARM_HalfPlate_Body_2"
+data "RootTemplate" "dd3f1c98-cdf7-46f3-bb8b-5489dc3433ca"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Shields
+
+// Shield of Returning
+new entry "MAG_Bonded_Shield"
+type "Armor"
+using "ARM_Shield_1"
+data "RootTemplate" "3a8f9b79-1153-4128-8832-a306502fd512"
+data "ArmorClass" "2"
+data "ValueUUID" "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa"
+data "Rarity" "VeryRare"
+data "Unique" "1"
+
+// Shield +2
+new entry "ARM_Shield_2"
+type "Armor"
+using "ARM_Shield"
+data "RootTemplate" "49979c37-1a3a-46f8-af5b-2ea63fc11722"
+data "ArmorClass" "4"
+data "ValueLevel" "6"
+data "ValueUUID" "c5ad02e9-b4d4-4df1-a9cd-02b80d017eaa"
+data "Rarity" "VeryRare"
+
+
+// ==========================================================================
+// Helmets
+
+// Headband of Intellect
+new entry "ARM_HeadbandOfIntellect"
+type "Armor"
+using "ARM_HeadbandOfIntellect"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Gloves
+
+// Deadly Channeller Gloves
+new entry "MAG_CRITICAL_ARCANIC_CRITICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_CRITICAL_ARCANIC_CRITICAL"
+data "Boosts" "ReduceCriticalAttackThreshold(2)"
+
+
+// ==========================================================================
+// Cloaks
+
+// Phasmid Cloak
+new entry "MAG_Zhentarim_CloakOfDisguise_Cloak"
+type "Armor"
+using "_Back_Magic"
+data "RootTemplate" "c70ae037-f787-4db6-bb16-e0bbc0fdad4a"
+data "Rarity" "Uncommon"
+data "Boosts" "UnlockSpell(Shout_DisguiseSelf_MaskOfManyFaces,Singular,None,OncePerShortRestPerItem)"
+data "Unique" "1"
+

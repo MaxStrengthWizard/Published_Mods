@@ -1,0 +1,144 @@
+// ==========================================================================
+// Weapons
+
+// ==========================================================================
+// Battleaxe
+
+// Rebound Battleaxe
+new entry "MAG_Bound_Throwing_Technical_Passive"
+type "PassiveData"
+using "MAG_Bound_Throwing_Technical_Passive"
+data "Conditions" "StatusId('WEAPON_BOND') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND')"
+
+
+// ==========================================================================
+// Dagger
+
+// Dagger of Shar
+new entry "Target_DEN_Apprentice_DaggerOfShar_Spell"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_DEN_Apprentice_DaggerOfShar_Spell"
+data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);GROUND:CreateSurface(3,3,DarknessCloud)"
+data "TooltipAttackSave" "MeleeWeaponAttack"
+
+// Goblinbane Dagger
+new entry "MAG_Goblinsbane_Dagger"
+type "Weapon"
+using "GOB_Pens_Dagger"
+
+
+// ==========================================================================
+// Flail
+
+// Flail of Dread Skulls
+new entry "PLA_WPN_DreadedSkullsFlail"
+type "Weapon"
+using "WPN_Flail_2"
+data "RootTemplate" "b551469c-5a53-4df3-a2c9-91516ef55695"
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Rarity" "Rare"
+data "WeaponFunctors" ""
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "PLA_WPN_DreadedSkullsFlail_Passive"
+data "Unique" "1"
+
+new entry "PLA_WPN_DreadedSkullsFlail_Passive"
+type "PassiveData"
+data "DisplayName" "h7d71588aa08f46d7b7e161f74a1f28b47f96;1"
+data "Description" "he1a0b79bd4164b2bac9dfdf09621967bg5bc;1"
+data "TooltipSave" "Wisdom"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(DREADED_SKULLS_TECHNICAL_APPLIER,100,0)"
+
+new entry "DREADED_SKULLS_TECHNICAL_APPLIER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h32332723f17c4e8096af193152becde1eacf;1"
+data "Description" "h185c51236a1344feb71d83d8a8f9d21a30aa;1"
+data "Icon" "statIcons_Bloated"
+data "FormatColor" "White"
+data "StackId" "DREADED_SKULLS_TECHNICAL_APPLIER"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyRoll" "not SavingThrow(Ability.Wisdom,13)"
+data "OnApplySuccess" "ApplyStatus(YEENOGHUS_CURSE,100,0)"
+
+new entry "YEENOGHUS_CURSE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "he6fd066b39f3483a9da943c7f2b1e78f95aa;1"
+data "Icon" "statIcons_Bloated"
+data "StackId" "YEENOGHUS_CURSE"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyRoll" "RollDieAgainstDC(DiceType.d4,3)"
+data "OnApplySuccess" "ApplyStatus(YEENOGHUS_CURSE_1,100,0)"
+data "OnApplyFail" "ApplyStatus(MADNESS,100,1)"
+
+new entry "YEENOGHUS_CURSE_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "YEENOGHUS_CURSE"
+data "OnApplyRoll" "RollDieAgainstDC(DiceType.d4,3)"
+data "OnApplySuccess" "ApplyStatus(YEENOGHUS_CURSE_2,100,0)"
+data "OnApplyFail" "DealDamage(2d6,Psychic,Magical)"
+
+new entry "YEENOGHUS_CURSE_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "YEENOGHUS_CURSE"
+data "OnApplyFunctors" "ApplyStatus(PARALYZED,100,2)"
+data "OnApplyRoll" ""
+data "OnApplySuccess" ""
+data "OnApplyFail" ""
+
+
+// ==========================================================================
+// Longsword
+
+// Blood-Bound Blade
+new entry "MAG_WEAPON_BOND_CLEANER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_WEAPON_BOND_CLEANER"
+data "OnApplyFunctors" "RemoveStatus(MAG_BONDED_THROWING);RemoveStatus(MAG_THUNDER_THROW);RemoveStatus(MAG_WEAPON_ATTACK_ROLL_BONUS);RemoveStatus(MAG_WEAPON_PROFICIENCY_BONUS_DAMAGE);RemoveStatus(MAG_CHARGED_LIGHTNING_LIGHTNING_GREATER_WEAPON)"
+
+
+// ==========================================================================
+// Morningstar
+
+// Tough Sunrises
+new entry "Target_MAG_WeaponAction_FlashingDawn"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MAG_WeaponAction_FlashingDawn"
+data "SpellSuccess" "TARGET:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);TARGET:DealDamage(ProficiencyBonus,Radiant,,,0,,true,true);TARGET:AOE:IF(Enemy()):ApplyStatus(BLINDED,100,3,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2));ExecuteWeaponFunctors(MainHand)"
+
+
+// ==========================================================================
+// Rapier
+
+// Verminsign
+new entry "WPN_MAG_Zhentarim_Ratcaller_Rapier"
+type "Weapon"
+using "WPN_Rapier_1"
+data "RootTemplate" "5a6cea10-b3f6-4370-8eed-0b69b4ba531a"
+data "Boosts" "UnlockSpell(Target_MAG_FindFamiliar_Rat_Verminsign)"
+data "Unique" "1"
+
+new entry "Target_MAG_FindFamiliar_Rat_Verminsign"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FindFamiliar_Rat"
+data "Level" ""
+data "SpellSchool" ""
+data "SpellContainerID" ""
+data "Cooldown" "OncePerShortRest"
+data "TargetRadius" "18"
+data "UseCosts" "ActionPoint:1"
+data "RitualCosts" ""
+data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems"
+data "MemoryCost" ""
+

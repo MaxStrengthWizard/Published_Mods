@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Healer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Healer_RestoreTo1"/>
+                    <attribute id="UUID" type="guid" value="067b5aac-338e-458c-becf-8127384b2018"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Observant" />
+                    <attribute id="PassivesAdded" type="LSString" value="Observant_Bonuses" />
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(0a16473a-bca6-4eef-9534-13f57e052579,1,1,ObservantASI)" />
+                    <attribute id="UUID" type="guid" value="e313c393-9298-444f-92e5-ff4be67ac272" />
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="InspiringLeader"/>
+                    <attribute id="PassivesAdded" type="LSString" value="InspiringLeader"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual(&apos;Charisma&apos;,13)"/>
+                    <attribute id="UUID" type="guid" value="78aeb1ef-bd19-41af-b632-96fe08b25959"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

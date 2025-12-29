@@ -1,0 +1,20 @@
+// ==========================================================================
+// Cut actions and abilities from existing items
+
+// ==========================================================================
+// Ring of Twilight
+
+new entry "MAG_Harpers_RingOfTwilight"
+type "Armor"
+using "MAG_Harpers_RingOfTwilight"
+data "Boosts" "UnlockSpell(Shout_MAG_Harpers_RingOfTwilight_Hide)"
+
+
+// ==========================================================================
+// Sorrow
+
+new entry "DEN_HalsinBlade"
+type "Weapon"
+using "DEN_HalsinBlade"
+data "PassivesOnEquip" "DEN_HalsinBlade_Passive"
+

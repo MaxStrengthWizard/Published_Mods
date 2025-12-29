@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Battle Master Know Your Enemy"/>
+                    <attribute id="Spells" type="LSString" value="Target_KnowYourEnemy"/>
+                    <attribute id="UUID" type="guid" value="407aaa25-c806-4dc4-968f-0bbbd4813b02"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

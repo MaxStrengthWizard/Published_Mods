@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hb712421f0bea43128d57f4d5e12c0ec3fc72" version="1">Assassin's Blood</content>
+	<content contentuid="h6a3d5dec070646209afb93318ec2152126gd" version="1">Deals an additional [1] and creature becomes &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; until the next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a successful DC 10 Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, target still takes half damage.</content>
+	<content contentuid="h1be876db7b5d451cb97a3fcb5c8d3b5ff964" version="1">Assassin's Blood</content>
+	<content contentuid="h3394325f2a6d4feeb4641bda54c5fbdc9e40" version="1">Targets must succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or take [1] and become &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; until the next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;. On a successful save, it still takes half damage.</content>
+	<content contentuid="h272ce15bdb394d928bec4ad0a1b92c5a7gf8" version="1">Assassin's Blood</content>
+	<content contentuid="h7be672a2676544c98f2543271da97f0377e2" version="1">Affected entity takes [1] and becomes &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, or only half that damage if it succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="h1df5029eabcf42fdb1c500a726590d411e1c" version="1">Assassin's Blood</content>
+	<content contentuid="h93614d4678bb4e2ea1371011d4f3bbb3cce6" version="1">Affected entity takes [1] and becomes &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
+	<content contentuid="h9472150a3d5a47c2930c82434d9a11d5a616" version="1">Assassin's Blood</content>
+	<content contentuid="h5c50e22654a54783a6b38f45411917b537g2" version="1">Creature must succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or take [1] and become &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; until the next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;. On a successful save, it still takes half damage.</content>
+	<content contentuid="hcea4d10302e4434284dcc1806a600508dec4" version="1">Assassin's Blood</content>
+	<content contentuid="h217c3b1325eb4491acadbdb1b7b8a2758g9c" version="1">Coat your active weapon with poison. Targets of this weapon take [1] and become &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, unless they succeed a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. On a successful save, targets take half damage and are not Poisoned.</content>
+	<content contentuid="hd82479716e93499f965d086b5b35c81aab46" version="1">Assassin's Blood</content>
+	<content contentuid="h52bc18ec17b142d098914ef61c05505b082e" version="1">Deals 1d12 Poison damage, halved if target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;i&gt;This toxin, extracted from crimson flowers, has the colour and consistency of its namesake.&lt;/i&gt;</content>
+	<content contentuid="h7473195d03604cfbbe927bb8fdc85c8agf78" version="1">Oil of Sharpness</content>
+	<content contentuid="he0043348d9fd4da9aebdc9698180e8aec660" version="1">Tiny silver shards give this clear, gelatinous substance an uneven sparkle.</content>
+	<content contentuid="h304c57397a674ea0aee803d9a1c1898c5139" version="1">Coat your weapon in oil. Grants a +[1] bonus to Damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; when applied to Piercing or Slashing weapons, and overcomes &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to non-magical damage.</content>
+	<content contentuid="h539649a2b4fb466183a78a0d9142a22b5egb" version="1">Coated in Oil of Sharpness</content>
+	<content contentuid="h4030e90ff24d48bd8da0bc5df0509db228b9" version="1">The gelatinous oil coating this weapon grants it a +[1] bonus to Damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. The weapon has become magical, so it can damage creatures that are immune to non-magical attacks.</content>
+	<content contentuid="h7876550794c4487bb8e8ee3f3c1cd4bd8eb2" version="1">Grants the effects of &lt;LSTag Type="Status" Tooltip="FREEDOM_OF_MOVEMENT"&gt;Freedom of Movement&lt;/LSTag&gt; when ingested. Creates a grease surface if thrown on the ground.</content>
+	<content contentuid="h5c09b1e85f02468eaba31ed7ba80ad3ef537" version="1">Oil of Slipperiness</content>
+	<content contentuid="h8949fc36f79646b6ac112c5684c5b52be837" version="1">Potion of Fire Breath</content>
+	<content contentuid="ha3b5f82bfd5149b584009a512d80ed25gf83" version="1">Can exhale fire three times.</content>
+	<content contentuid="hbaa493c42f3e486fa68129df160ffecf90g5" version="1">%%% Fire Breath Resource</content>
+	<content contentuid="h53c60227287643d4a13b2c3b6ab92fa3eee0" version="1">Exhale Fire</content>
+	<content contentuid="h636bc834af0a4a86b863964d2fce77c3e8c8" version="1">Engulf a target in flames that deal [1].</content>
+	<content contentuid="h2d85f94497884437ad93b0dd3f6c9c7a6838" version="1">Potion of Fire Breath</content>
+	<content contentuid="he93b4a1aa7fe4e22aa5e5bc04e7c5c6e74c4" version="1">This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened.</content>
+	<content contentuid="h520cb370ed5b4ceb8350db49770385842097" version="1">Flail of Dread Skulls</content>
+	<content contentuid="h1f0bc231dc5841f392c4499675792ce62g0c" version="1">Yeenoghu's demands are simple: kill. Follow his commands, and you shall know blessings beyond your dreams.</content>
+	<content contentuid="he1a0b79bd4164b2bac9dfdf09621967bg5bc" version="1">Target must succeed a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be struck by &lt;LSTag Type="Status" Tooltip="DREADED_SKULLS_TECHNICAL_APPLIER"&gt;Yeenoghu's Curse&lt;/LSTag&gt;. Depending on a dice roll, they will receive one of the following: &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt;, [1], or become &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt;.</content>
+	<content contentuid="h32332723f17c4e8096af193152becde1eacf" version="1">Yeenoghu's Curse</content>
+	<content contentuid="h185c51236a1344feb71d83d8a8f9d21a30aa" version="1">Affected creature is stricken by a curse from the demon lord Yeenoghu.</content>
+	<content contentuid="h7d71588aa08f46d7b7e161f74a1f28b47f96" version="1">Yeenoghu's Curse</content>
+	<content contentuid="he6fd066b39f3483a9da943c7f2b1e78f95aa" version="1">%%% Yeenoghu's Curse</content>
+	<content contentuid="hcec09745399b4f5ea4d9222bbdb27e184889" version="1">Psionic Githyanki Longsword</content>
+	<content contentuid="h89ad2d0206204b368c1e257e57f3c5c57edb" version="1">Amulet of Provocation</content>
+	<content contentuid="h6ad3c909d3f84e0a86a29d0061e8f6030af3" version="1">The amulet hums with an enticing energy that draws attention - wanted or not.</content>
+	<content contentuid="h1bcceaa0acec4d29a5c50dbae273a323g0ag" version="1">The Jolt Sparker</content>
+	<content contentuid="hcac0d0220aaa4ed3a183e8ceb4a25c9fccfe" version="1">The idea for the Jolt Sparker came to Yrre the Sparkstruck when they were experimenting on different materials conductivity. Before Yrre could even hoist the gold ingot into the air, a powerful jolt of lightning struck it and the poor inventor. 'My hair was poofed for at least a tenday.', Yrre recounted.</content>
+	<content contentuid="h3504a10ddba241b1a9917cc9a10dfc71ee11" version="1">Must be wielding a slashing or piercing weapon.</content>
+</contentList>

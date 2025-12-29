@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Icon" type="FixedString" value="Generated_UNI_Daisy_Plate" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="caba6c1d-e5f5-47b7-911e-fa4a2082b305" />
+					<attribute id="Name" type="LSString" value="ARM_Daisy_Plate" />
+					<attribute id="ParentTemplateId" type="FixedString" value="aa0917ea-5f66-4a22-97de-654228484128" />
+					<attribute id="Stats" type="FixedString" value="ARM_Daisy_Plate" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="34b6cc79-8deb-4c50-86d7-dfbb75921ed4" />
+					<attribute id="Name" type="LSString" value="ARM_Daisy_Gloves" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5a0ee632-9145-48b2-9b92-97c32c2ccbd9" />
+					<attribute id="Stats" type="FixedString" value="ARM_Daisy_Gloves" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="754203ba-241c-456c-8da4-ea20edb06865" />
+					<attribute id="Name" type="LSString" value="ARM_Daisy_Boots" />
+					<attribute id="ParentTemplateId" type="FixedString" value="216f0362-f77b-420c-84cb-d84853aa173d" />
+					<attribute id="Stats" type="FixedString" value="ARM_Daisy_Boots" />
+					<attribute id="Type" type="FixedString" value="item" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

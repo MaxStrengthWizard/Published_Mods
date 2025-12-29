@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h6f868be0b988481aa319b4f2d210cabefd41" version="1">Healer</content>
+  <content contentuid="h3962a56a755a4ce8a364d466f62806fa1dbb" version="1">You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. Gain the &lt;LSTag Type="Spell" Tooltip="Target_Healer_Heal"&gt;Seal Wounds&lt;/LSTag&gt; to restore injured ally's &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt;.</content>
+  <content contentuid="h3b673d1d922a47abbb382ad34ef7e589e794" version="1">Observant</content>
+  <content contentuid="h14ab6f6d329e4499a15df089906aec0cagd7" version="1">Increase your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; or &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; by 1 up to a maximum of 20. You also gain a +5 bonus to passive Perception and Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h479ae471cce74ba193c3222f0150b269g25g" version="1">Inspiring Leader</content>
+  <content contentuid="h5b6f5f68f5b74824a1fd8d331a0a50755e71" version="1">Inspire your companions, shoring up their resolve to fight. Grant a number of nearby allies &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your level plus Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+  <content contentuid="h6d1cf400ffed4ee5a6bbeceffbf921e717d5" version="1">Healer: Able Physician</content>
+  <content contentuid="hc1c15b8957a3403980ecaeeae40c5b761236" version="1">You can mend an ally's would quickly and get them back in the fight, restoring [1] &lt;LSTag Tooltip="HitPoints"&gt;hit point&lt;/LSTag&gt;.</content>
+  <content contentuid="h7c6d0aa6496544a5b89ac28a5b2e3294ff66" version="1">Inspiring Leader</content>
+  <content contentuid="h0744a4c7967845568f87e909364adc9f306c" version="1">Inspire your companions, shoring up their resolve to fight. Grant a number of nearby allies [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h16e88364ed5946639a027564946b4f6608b3" version="1">%%% Technical passive to block Inspiring Leader until short rest.</content>
+  <content contentuid="h61ff095bf8c54be78ab03f346bae28ebag47" version="1">Affected entity has been fortified by courageous words, granting it &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Can't gain temporary hit points this way again until it has finished a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+</contentList>

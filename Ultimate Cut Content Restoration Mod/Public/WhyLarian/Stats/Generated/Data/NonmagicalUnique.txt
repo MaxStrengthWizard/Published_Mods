@@ -1,0 +1,67 @@
+// ==========================================================================
+// Non-magical Unique Items
+
+// ==========================================================================
+// Cloaks
+
+// Minsc Cloak
+new entry "ARM_Cloak_MinscBoo"
+type "Armor"
+using "ARM_Cloak"
+data "RootTemplate" "0bd70497-f7b4-4ea0-8be0-21a0c66f0576"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Dream Guardian
+
+new entry "ARM_Daisy_Plate"
+type "Armor"
+using "UNI_Daisy_Plate"
+data "RootTemplate" "caba6c1d-e5f5-47b7-911e-fa4a2082b305"
+data "Unique" "1"
+
+new entry "ARM_Daisy_Gloves"
+type "Armor"
+using "UNI_Daisy_Gloves"
+data "RootTemplate" "34b6cc79-8deb-4c50-86d7-dfbb75921ed4"
+data "Unique" "1"
+
+new entry "ARM_Daisy_Boots"
+type "Armor"
+using "UNI_Daisy_Boots"
+data "RootTemplate" "754203ba-241c-456c-8da4-ea20edb06865"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Nightsong
+
+new entry "ARM_Helmet_Metal_Nightsong"
+type "Armor"
+using "ARM_Helmet_Metal"
+data "RootTemplate" "c3d62a9d-7e3a-44fb-86b9-6e4cc46335f6"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+new entry "ARM_Plate_Body_Nightsong"
+type "Armor"
+using "ARM_Plate_Body_1"
+data "RootTemplate" "7ba26430-af1e-4773-ba8b-fa6439455c53"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+new entry "ARM_Gloves_Metal_Nightsong"
+type "Armor"
+using "ARM_Gloves_Metal"
+data "RootTemplate" "ff9cc6a5-8d79-4ea9-bba9-744413523314"
+data "Rarity" "Rare"
+data "Unique" "1"
+
+new entry "ARM_Boots_Metal_Nightsong"
+type "Armor"
+using "ARM_Boots_Metal"
+data "RootTemplate" "f1b9f15a-d680-4845-b63d-b87f956d6190"
+data "Rarity" "Rare"
+data "Unique" "1"
+

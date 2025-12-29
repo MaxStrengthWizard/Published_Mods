@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="76494592-a2e3-05f2-fb11-ff2ca44f8217" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7a2c77c7g75fcg435cg86adgab579d757d49" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Halberd_Plate_Shortbow" />
+					<attribute id="Faction" type="guid" value="18e130ab-2ddb-a467-839e-8c0e388c6122" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="76494592-a2e3-05f2-fb11-ff2ca44f8217-EQP_Halberd_Plate_Shortbow_(Icon_Human_Female)" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<attribute id="MapKey" type="FixedString" value="e7e5e250-5f80-4424-9c25-287d79142a1b" />
+					<attribute id="Name" type="LSString" value="S_MOO_DockPatroller_002" />
+					<attribute id="SpellSet" type="FixedString" value="MOO_Guard_Paladin" />
+					<attribute id="Stats" type="FixedString" value="MOO_ZealotOfTheAbsolute_Human" />
+					<attribute id="TemplateName" type="FixedString" value="07323556-2afa-432a-872c-546277124106" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eb3fa5f9-f73d-24a5-c27a-506ccc571403" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="6c2a04a1-5ac3-da91-c3a2-302aa4b91514" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="f576c972-023c-5e4e-2505-d4d4934bcca9" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="AURA_OF_PROTECTION" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="1eec74e8-3673-4500-abec-57b7ed8469ed" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="HAV_Survivor" />
+								</node>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="MOO_TrueSoul_ZealotKrizt" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-105.91091 5.403015 -156.87436" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.93958074 0 -0.34232816" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
