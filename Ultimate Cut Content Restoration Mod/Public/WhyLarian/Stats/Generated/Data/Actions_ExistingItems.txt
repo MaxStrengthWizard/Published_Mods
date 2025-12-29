@@ -9,6 +9,12 @@ type "Armor"
 using "MAG_Harpers_RingOfTwilight"
 data "Boosts" "UnlockSpell(Shout_MAG_Harpers_RingOfTwilight_Hide)"
 
+new entry "MAG_HARPERS_TWILIGHT_HIDE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_HARPERS_TWILIGHT_HIDE"
+data "Icon" "statIcons_EnhancedArlourClass"
+
 
 // ==========================================================================
 // Sorrow
