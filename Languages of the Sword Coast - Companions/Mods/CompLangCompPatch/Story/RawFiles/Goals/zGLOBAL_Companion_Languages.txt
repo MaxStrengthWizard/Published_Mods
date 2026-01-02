@@ -1,0 +1,171 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "Language_Elvish");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "Language_Orc");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "Language_Abyssal");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604, "Language_Celestial");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604, "Language_Draconic");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604, "Language_Giant");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679, "Language_Elvish");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679, "Language_Celestial");
+DB_SwordCoastLanguages_Companions((CHARACTER)S_Player_Laezel_58a69333-40bf-8358-1d17-fff240d7fb12, "Language_Draconic");
+
+KBSECTION
+//REGION Savegame passive insertion
+
+IF
+SavegameLoaded()
+AND
+DB_SwordCoastLanguages_Companions(_Companion, _Passive)
+AND
+HasPassive(_Companion, _Passive, 0)
+THEN
+AddPassive(_Companion, _Passive);
+
+//END_REGION
+
+//REGION Check companions on party join
+
+IF
+CharacterJoinedParty(_Companion)
+AND
+DB_SwordCoastLanguages_Companions(_Companion, _Passive)
+AND
+HasPassive(_Companion, _Passive, 0)
+THEN
+AddPassive(_Companion, _Passive);
+
+//END_REGION
+
+//REGION PROCs for companion goals
+
+PROC
+PROC_Astarion_CompletedGoal()
+AND
+NOT DB_OnlyOnce("ORI_Astarion_Passives")
+AND
+QRY_OnlyOnce("Origin_Astarion_Passives")
+THEN
+DB_OnlyOnce("ORI_Astarion_Passives");
+
+PROC
+PROC_Gale_CompletedGoal()
+AND
+NOT DB_OnlyOnce("ORI_Gale_Passives")
+AND
+QRY_OnlyOnce("Origin_Gale_Passives")
+THEN
+DB_OnlyOnce("ORI_Gale_Passives");
+
+PROC
+PROC_Shadowheart_CompletedGoal()
+AND
+NOT DB_OnlyOnce("ORI_Shadowheart_Passives")
+AND
+QRY_OnlyOnce("Origin_Shadowheart_Passives")
+THEN
+DB_OnlyOnce("ORI_Shadowheart_Passives");
+
+PROC
+PROC_Laezel_CompletedGoal()
+AND
+NOT DB_OnlyOnce("ORI_Laezel_Passives")
+AND
+QRY_OnlyOnce("Origin_Laezel_Passives")
+THEN
+DB_OnlyOnce("ORI_Laezel_Passives");
+
+//END_REGION
+
+//REGION Check companions for the passive and complete goal
+
+IF
+SavegameLoaded()
+AND
+DB_SwordCoastLanguages_Companions(_Companion, _Passive)
+AND
+DB_Origins(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+AND
+HasPassive(_Companion, _Passive, 1)
+THEN
+PROC_Astarion_CompletedGoal();
+
+IF
+SavegameLoaded()
+AND
+DB_SwordCoastLanguages_Companions(_Companion, _Passive)
+AND
+DB_Origins(S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604)
+AND
+HasPassive(_Companion, _Passive, 1)
+THEN
+PROC_Gale_CompletedGoal();
+
+IF
+SavegameLoaded()
+AND
+DB_SwordCoastLanguages_Companions(_Companion, _Passive)
+AND
+DB_Origins(S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679)
+AND
+HasPassive(_Companion, _Passive, 1)
+THEN
+PROC_Shadowheart_CompletedGoal();
+
+IF
+SavegameLoaded()
+AND
+DB_SwordCoastLanguages_Companions(_Companion, _Passive)
+AND
+DB_Origins(S_Player_Laezel_58a69333-40bf-8358-1d17-fff240d7fb12)
+AND
+HasPassive(_Companion, _Passive, 1)
+THEN
+PROC_Laezel_CompletedGoal();
+
+//END_REGION
+
+//REGION Complete goal if not in the toolkit
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("Origin_Astarion_Passives")
+THEN
+GoalCompleted;
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("Origin_Gale_Passives")
+THEN
+GoalCompleted;
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("Origin_Shadowheart_Passives")
+THEN
+GoalCompleted;
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("Origin_Laezel_Passives")
+THEN
+GoalCompleted;
+
+//END_REGION GoalCompleted
+
+EXITSECTION
+
+ENDEXITSECTION

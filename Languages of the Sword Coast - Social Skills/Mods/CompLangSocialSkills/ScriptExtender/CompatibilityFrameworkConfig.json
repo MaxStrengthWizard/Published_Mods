@@ -8,7 +8,7 @@
           "Action": "Insert",
           "Function": "SelectPassives",
           "Params": {
-            "Guid": "332aeda4-311d-40f1-b787-3a684cc511cd",
+            "Guid": "65debbca-95e7-444a-8f07-df7661e045db",
             "Amount": "1",
             "SelectorId": "RacialLanguages"
           }
