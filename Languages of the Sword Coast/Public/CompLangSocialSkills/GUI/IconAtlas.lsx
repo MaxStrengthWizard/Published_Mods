@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Abyssal"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.125"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Celestial"/>
+                    <attribute id="U1" type="float" value="0.125"/>
+                    <attribute id="U2" type="float" value="0.25"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Draconic"/>
+                    <attribute id="U1" type="float" value="0.25"/>
+                    <attribute id="U2" type="float" value="0.375"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Dwarvish"/>
+                    <attribute id="U1" type="float" value="0.375"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Elvish"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.625"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Giant"/>
+                    <attribute id="U1" type="float" value="0.625"/>
+                    <attribute id="U2" type="float" value="0.75"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Gith"/>
+                    <attribute id="U1" type="float" value="0.75"/>
+                    <attribute id="U2" type="float" value="0.875"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Gnomish"/>
+                    <attribute id="U1" type="float" value="0.875"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="0.125"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Halfling"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.125"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Infernal"/>
+                    <attribute id="U1" type="float" value="0.125"/>
+                    <attribute id="U2" type="float" value="0.25"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Orc"/>
+                    <attribute id="U1" type="float" value="0.25"/>
+                    <attribute id="U2" type="float" value="0.375"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Undercommon"/>
+                    <attribute id="U1" type="float" value="0.375"/>
+                    <attribute id="U2" type="float" value="0.5"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Linguist"/>
+                    <attribute id="U1" type="float" value="0.5"/>
+                    <attribute id="U2" type="float" value="0.625"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Sylvan"/>
+                    <attribute id="U1" type="float" value="0.625"/>
+                    <attribute id="U2" type="float" value="0.75"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_DeepSpeech"/>
+                    <attribute id="U1" type="float" value="0.75"/>
+                    <attribute id="U2" type="float" value="0.875"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Druidic"/>
+                    <attribute id="U1" type="float" value="0.875"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.125"/>
+                    <attribute id="V2" type="float" value="0.25"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Goblin"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="0.125"/>
+                    <attribute id="V1" type="float" value="0.25"/>
+                    <attribute id="V2" type="float" value="0.375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_Primordial"/>
+                    <attribute id="U1" type="float" value="0.125"/>
+                    <attribute id="U2" type="float" value="0.25"/>
+                    <attribute id="V1" type="float" value="0.25"/>
+                    <attribute id="V2" type="float" value="0.375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Language_ThievesCant"/>
+                    <attribute id="U1" type="float" value="0.25"/>
+                    <attribute id="U2" type="float" value="0.375"/>
+                    <attribute id="V1" type="float" value="0.25"/>
+                    <attribute id="V2" type="float" value="0.375"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/IconAtlas.dds"/>
+                    <attribute id="UUID" type="FixedString" value="569b71c7-f2c1-47c0-a1fc-1127c4df31e6"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int64" value="512"/>
+                    <attribute id="Width" type="int64" value="512"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

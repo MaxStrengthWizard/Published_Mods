@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Thieves' Cant, the secret language of rogues, thieves, and other shifty types." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h99ddb55d066e400f81b68ed1136fc0b8fcg9" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="haf703f085e14493783984347d6d62469af0a" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_THIEVES_CANT" />
+			<attribute id="UUID" type="guid" value="f9b3337e-9548-4249-92e9-185e9b79721d" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

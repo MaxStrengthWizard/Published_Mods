@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Elvish;Language_Orc;Language_Abyssal"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="3780c689-d903-41c2-bf64-1e6ec6a8e1e5"/>
+                    <attribute id="TableUUID" type="guid" value="eb9db11d-1091-49fa-9006-2f52bbb76f6a"/>
+                    <attribute id="UUID" type="guid" value="e75efe0e-98a3-4a69-8f92-06eda01b14ae"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Draconic;Language_Celestial;Language_Giant"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="35c3caad-5543-4593-be75-e7deba30f062"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="fc4175be-560b-445e-be80-07f32ee13cba"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Infernal"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="efc9d114-0296-4a30-b701-365fc07d44fb"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="11efdea6-e3e2-4804-8c1d-2714b1176d24"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Elvish;Language_Celestial"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="2bb39cf2-4649-4238-8d0c-44f62b5a3dfd"/>
+                    <attribute id="TableUUID" type="guid" value="5f06db9e-31b0-41d9-bfbe-3446323c4bf6"/>
+                    <attribute id="UUID" type="guid" value="4f581bb7-744f-4078-b70a-cb0c48bd7901"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Infernal"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="b8b4a974-b045-45f6-9516-b457b8773abd"/>
+                    <attribute id="TableUUID" type="guid" value="1640733f-c32b-4d9d-9132-5ca6e985155c"/>
+                    <attribute id="UUID" type="guid" value="80228a85-775a-4b2a-83af-c7706b0e1f94"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Draconic;Language_Gith"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="fb3bc4c3-49eb-4944-b714-d0cb357bb635"/>
+                    <attribute id="TableUUID" type="guid" value="81e2cb57-6a12-4429-b3a5-f72549355b3b"/>
+                    <attribute id="UUID" type="guid" value="fa48c236-e1cc-436c-a463-ffd1b73d9498"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

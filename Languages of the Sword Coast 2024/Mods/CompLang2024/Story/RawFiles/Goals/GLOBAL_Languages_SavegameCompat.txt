@@ -1,0 +1,33 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Language tags to race or class tag associations
+
+DB_LanguagePassiveToTag("Language_ThievesCant", (TAG)ROGUE_f8a0608b-666c-4be6-a49c-03b369c10bd2);
+DB_LanguagePassiveToTag("Language_Druidic", (TAG)DRUID_44ac4317-4d38-4d28-80e2-94024c6e42f0);
+
+//END_REGION
+
+PROC_MSW_SwordCoastLanguages_RetroactiveApply();
+
+KBSECTION
+//REGION PROC for applying passives if they didn't exist
+
+PROC
+PROC_MSW_SwordCoastLanguages_RetroactiveApply()
+AND
+DB_Players(_Player)
+AND
+DB_LanguagePassiveToTag(_Passive, _Tag)
+AND
+IsTagged(_Player, _Tag, 1)
+AND
+HasPassive(_Player, _Passive, 0)
+THEN
+AddPassive(_Player, _Passive);
+
+//END_REGION
+
+EXITSECTION
+
+ENDEXITSECTION

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h5498c74b2e6840d282b510ce2f1a6c480afd" version="1">Comprehend Languages</content>
+  <content contentuid="h6f278d0b3ef04641b56e1f9b158f1e8f8a96" version="1">Understand the literal meaning of any spoken or written language that you hear or see.</content>
+  <content contentuid="h3448fe6a6117498ea5178e06e7c90772c418" version="1">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on speech checks with creatures who speak a language you understand other than Common.</content>
+  <content contentuid="h1128d7b87ad048ed814a10d17b6bb60e6206" version="1">Comprehend Languages</content>
+  <content contentuid="hff442334a03f461684cb66dfa8287f5dff69" version="1">Understand the literal meaning of any spoken or written language and gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on speech checks.</content>
+  <content contentuid="h0b2c8264gacfbg4127g97ddg5f357dbaedc6" version="1">Comprehend Languages</content>
+  <content contentuid="h31af588agb56bg4bc4g9c04gda9a161e495f" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on speech checks.</content>
+  <content contentuid="h51e9cbd57ec94b9087b932979bf7f0dege97" version="1">Language: Draconic</content>
+  <content contentuid="hb2a9a3eecf6e479f972e079fb31824b6139d" version="1">You speak Draconic, the language of dragons, kobolds, and dragonborn.</content>
+  <content contentuid="h314163c1d44b48acbd653f4be0626256042a" version="1">Language: Dwarvish</content>
+  <content contentuid="h6472ca842eb841289cb1441cf48b88273d8g" version="1">You speak Dwarvish, the language of the dwarves.</content>
+  <content contentuid="h055c5da19b15404cb3022701b554c6a4a3af" version="1">Language: Elvish</content>
+  <content contentuid="h270071dca72849ae906637aa377031d1067f" version="1">You speak Elvish, the language of the elves.</content>
+  <content contentuid="h8ca5b080d910488087acc379be30cfb46800" version="1">Language: Giant</content>
+  <content contentuid="h7c04d4d365a34e4c886c75a92ac4b902c688" version="1">You speak Giant, the language of the giants and ogres.</content>
+  <content contentuid="h37b2830age14cg43cfg87f9g49a1cee60c5d" version="1">Language: Gith</content>
+  <content contentuid="h1f9f441bge5ccg4a75ga1a3gbf0fd34ccc04" version="1">You speak Gith, the language of the gith.</content>
+  <content contentuid="ha2160d28dc554cb69b650bef47bab0c26gcg" version="1">Language: Gnomish</content>
+  <content contentuid="h7c692e6f3f16466bb4dbb8fbdd81e419e16g" version="1">You speak Gnomish, the language of the gnomes.</content>
+  <content contentuid="hb7471094cfe74b33a149c74c5b0cc3155114" version="1">Language: Goblin</content>
+  <content contentuid="hc6f04832d1fe49b584b40785f2dd8015e332" version="1">You speak Goblin, the language of the goblins, hobgoblins, and bugbears.</content>
+  <content contentuid="h916b1071202f44e2922c52e200ac0074c0ba" version="1">Language: Halfling</content>
+  <content contentuid="h19005626a6b54427bf6b7adac83eccd5e1de" version="1">You speak Halfling, the language of the halflings.</content>
+  <content contentuid="h8acd57aea028432c82d527c94e9fd1d9gae7" version="1">Language: Orc</content>
+  <content contentuid="h777e2ad061454c62938e10f4b63226e3g6c9" version="1">You speak Orc, the language of the orcs and half-orcs.</content>
+  <content contentuid="hb4c095aab0ac45708b212db1f9709a8a2gc6" version="1">Language: Abyssal</content>
+  <content contentuid="h38035c386bde4c2f98f22733ddb3c6c1770b" version="1">You speak Abyssal, the language of the demons.</content>
+  <content contentuid="h7eb012784a974935a9a2a804533f0776dd96" version="1">Language: Celestial</content>
+  <content contentuid="h35c8af475b6a41648b038b797100c70c3gfc" version="1">You speak Celestial, the language of the celestials.</content>
+  <content contentuid="hb7f815a0a0e443d1b7e1f73a2ad5938f6ec1" version="1">Language: Deep Speech</content>
+  <content contentuid="h45065c5fdf5340338387458517c5b69afd1f" version="1">You speak Deep Speech, the language of the mind flayers and intellect devourers.</content>
+  <content contentuid="h90ed361c2256440cbae1fd350b025da25dba" version="1">Language: Infernal</content>
+  <content contentuid="hcf7c0d2ff475463fbde6f6c4b88d1468g997" version="1">You speak Infernal, the language of the devils, fiends, cambions, and tieflings.</content>
+  <content contentuid="hc7ab0e0ec80040d58c3e9257d532744a5003" version="1">Language: Primordial</content>
+  <content contentuid="hd9559c3d5d574d65bbcfe226c23bdd0c69d0" version="1">You speak Primordial, the language of the elementals and djinni.</content>
+  <content contentuid="h8453ecc2abe14adab765a0b397fd6eadfeaa" version="1">Language: Sylvan</content>
+  <content contentuid="h18560c8cce3845708db2046c0fafc154d378" version="1">You speak Sylvan, the language of creatures of the Feywild.</content>
+  <content contentuid="h5c7d6ece3ec3452bb5bec5709104ca16245f" version="1">Language: Undercommon</content>
+  <content contentuid="hace3742e19a343b88d0f6ef02853204e9f7a" version="1">You speak Undercommon, the language of the Underdark.</content>
+  <content contentuid="hed92405c99f54b07bf0571aeaf454dccc61a" version="1">Draconic</content>
+  <content contentuid="h0855db0d757648848aaa30189708a171gefe" version="1">You speak Draconic, the language of dragons, kobolds, and dragonborn.</content>
+  <content contentuid="h3f9291d951194973b61611d5f4d002fe41c5" version="1">Dwarvish</content>
+  <content contentuid="h68e0a557490a4a4f84904c66ab6948887fa8" version="1">You speak Dwarvish, the language of the dwarves.</content>
+  <content contentuid="hb68d0785fbb14f848f947ad5e5b304e9cd8b" version="1">Elvish</content>
+  <content contentuid="h557d5977509249bab688144f4f1ae76c9555" version="1">You speak Elvish, the language of the elves.</content>
+  <content contentuid="ha521bd0d8d394145b712e4a43cf8e9850c23" version="1">Giant</content>
+  <content contentuid="h1860c7e2c1a4461e9b308433033c2c6cd52c" version="1">You speak Giant, the language of the giants and ogres.</content>
+  <content contentuid="h4aaed1a6g497bg4be5gbc76g0320ed38043d" version="1">Gith</content>
+  <content contentuid="hdf2c3c08g6b55g43a5g94a6gd748b5f77f70" version="1">You speak Gith, the language of the gith.</content>
+  <content contentuid="hc945c1811f644cfea856a2d7ed1d027002c2" version="1">Gnomish</content>
+  <content contentuid="hd43b1af1286942748320a41d1d5aee42gf0d" version="1">You speak Gnomish, the language of the gnomes.</content>
+  <content contentuid="he9f6324fa85345db9b87f9e5f1c4a7d6288b" version="1">Goblin</content>
+  <content contentuid="h1dac49702e784a17a8108586740bb0495554" version="1">You speak Goblin, the language of the goblins, hobgoblins, and bugbears.</content>
+  <content contentuid="h86c71cf0a8e448398a7a6464417fe976g258" version="1">Halfling</content>
+  <content contentuid="hb27e3db4a6574ae6b21660dbd41109380f09" version="1">You speak Halfling, the language of the halflings.</content>
+  <content contentuid="h8713b593d1a940d08b63d9ae3c9694f66b52" version="1">Orc</content>
+  <content contentuid="h5db288d0ed2b40f3a04733744a5115da3ee5" version="1">You speak Orc, the language of the orcs and half-orcs.</content>
+  <content contentuid="h7d300ef27cbd42779a4ab42af77979bbedac" version="1">Abyssal</content>
+  <content contentuid="hbab224d93c3247c68427db92f1146b6e8902" version="1">You speak Abyssal, the language of the demons.</content>
+  <content contentuid="h9880f527e11a415da30f6b11380c3a77a8g7" version="1">Celestial</content>
+  <content contentuid="h50014de092b64d5e89032b4378100695690a" version="1">You speak Celestial, the language of the celestials.</content>
+  <content contentuid="h122df77159a94f9d9119e5fb6828c64d5e67" version="1">Deep Speech</content>
+  <content contentuid="h3281480e88184082a985a60bd9a14887a1a4" version="1">You speak Deep Speech, the language of the mind flayers and intellect devourers.</content>
+  <content contentuid="h60231fc06a9a46269ea3187e835219d72b3f" version="1">Infernal</content>
+  <content contentuid="h7d1db9a1743b46e6b964b8f48018d5dca4d6" version="1">Infernal is the devilish language of the Nine Hells. Spoken primarily by devils, it has also been passed down to the Hells-touched races of tieflings and fiend pact-bound warlocks.</content>
+  <content contentuid="h7108995f667040bb9ab5aa82bfc8f968e055" version="1">Primordial</content>
+  <content contentuid="h3fbb7e3e1c8f41cca658ad55bcedcd75fgbc" version="1">You speak Primordial, the language of the elementals and djinni.</content>
+  <content contentuid="hc1de117c74254e018eabc225e4acf81d2cc5" version="1">Sylvan</content>
+  <content contentuid="hb6715ab62f6840bbae448c1b6019562be919" version="1">You speak Sylvan, the language of creatures of the Feywild.</content>
+  <content contentuid="h1b04d2dcc07d48a4bbe648e3e6120ca15dfe" version="1">Undercommon</content>
+  <content contentuid="h05c8f229e6184c96930f263941ce4a35bbcc" version="1">You speak Undercommon, the language of the Underdark.</content>
+  <content contentuid="h604ee41837e942d79fdc6ca4486f58ea4c3a" version="1">Linguist</content>
+  <content contentuid="hdc108fe588544417b523e00098e859ac8348" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1 and you learn three languages of your choice.</content>
+  <content contentuid="h9c1495efebd04c0582023817572711b5f5f3" version="1">Linguist</content>
+  <content contentuid="hdfdcc35d888b4f8699135ded276c80c080ff" version="1">You have studied languages and codes. Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by [1].</content>
+  <content contentuid="ha52e3b43g3bd0g440cg931eg712078c0e154" version="1">Choose Languages</content>
+  <content contentuid="haaf3d1f5g2fb4g4b27g8959ga886698106bf" version="1">Select your known languages.</content>
+  <content contentuid="h91f075f4g4736g4d9bg9dd8g38812886575c" version="1">Language Fluency</content>
+  <content contentuid="h14757482g6881g42f4g878eg55d7b2bdfeb9" version="1">Has a +[1] bonus to Speech &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; directed at the target creature in their native tongue.</content>
+  <content contentuid="h1a5dae88gceaag4ce1gaf8fg1f622368aba9" version="1">Infernal</content>
+  <content contentuid="h8838d562g8682g4557gab75g73383f7f6ab2" version="1">Infernal is the devilish language of the Nine Hells. Spoken primarily by devils, it has also been passed down to the Hells-touched races of tieflings and fiend pact-bound warlocks.</content>
+  <content contentuid="h9686288cge2a1g4883g9c32g83333a77e46d" version="1">Infernal</content>
+  <content contentuid="h0500664cg4fd1g4a7eg8d7eg2264f5a53861" version="1">Infernal is the devilish language of the Nine Hells. Spoken primarily by devils, it has also been passed down to the Hells-touched races of tieflings and fiend pact-bound warlocks.</content>
+  <content contentuid="haf703f085e14493783984347d6d62469af0a" version="1">Thieves' Cant</content>
+  <content contentuid="h99ddb55d066e400f81b68ed1136fc0b8fcg9" version="1">During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</content>
+  <content contentuid="hddd9fac055a74e3e9df1e8921546e14d8gf4" version="1">Language: Thieves' Cant</content>
+  <content contentuid="hd558b437eb3a4a3ca538c12d5969071a638e" version="1">You can speak Thieves' Cant, the secret language of rogues.</content>
+  <content contentuid="h00b1690c422a4c97bbdee3b109f48b1db9ab" version="1">Druidic</content>
+  <content contentuid="hec66a723955c4abbb3d343f2e8469266a5e2" version="1">Originally developed by a powerful group of druids who worshiped Silvanus, Druidic is a secretive language with its own alphabetic script and a strict forbiddance to teach to non-druids. The primary sublanguage of Druidic was Drueidan, created by the Silvanus worshipping druids. Druids from the Moonshae Isles and worship the Earthmother, however, developed and speak Daelic.</content>
+  <content contentuid="h3fb0e7ffddfe49a49a965b84fc42fc87gdd5" version="1">Language: Druidic</content>
+  <content contentuid="he73332db8ff44f4f931bb31eddbcb4489144" version="1">You can speak Druidic, the secret language of druids.</content>
+</contentList>
