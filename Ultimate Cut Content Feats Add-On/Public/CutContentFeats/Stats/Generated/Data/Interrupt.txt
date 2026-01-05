@@ -1,0 +1,6 @@
+new entry "Interrupt_ShieldMaster"
+type "InterruptData"
+using "Interrupt_ShieldMaster"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and HasSavingThrowWithAbility(Ability.Dexterity) and not AnyEntityIsItem()"
+data "Properties" "IF(IsLastSavingThrowRollSuccess()):SetRoll(0);IF(not IsLastSavingThrowRollSuccess()):ApplyStatus(OBSERVER_TARGET,SHIELD_MASTER_BLOCK,100,1)"
+

@@ -30,3 +30,10 @@ data "Description" "h395aae05g0de8g4e29g8ce1ge439cb324121;4"
 data "DescriptionParams" "1;20;5"
 data "Icon" "PassiveFeature_Observant_Bonuses"
 data "Boosts" "Skill(Perception,5);Skill(Investigation,5)"
+
+new entry "ShieldMaster_Shove"
+type "PassiveData"
+using "ShieldMaster_Shove"
+data "Properties" "Highlighted;OncePerTurn"
+data "Conditions" "HasShieldEquipped(context.Source) and (IsWeaponAttack() or IsUnarmedAttack()) and not HasStatus('SHIELD_MASTER_SHOVE',context.Source)"
+

@@ -1,0 +1,12 @@
+new entry "Target_ShieldShove"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_ShieldShove"
+data "RequirementEvents" "OnEquip;OnUnequip"
+data "TargetSound" "Action_Impact_Bash"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0,722df2d7-7898-4b0b-b930-5a850b55ccf0;a693a7c3-e7e7-4edb-98dd-db5fd700663f,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;c1df9aea-8be9-4de3-bcbc-4e4c1e44dc37,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "SpellFlags" "IsMelee;AddFallDamageOnLand;IsHarmful;CombatLogSetSingleLineRoll;Temporary"
+data "PrepareEffect" "e1cc173f-b12f-4060-b8ea-57b891dd30fe"
+data "CastEffect" "468f6e0e-222f-4ea6-8572-10ff14f2c422"
+data "SpellSoundMagnitude" ""
+
