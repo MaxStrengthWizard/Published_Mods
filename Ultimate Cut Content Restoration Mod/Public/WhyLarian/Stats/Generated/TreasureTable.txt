@@ -141,11 +141,6 @@ CanMerge 1
 new subtable "1,1"
 object category "T_CRE_Gith_Armor_Supply",1,0,0,0,0,0,0,0
 
-new treasuretable "CRE_MagicItem_Gith_Trader"
-CanMerge 1
-new subtable "-1"
-object category "I_MAG_LowHP_IncreaseDamagePsychic_GithLongsword",1,0,0,0,0,0,0,0
-
 new treasuretable "MOO_InfernalTrader_Trade"
 CanMerge 1
 new subtable "1,1"

@@ -96,6 +96,50 @@ data "OnApplyFail" ""
 
 
 // ==========================================================================
+// Greatsword
+
+// Psionic Githyanki weapons
+new entry "MAG_LowHP_IncreaseDamagePsychic_GithGreatsword"
+type "Weapon"
+using "MAG_LowHP_IncreaseDamagePsychic_GithGreatsword"
+data "Unique" "1"
+
+// Low HP Githyanki weapons
+new entry "MAG_TRUE_LowHP_IncreaseDamagePsychic_GithGreatsword"
+type "Weapon"
+using "WPN_Greatsword_1"
+data "RootTemplate" "239f69d1-13a4-4aab-af63-4e4375d52c5a"
+data "ItemGroup" ""
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "MAG_LowHP_IncreaseDamagePsychic_Passive"
+data "ObjectCategory" "MagicWeapons"
+data "Unique" "1"
+
+
+// ==========================================================================
+// Heavy Crossbow
+
+// Psionic Githyanki weapons
+new entry "MAG_LowHP_IncreaseDamagePsychic_GithHeavyCrossbow"
+type "Weapon"
+using "MAG_LowHP_IncreaseDamagePsychic_GithHeavyCrossbow"
+data "Unique" "1"
+
+// Low HP Githyanki weapons
+new entry "MAG_TRUE_LowHP_IncreaseDamagePsychic_GithHeavyCrossbow"
+type "Weapon"
+using "WPN_HeavyCrossbow_1"
+data "RootTemplate" "b71869c1-fdb1-4195-bae5-03221cb24224"
+data "ItemGroup" ""
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "MAG_LowHP_IncreaseDamagePsychic_Ranged_Passive"
+data "ObjectCategory" "MagicWeapons"
+data "Unique" "1"
+
+
+// ==========================================================================
 // Longsword
 
 // Blood-Bound Blade
@@ -105,10 +149,22 @@ data "StatusType" "BOOST"
 using "MAG_WEAPON_BOND_CLEANER"
 data "OnApplyFunctors" "RemoveStatus(MAG_BONDED_THROWING);RemoveStatus(MAG_THUNDER_THROW);RemoveStatus(MAG_WEAPON_ATTACK_ROLL_BONUS);RemoveStatus(MAG_WEAPON_PROFICIENCY_BONUS_DAMAGE);RemoveStatus(MAG_CHARGED_LIGHTNING_LIGHTNING_GREATER_WEAPON)"
 
-// Githyanki Longsword (Psionic)
+// Psionic Githyanki weapons
 new entry "MAG_LowHP_IncreaseDamagePsychic_GithLongsword"
 type "Weapon"
 using "MAG_LowHP_IncreaseDamagePsychic_GithLongsword"
+data "Unique" "1"
+
+// Low HP Githyanki weapons
+new entry "MAG_TRUE_LowHP_IncreaseDamagePsychic_GithLongsword"
+type "Weapon"
+using "WPN_Longsword_1"
+data "RootTemplate" "f3405b51-9e75-43be-9995-f8005a0a2474"
+data "ItemGroup" ""
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "MAG_LowHP_IncreaseDamagePsychic_Passive"
+data "ObjectCategory" "MagicWeapons"
 data "Unique" "1"
 
 // Moonblade
@@ -153,4 +209,26 @@ data "UseCosts" "ActionPoint:1"
 data "RitualCosts" ""
 data "SpellFlags" "IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems"
 data "MemoryCost" ""
+
+
+// ==========================================================================
+// Shortsword
+
+// Psionic Githyanki weapons
+new entry "MAG_LowHP_IncreaseDamagePsychic_GithShortsword"
+type "Weapon"
+using "MAG_LowHP_IncreaseDamagePsychic_GithShortsword"
+data "Unique" "1"
+
+// Low HP Githyanki weapons
+new entry "MAG_TRUE_LowHP_IncreaseDamagePsychic_GithShortsword"
+type "Weapon"
+using "WPN_Shortsword_1"
+data "RootTemplate" "3393003d-f389-4bc2-b807-f68de8e8afc8"
+data "ItemGroup" ""
+data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"
+data "Rarity" "Rare"
+data "PassivesOnEquip" "MAG_LowHP_IncreaseDamagePsychic_Passive"
+data "ObjectCategory" "MagicWeapons"
+data "Unique" "1"
 

@@ -51,7 +51,13 @@ object category "I_ARM_HalfPlate_Body_Githyanki_B",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_ARM_HalfPlate_Body_Githyanki_C",1,0,0,0,0,0,0,0
 new subtable "-1"
+object category "MAG_LowHP_IncreaseDamagePsychic_GithGreatsword",1,0,0,0,0,0,0,0
+new subtable "-1"
 object category "I_MAG_LowHP_IncreaseDamagePsychic_GithLongsword",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "MAG_LowHP_IncreaseDamagePsychic_GithShortsword",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "MAG_LowHP_IncreaseDamagePsychic_GithHeavyCrossbow",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_ARM_StuddedLeather_Drow_Commander",1,0,0,0,0,0,0,0
 new subtable "-1"

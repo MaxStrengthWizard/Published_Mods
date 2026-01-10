@@ -59,7 +59,7 @@
 					<attribute id="Name" type="LSString" value="MAG_Bonded_Throwing_Battleaxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c17ee133-cbb5-418f-88be-5ef27991cf50" />
 					<attribute id="Stats" type="FixedString" value="MAG_Bonded_Throwing_Battleaxe" />
-					<attribute id="TechnicalDescription" type="TranslatedString" handle="hd1b7e512g7c60g4cc8g9477ge1341b969de8" version="3" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h6b8b55ef00a44f30853b231d62b4c701c8g1" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="6f3779fa-555a-fa61-9cdc-794f890ef30d" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="145100352641826818" />
@@ -87,6 +87,9 @@
 								</node>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_ATTACK_ROLL_BONUS_BONDED_TECHNICAL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_REBOUNDBATTLEAXE_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -219,6 +222,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_COMBINATIONAXE_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -265,6 +275,9 @@
 								</node>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_WEAPON_BOND" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_SHADOWBATTLEAXE_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -349,6 +362,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_ARCANEABSORPTIONDAGGER_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -424,6 +444,9 @@
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_NECROTIC_NECROTIC_WEAPON" />
 								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_SHARSSTING_WEAPON_TECHNICAL" />
+								</node>
 							</children>
 						</node>
 						<node id="Tags">
@@ -495,6 +518,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_GOBLINBANEDAGGER_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -539,6 +569,9 @@
 							<children>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="UND_NERE_SWORD_PSYCHIC_DAMAGE" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_MINDSUNDERINGDAGGER_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -644,6 +677,9 @@
 							<children>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_SHADOW_RENDING" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_PROMISE_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -829,13 +865,287 @@
 					</children>
 				</node>
 				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hc4df4c3369f1478889bf8e34debf3a0ee00b" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="769adbf8-d3bf-48f7-8c2b-21fb892b1d33" />
+					<attribute id="Name" type="LSString" value="WPN_GTY_Greatsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d1082e88-b1e2-479d-913f-1413784d95a1" />
+					<attribute id="Stats" type="FixedString" value="MAG_LowHP_IncreaseDamagePsychic_GithGreatsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="hcec09745399b4f5ea4d9222bbdb27e184889" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Longsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Longsword_A_GLOW" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="0553ced5-00b0-4c39-8ee4-519f6401f44a" />
 					<attribute id="Name" type="LSString" value="WPN_GTY_Longsword_A_LowHP_IncreasedDamagePsychic" />
 					<attribute id="ParentTemplateId" type="FixedString" value="907a794b-b089-406b-880d-6f2df2bb3f13" />
 					<attribute id="Stats" type="FixedString" value="MAG_LowHP_IncreaseDamagePsychic_GithLongsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="he3ed67802b204c3d88efd666d964b714ba24" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Shortsword_A_GLOW" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="824a370a-5fc6-4435-b58f-33a0d91f5b08" />
+					<attribute id="Name" type="LSString" value="WPN_GTY_Shortsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4b54911a-a32d-48ad-8691-ff28801e1275" />
+					<attribute id="Stats" type="FixedString" value="MAG_LowHP_IncreaseDamagePsychic_GithShortsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h6e8ca3d9aa4e4f179e78244eef8f84fd0ef1" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_HeavyCrossbow_A_GLOW" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="765dd845-e71c-4a96-bff2-b4ecb08478dc" />
+					<attribute id="Name" type="LSString" value="WPN_GTY_HeavyCrossbow_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b674ea52-2b6f-4977-b6d5-98810304a98b" />
+					<attribute id="Stats" type="FixedString" value="MAG_LowHP_IncreaseDamagePsychic_GithHeavyCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hea56221d0d054d03a8412891b6a2f640aadf" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Greatsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="239f69d1-13a4-4aab-af63-4e4375d52c5a" />
+					<attribute id="Name" type="LSString" value="WPN_TRUE_Greatsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d1082e88-b1e2-479d-913f-1413784d95a1" />
+					<attribute id="Stats" type="FixedString" value="MAG_TRUE_LowHP_IncreaseDamagePsychic_GithGreatsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hf1ddba62e157492b9634ddf1c2a929bb75g5" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Longsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f3405b51-9e75-43be-9995-f8005a0a2474" />
+					<attribute id="Name" type="LSString" value="WPN_TRUE_Longsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="907a794b-b089-406b-880d-6f2df2bb3f13" />
+					<attribute id="Stats" type="FixedString" value="MAG_TRUE_LowHP_IncreaseDamagePsychic_GithLongsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h1c441bd2742741fdb73a04aa2bc849de4300" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Shortsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3393003d-f389-4bc2-b807-f68de8e8afc8" />
+					<attribute id="Name" type="LSString" value="WPN_TRUE_Shortsword_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4b54911a-a32d-48ad-8691-ff28801e1275" />
+					<attribute id="Stats" type="FixedString" value="MAG_TRUE_LowHP_IncreaseDamagePsychic_GithShortsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hde58ef8f1b9346d0a5f9de28952c2561gd5e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_HeavyCrossbow_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b71869c1-fdb1-4195-bae5-03221cb24224" />
+					<attribute id="Name" type="LSString" value="WPN_TRUE_HeavyCrossbow_A_LowHP_IncreasedDamagePsychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b674ea52-2b6f-4977-b6d5-98810304a98b" />
+					<attribute id="Stats" type="FixedString" value="MAG_TRUE_LowHP_IncreaseDamagePsychic_GithHeavyCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
@@ -1312,6 +1622,9 @@
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_FROST_FROST_WEAPON" />
 								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_ALLANDRASWHELM_WEAPON_TECHNICAL" />
+								</node>
 							</children>
 						</node>
 						<node id="Tags">
@@ -1358,6 +1671,9 @@
 							<children>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_LESSER_INFERNAL_WEAPON" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_INFERNALWARHAMMER_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
