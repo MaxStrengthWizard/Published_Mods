@@ -46,10 +46,15 @@
 	<content contentuid="h3504a10ddba241b1a9917cc9a10dfc71ee11" version="1">Must be wielding a slashing or piercing weapon.</content>
 	<content contentuid="h1e098b06c6a442be8c4e4ce8e566da05ea2b" version="1">Held by a master thief for the better part of a generation, this ring was put to bold use in the markets of Waterdeep. Working a crowd in broad daylight, the rogue would steal countless numbers of purses from the nobles, replacing them with bags of sand so the theft would go unnoticed. His identity was never known, but the name Sandthief was cursed loudly in its stead. It is rumored he retired, and now lives among the nobles he used to rob.</content>
 	<content contentuid="h6b8b55ef00a44f30853b231d62b4c701c8g1" version="1">This blade's magical powers only function if it's &lt;LSTag Type="Status" Tooltip="WEAPON_BOND"&gt;Bound&lt;/LSTag&gt; to an Eldritch Knight, a Warlock's &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;Pact Weapon&lt;/LSTag&gt;, or a Hexblade's &lt;LSTag Type="Status" Tooltip="HEXBLADE_BIND"&gt;Hexed Weapon&lt;/LSTag&gt;.</content>
+	<content contentuid="h22f139b55dd349588ba0fce224d9c6428g0e" version="1">Vengeful Psionic Greatsword</content>
+	<content contentuid="h6bacbe0266e04b869823a376c17b76f5188e" version="1">Vengeful Psionic Longsword</content>
+	<content contentuid="h7ade989f6e0d4a7d8c7b68263432fd7ee9b1" version="1">Vengeful Psionic Shortsword</content>
+	<content contentuid="hd7986178afe74de58888c7192dce42ea95e7" version="1">Vengeful Psionic Crossbow</content>
 
 
 
 
+	<content contentuid="PLACEHOLDER" version="1">PLACEHOLDER</content>
 
 
 

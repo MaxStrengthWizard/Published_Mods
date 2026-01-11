@@ -334,6 +334,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_HEADBANDOFINTELLECT_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -371,6 +378,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_ENFORCERSHIELD_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -418,6 +432,9 @@
 							<children>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_WEAPON_BOND" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_SHIELDOFRETURNING_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -784,6 +801,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_ROBEOFSPELLRESISTANCE_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -821,6 +845,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_SAREVOKSWRETCHEDARMOUR_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -1144,6 +1175,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_TORMENTDRINKERARMOUR_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1427,6 +1465,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_NIGHTSINGERSHALFPLATE_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -1756,6 +1801,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_IRONWOODBREASTPLATE_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1794,6 +1846,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_ENFORCERHELMET_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -2621,6 +2680,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_TIGHTENINGORBITHELM_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -2658,6 +2724,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_HATOFUPROARIOUSLAUGHTER_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -2906,6 +2979,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_DEADLYCHANNELLERGLOVES_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -3118,6 +3198,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_PALEWIDOWGLOVES_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -3389,6 +3476,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_THEFORKLIGHTNINGFINGERS_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -3612,6 +3706,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_VAMPIRICGLOVES_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -3830,6 +3931,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_BRISKWINDBOOTS_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -4092,6 +4200,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_GARGOYLEBOOTS_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -4326,6 +4441,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_SHADOWSTEPBOOTS_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -4365,6 +4487,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_TENACIOUSBOOTS_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -4635,6 +4764,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_WAVEMOTHERSBOOTS_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -4824,6 +4960,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_PHASMIDCLOAK_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -5047,6 +5190,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_CLOAKOFAVARICE_ARMOUR_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -5236,6 +5386,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_BRAINDRAINCAPE_ARMOUR_TECHNICAL" />
 								</node>
 							</children>
 						</node>

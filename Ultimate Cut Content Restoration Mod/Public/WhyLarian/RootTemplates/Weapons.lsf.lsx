@@ -39,6 +39,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_FLAILOFDREADSKULLS_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -141,6 +148,9 @@
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_WEAPON_PROFICIENCY_BONUS_TECHNICAL_DAMAGE" />
 								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_BLOODBOUNDBLADE_WEAPON_TECHNICAL" />
+								</node>
 							</children>
 						</node>
 						<node id="Tags">
@@ -180,6 +190,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_VERMINSIGN_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -319,6 +336,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_ENFORCERCLUB_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -730,6 +754,9 @@
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_OUTER_ENTITY_SLAYER_BLESS" />
 								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_PLANESLAYERFLAIL_WEAPON_TECHNICAL" />
+								</node>
 							</children>
 						</node>
 						<node id="Tags">
@@ -771,6 +798,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_MAGICALHANDCROSSBOW_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -808,6 +842,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_LIGHTCROSSBOWOFSPEED_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -852,6 +893,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_ARDUOUSFLAMEBLADE_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -888,6 +936,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_GITHBORNPSIONICGREATSWORD_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -930,6 +985,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_GITHBORNPSIONICLONGSWORD_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -966,6 +1028,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_GITHBORNPSIONICSHORTSWORD_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -1008,6 +1077,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_GITHBORNPSIONICCROSSBOW_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1021,7 +1097,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="DisplayName" type="TranslatedString" handle="hea56221d0d054d03a8412891b6a2f640aadf" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h22f139b55dd349588ba0fce224d9c6428g0e" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Greatsword_A_LowHP_IncreasedDamagePsychic" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="239f69d1-13a4-4aab-af63-4e4375d52c5a" />
@@ -1048,6 +1124,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_VENGEFULPSIONICGREATSWORD_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1061,7 +1144,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="DisplayName" type="TranslatedString" handle="hf1ddba62e157492b9634ddf1c2a929bb75g5" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6bacbe0266e04b869823a376c17b76f5188e" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Longsword_A_LowHP_IncreasedDamagePsychic" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="f3405b51-9e75-43be-9995-f8005a0a2474" />
@@ -1087,6 +1170,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_VENGEFULPSIONICLONGSWORD_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1100,7 +1190,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="DisplayName" type="TranslatedString" handle="h1c441bd2742741fdb73a04aa2bc849de4300" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7ade989f6e0d4a7d8c7b68263432fd7ee9b1" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_Shortsword_A_LowHP_IncreasedDamagePsychic" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="3393003d-f389-4bc2-b807-f68de8e8afc8" />
@@ -1126,6 +1216,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_VENGEFULPSIONICSHORTSWORD_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1139,7 +1236,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="DisplayName" type="TranslatedString" handle="hde58ef8f1b9346d0a5f9de28952c2561gd5e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd7986178afe74de58888c7192dce42ea95e7" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_WPN_GTY_HeavyCrossbow_A_LowHP_IncreasedDamagePsychic" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="b71869c1-fdb1-4195-bae5-03221cb24224" />
@@ -1162,6 +1259,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_VENGEFULPSIONICCROSSBOW_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -1209,6 +1313,9 @@
 							<children>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_LESSER_INFERNAL_WEAPON" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_INFERNALLONGSWORD_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -1285,6 +1392,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_MOONBLADE_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1331,6 +1445,9 @@
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_NECROTIC_NECROTIC_WEAPON" />
 								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_RENDEROFSCRUMPTIOUSFLESH_WEAPON_TECHNICAL" />
+								</node>
 							</children>
 						</node>
 						<node id="Tags">
@@ -1373,6 +1490,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_STEADFASTMAUL_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1409,6 +1533,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_THEIMPALER_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -1453,6 +1584,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_SPIDERSTEPSTAFF_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1491,6 +1629,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_STAFFOFACCRETION_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
@@ -1535,6 +1680,13 @@
 								</node>
 							</children>
 						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_SANGUINEBLADE_WEAPON_TECHNICAL" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -1572,6 +1724,13 @@
 											<attribute id="StatusDuration" type="int32" value="0" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="GOON_EXECUTIONERSWORD_WEAPON_TECHNICAL" />
 								</node>
 							</children>
 						</node>
