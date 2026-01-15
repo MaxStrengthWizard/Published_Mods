@@ -76,3 +76,10 @@ add equipmentgroup
 add equipment entry "MAG_TRUE_LowHP_IncreaseDamagePsychic_GithHeavyCrossbow"
 add equipmentgroup
 add equipment entry "ARM_HalfPlate_Body_Githyanki"
+
+new equipment "EQP_ZhentarimRapier_Dancer"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "MAG_Zhentarim_BloodfeederBlade_Rapier"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body"

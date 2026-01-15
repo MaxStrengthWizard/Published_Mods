@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="LOW_Guildhall_Bodyguard" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="fa8c11a3-c9c8-b6e0-017a-d464ab95fb77" />
+					<attribute id="CombatGroupID" type="FixedString" value="40886268-0556-48c3-a866-ebe3f21e246d" />
+					<attribute id="DefaultDialog" type="FixedString" value="" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha02c7942g4a9fg4ffcgb54agbcb081b5d989" version="2" />
+					<attribute id="Equipment" type="FixedString" value="EQP_ZhentarimRapier_Dancer" />
+					<attribute id="Faction" type="guid" value="0a9246a5-88ee-4b47-85d4-c86aba7d62dd" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="fa8c11a3-c9c8-b6e0-017a-d464ab95fb77-EQP_Shortsword_Leather_(Icon_Elf_Female)" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<attribute id="MapKey" type="FixedString" value="c8bb42d3-9670-4604-beb9-dde0f9e92abd" />
+					<attribute id="Name" type="LSString" value="S_LOW_Guildhall_Zhent_Mercenary_009" />
+					<attribute id="Stats" type="FixedString" value="LOW_Guildhall_Swarm_Melee_Elf" />
+					<attribute id="SwarmGroup" type="FixedString" value="LOW_Guildhall_Zhentarim" />
+					<attribute id="TemplateName" type="FixedString" value="499e4688-4695-40ef-a60a-f50c9450fd6e" />
+					<attribute id="Title" type="TranslatedString" handle="h6746ca36g4228g4efegbd01g1408253fa3a6" version="2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="BOOK_LOW_Guildhall_UpAtTheSky" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="e27a2887-770a-4692-a249-19947c051f5c" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d9e16813-4efc-13c1-75f8-9f2ff13ad2e8" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="a8f7c4d1-5002-8b52-ab24-e00feebf3ecf" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="ScriptConfigGlobalParameters">
+							<children>
+								<node id="ScriptConfigParameter">
+									<attribute id="Name" type="LSString" value="PreCoup_StandTrigger" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="S_LOW_Guildhall_Zhent_Mercenary_009_StartPoint_bea8e0af-5abb-4c3c-93bb-f8c935040d35" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ScriptConfigParameter">
+									<attribute id="Name" type="LSString" value="DuringCoup_StandTrigger" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="S_LOW_Guildhall_Zhent_Mercenary_009_CombatStartPoint_547727ff-46a2-42e9-be9f-d12c5467b580" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ScriptConfigParameter">
+									<attribute id="Name" type="LSString" value="PostCoup_StandTrigger" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="S_LOW_Guildhall_MemberGuard_002_ddf57aa4-878c-4a6e-b6b8-d6a4e95ea904" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-a28e-27434e0e7b18" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-29.812038 20.261616 725.1544" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.673886 0 0.73883533" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

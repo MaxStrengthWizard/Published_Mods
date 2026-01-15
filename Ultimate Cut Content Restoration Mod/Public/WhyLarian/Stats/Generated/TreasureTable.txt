@@ -348,8 +348,6 @@ CanMerge 1
 new subtable "-1"
 object category "I_MAG_BG_OfSpeed_LightCrossbow",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_MAG_Zhentarim_BloodfeederBlade_Rapier",1,0,0,0,0,0,0,0
-new subtable "-1"
 object category "I_WPN_MAG_Zhentarim_Ratcaller_Rapier",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_MAG_Zhentarim_CloakOfDisguise_Cloak",1,0,0,0,0,0,0,0
