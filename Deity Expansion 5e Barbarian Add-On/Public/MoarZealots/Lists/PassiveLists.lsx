@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="348aa410-81f3-47d7-9f05-b8359a69a71e"/>
+                    <attribute id="Name" type="FixedString" value="5eZealot Deity Passives"/>
+                    <attribute id="Passives" type="LSString" value="Zealot_Ao,Zealot_Absolute,Zealot_AerdrieFaenya,Zealot_Amaunator,Zealot_Angharradh,Zealot_AnnamAllFather,Zealot_Asmodeus,Zealot_Auril,Zealot_Azuth,Zealot_BaervanWildwanderer,Zealot_Baphomet,Zealot_Beshaba,Zealot_Blibdoolpoolp,Zealot_Celestian,Zealot_Chauntea,Zealot_Cyric,Zealot_DeepSashelas,Zealot_Deneir,Zealot_Dumathoin,Zealot_Eadro,Zealot_Eldath,Zealot_Garyx,Zealot_Gond,Zealot_Grazzt,Zealot_Hoar,Zealot_Hruggek,Zealot_Ioun,Zealot_Ilsensine,Zealot_Jergal,Zealot_Karsus,Zealot_Kereska,Zealot_Leira,Zealot_Lliira,Zealot_Loviatar,Zealot_Lurue,Zealot_Maglubiyet,Zealot_Malar,Zealot_Malcanthet,Zealot_Mask,Zealot_Milil,Zealot_Oberon,Zealot_Pelor,Zealot_RavenQueen,Zealot_RedKnight,Zealot_RillifaneRallathil,Zealot_Savras,Zealot_SehanineMoonbow,Zealot_Sekolah,Zealot_Semuanya,Zealot_Sharess,Zealot_Shaundakul,Zealot_Skerrit,Zealot_SkoraeusStonebones,Zealot_Silvanus,Zealot_Sune,Zealot_Talona,Zealot_Thrym,Zealot_Titania,Zealot_Torm,Zealot_Umberlee,Zealot_Vecna,Zealot_Verenestra,Zealot_Waukeen"/>
+                    <attribute id="UUID" type="guid" value="c4b65788-622d-4fff-87fa-d98a7699a801"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
