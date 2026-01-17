@@ -19,7 +19,13 @@ data "Boosts" "ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingTh
 new entry "AscendantSkillProficiencies"
 type "PassiveData"
 data "Properties" "IsHidden"
-data "Boosts" "ProficiencyBonus(Skill,Perception);ExpertiseBonus(Persuasion);ProficiencyBonus(Skill,Stealth);ExpertiseBonus(Stealth)"
+data "Boosts" "ProficiencyBonus(Skill,Perception);ExpertiseBonus(Perception);ProficiencyBonus(Skill,Stealth);ExpertiseBonus(Stealth)"
+
+new entry "Regeneration_Vampire_Spawn_Astarion"
+type "PassiveData"
+using "Regeneration_Vampire_Spawn"
+data "ToggleOnFunctors" "ApplyStatus(SELF,VAMPIRE_REGENERATION_SPAWN_ASTARION,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(SELF,VAMPIRE_REGENERATION_SPAWN_ASTARION)"
 
 new entry "Regeneration_VampireAscendant"
 type "PassiveData"

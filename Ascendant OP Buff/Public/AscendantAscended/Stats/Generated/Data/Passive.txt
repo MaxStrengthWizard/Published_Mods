@@ -14,7 +14,7 @@ data "Boosts" "ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThr
 new entry "AscendantOPSkillProficiencies"
 type "PassiveData"
 data "Properties" "IsHidden"
-data "Boosts" "ProficiencyBonus(Skill,Arcana);ProficiencyBonus(Skill,Perception);ExpertiseBonus(Persuasion);ProficiencyBonus(Skill,Stealth)"
+data "Boosts" "ProficiencyBonus(Skill,Arcana);ProficiencyBonus(Skill,Perception);ExpertiseBonus(Perception);ProficiencyBonus(Skill,Stealth)"
 
 new entry "AscendantBlindsight"
 type "PassiveData"
