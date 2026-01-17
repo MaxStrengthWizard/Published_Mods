@@ -27,3 +27,18 @@ data "StatsFunctorContext" "OnCreate;OnStatusRemoved;OnLongRest"
 data "Conditions" "not HasStatus('ASCENDANT_BLINDSIGHT')"
 data "StatsFunctors" "ApplyStatus(SELF,ASCENDANT_BLINDSIGHT,100,-1)"
 
+new entry "AscendantOPNaturalArmor"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ACOverrideFormula(16,true,Dexterity)"
+
+new entry "AscendantOPMovementBuff"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "ActionResource(Movement,3,0)"
+
+new entry "LOW_Astarion_VampireAscendant"
+type "PassiveData"
+using "LOW_Astarion_VampireAscendant"
+data "Boosts" "UnlockSpell(Target_LOW_Astarion_VampireAscendant);UnlockSpell(Shout_Shapechanger_Mist_VampireAscendant);UnlockSpell(Projectile_Jump_VampireAscendant_Bats);UnlockSpell(Target_HungerOfHadar_AscendantVampire)"
+

@@ -20,7 +20,7 @@ data "TickFunctors" "IF(not IsInSunlight(context.Target) and not HasStatus('DAMA
 new entry "ORI_ASTARION_SPAWN_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
-data "Passives" "VampiricResistance;VampiricSavingThrows;Regeneration_Vampire_Spawn_Astarion"
+data "Passives" "VampiricResistance;VampiricSavingThrows;Regeneration_Vampire_Spawn_Astarion;VampiricBackScratchers"
 data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog;IgnoreResting;ApplyToDead"
 
 new entry "VAMPIRE_ASCENDANT_REGENERATION"
@@ -40,6 +40,6 @@ data "StatusPropertyFlags" "TickingWithSource;DisableCombatlog;DisableOverhead"
 new entry "ORI_ASTARION_ASCENDANT_TECHNICAL"
 type "StatusData"
 data "StatusType" "BOOST"
-data "Passives" "Regeneration_VampireAscendant;VampiricResistance;AscendantSavingThrows;AscendantSkillProficiencies;SuperiorDarkvision"
+data "Passives" "Regeneration_VampireAscendant;VampiricResistance;AscendantSavingThrows;AscendantSkillProficiencies;SuperiorDarkvision;AscendantSuperScratch"
 data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;DisableCombatlog;IgnoreResting;ApplyToDead"
 
