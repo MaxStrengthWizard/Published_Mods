@@ -1,0 +1,55 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Adding new vampire traits
+PROC
+PROC_CRA_WakeupDone()
+AND
+DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+AND
+HasAppliedStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Gustav")
+THEN
+ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+
+// Companion
+IF
+FlagSet((FLAG)ORI_Astarion_Event_UnlockVampireBite_a887e372-d8a1-430f-809f-b0c7169920eb, _, _)
+AND
+HasAppliedStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Gustav")
+THEN
+ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+
+// If Bite scene is skipped
+IF
+FlagSet((FLAG)ORI_Astarion_Knows_Vampireness_43c71ab0-1aca-484a-950d-54106ae46da5, _, _)
+AND
+NOT DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+AND
+HasAppliedStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Gustav")
+THEN
+ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+//END_REGION Vampire traits
+
+//REGION Complete goal if not in the toolkit
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Astarion_TrueVampire_Gustav")
+THEN
+GoalCompleted;
+//END_REGION GoalCompleted
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "ModWrapper_Gustav"

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="hfe1218527a224551b398788d58e3185ec989" version="1">Ascendant Immunities</content>
+  <content contentuid="h209855899b5e4dfcaccbf138ade6c75a4f28" version="1">You are the pinnacle of vampire-kind and, as such, are &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Cold and Necrotic damage as well as the &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="EXHAUSTED"&gt;Exhausted&lt;/LSTag&gt; conditions.</content>
+  <content contentuid="h7b8019b8612045589c9cbfeca850193a8a96" version="1">Sanguine Drain</content>
+  <content contentuid="h87267b9c47cc44f788e9f3e60860b2ce99ba" version="1">Blindsight</content>
+  <content contentuid="ha77743f451b041889520ac0a7fbb91ef7471" version="1">You can perceive your surroundings without relying on sight within [1]. You are able to detect &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures, ignores darkness penalties, and don't suffer the disadvantages to &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;.</content>
+  <content contentuid="h3da69f1e94df43cf9b649910677d92498f98" version="1">Blindsight</content>
+  <content contentuid="he1eb466cd12e4a16ae02db8567fe8de2ad41" version="1">Affected entity can perceive their surroundings without relying on sight within [1] and are able to detect &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures, ignores darkness penalties, and ignore the disadvantages to &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blindness&lt;/LSTag&gt;.</content>
+</contentList>
