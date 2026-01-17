@@ -1,8 +1,0 @@
-new entry "Shout_Shapechanger_Mist_VampireAscendant"
-type "SpellData"
-data "SpellType" "Shout"
-using "Shout_Shapechanger_Mist_Vampire"
-data "Cooldown" "OncePerShortRest"
-data "DisplayName" "h4c0d9db26d4346288de59e1c2ad4a69f5241;1"
-data "UseCosts" "ActionPoint:1"
-

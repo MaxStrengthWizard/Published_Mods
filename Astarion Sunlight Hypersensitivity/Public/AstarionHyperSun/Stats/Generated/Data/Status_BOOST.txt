@@ -1,6 +1,0 @@
-new entry "ORI_ASTARION_SPAWN_TECHNICAL"
-type "StatusData"
-data "StatusType" "BOOST"
-using "ORI_ASTARION_SPAWN_TECHNICAL"
-data "Passives" "VampiricResistance;VampiricSavingThrows;Regeneration_Vampire_Spawn_Astarion;VampiricBackScratchers;SunlightHypersensitivity"
-
