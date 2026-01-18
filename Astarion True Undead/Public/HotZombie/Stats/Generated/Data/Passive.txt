@@ -1,0 +1,5 @@
+new entry "VampiresAreDead"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "BlockRegainHP(Living;Construct);Tag(UNDEAD)"
+

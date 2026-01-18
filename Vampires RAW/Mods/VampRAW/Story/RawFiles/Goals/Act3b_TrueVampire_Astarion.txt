@@ -1,0 +1,29 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+PROC
+PROC_LOW_CazadorsPalace_RitualRoom_CompleteRitual((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Act3b")
+THEN
+RemoveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL");
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricSavingThrows");
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "Regeneration_Vampire_Spawn_Astarion");
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers");
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead");
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Astarion_TrueVampire_Act3b")
+THEN
+GoalCompleted;
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Act3b"
