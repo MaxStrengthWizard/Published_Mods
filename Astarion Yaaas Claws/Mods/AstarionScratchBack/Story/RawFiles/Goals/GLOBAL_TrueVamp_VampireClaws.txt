@@ -10,6 +10,8 @@ AND
 DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant", 1)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Claws")
 THEN
 RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers");
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "AscendantSuperScratch");
@@ -24,6 +26,8 @@ AND
 HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 1)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Claws")
 THEN
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers");
 
@@ -39,8 +43,19 @@ AND
 HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 1)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Claws")
 THEN
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers");
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Astarion_TrueVampire_Claws")
+THEN
+GoalCompleted;
 
 EXITSECTION
 

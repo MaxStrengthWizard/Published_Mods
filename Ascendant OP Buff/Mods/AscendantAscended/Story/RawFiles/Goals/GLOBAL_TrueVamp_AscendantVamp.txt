@@ -12,6 +12,8 @@ AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant", 1)
 AND
 HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_ASCENDANT_TECHNICAL", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Ascend")
 THEN
 ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_ASCENDANT_TECHNICAL", -1.0);
 
@@ -25,6 +27,8 @@ AND
 HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_ASCENDANT_TECHNICAL", 1)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "AscendantOPSavingThrows", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_Ascend")
 THEN
 RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricResistance");
 RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "AscendantSavingThrows");
@@ -36,6 +40,15 @@ AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "AscendantOPS
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "AscendantBlindsight");
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "AscendantOPNaturalArmor");
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "AscendantOPMovementBuff");
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Astarion_TrueVampire_Ascend")
+THEN
+GoalCompleted;
 
 EXITSECTION
 
