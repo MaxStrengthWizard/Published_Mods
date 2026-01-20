@@ -1,6 +1,0 @@
-new entry "VAMPIRE_REGENERATION_SPAWN_ASTARION"
-type "StatusData"
-data "StatusType" "BOOST"
-using "VAMPIRE_REGENERATION_SPAWN"
-data "TickFunctors" "IF(not IsInSunlight(context.Target) and not HasStatus('DAMAGE_DEALT_RADIANT') and not HasStatus('LOW_CAZADORSPALACE_RITUAL_CRYSTALLISED') and HasHPPercentageLessThan(100)):RegainHitPoints(10,Undead)"
-

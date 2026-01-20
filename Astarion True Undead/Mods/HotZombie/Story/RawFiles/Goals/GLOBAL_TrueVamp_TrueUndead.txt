@@ -1,28 +1,29 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-PROC_TrueVampire_UndeadCheck();
 
 KBSECTION
-PROC
-PROC_TrueVampire_UndeadCheck()
+IF
+SavegameLoaded()
 AND
 DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead", 0)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant", 1)
 AND
 QRY_OnlyOnce("ORI_Astarion_TrueVampire_Undead")
 THEN
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead");
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead");
 
-PROC
-PROC_TrueVampire_UndeadCheck()
+IF
+SavegameLoaded()
 AND
 NOT DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
-DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+DB_GlobalFlag((FLAG)ORI_Astarion_Knows_Vampireness_43c71ab0-1aca-484a-950d-54106ae46da5)
 AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 1)
+NOT DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead", 0)
 AND
@@ -30,16 +31,14 @@ QRY_OnlyOnce("ORI_Astarion_TrueVampire_Undead")
 THEN
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead");
 
-PROC
-PROC_TrueVampire_UndeadCheck()
+IF
+SavegameLoaded()
 AND
-DB_GlobalFlag((FLAG)ORI_Astarion_Knows_Vampireness_43c71ab0-1aca-484a-950d-54106ae46da5)
+NOT DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
-DB_PartOfTheTeam((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+NOT DB_CurrentLevel("TUT_Avernus_C")
 AND
-NOT DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
-AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 1)
+DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead", 0)
 AND

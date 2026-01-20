@@ -1,6 +1,9 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
+DB_AstarionSpawnPassives("VampiricResistance");
+DB_AstarionSpawnPassives("VampiricSavingThrows");
+DB_AstarionSpawnPassives("Regeneration_Vampire_Spawn_Astarion");
 
 KBSECTION
 PROC
@@ -8,31 +11,41 @@ PROC_CRA_WakeupDone()
 AND
 DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+DB_AstarionSpawnPassives(_VampPassives)
 AND
-QRY_OnlyOnce("ORI_Astarion_TrueVampire_Gustav")
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampPassives, 0)
 THEN
-ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampPassives);
+PROC_AstarionSpawnPassives_Done();
 
 IF
 FlagSet((FLAG)ORI_Astarion_Event_UnlockVampireBite_a887e372-d8a1-430f-809f-b0c7169920eb, _, _)
 AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+DB_AstarionSpawnPassives(_VampPassives)
 AND
-QRY_OnlyOnce("ORI_Astarion_TrueVampire_Gustav")
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampPassives, 0)
 THEN
-ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampPassives);
+PROC_AstarionSpawnPassives_Done();
 
 IF
 FlagSet((FLAG)ORI_Astarion_Knows_Vampireness_43c71ab0-1aca-484a-950d-54106ae46da5, _, _)
 AND
 NOT DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+DB_AstarionSpawnPassives(_VampPassives)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampPassives, 0)
+THEN
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampPassives);
+PROC_AstarionSpawnPassives_Done();
+
+PROC
+PROC_AstarionSpawnPassives_Done()
 AND
 QRY_OnlyOnce("ORI_Astarion_TrueVampire_Gustav")
 THEN
-ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+DB_NOOP(1);
 
 IF
 LevelGameplayReady(_LevelName, _IsEditor)

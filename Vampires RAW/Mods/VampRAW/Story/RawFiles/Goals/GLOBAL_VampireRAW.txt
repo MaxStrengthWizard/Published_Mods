@@ -1,28 +1,51 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-PROC_VampireRAW_ExistingSaveCheck();
+DB_AstarionAscendedPassivesRetro("VampiricResistance");
+DB_AstarionAscendedPassivesRetro("AscendantExtraAbilities");
+DB_AstarionAscendedPassivesRetro("Regeneration_VampireAscendant");
+DB_AstarionAscendedPassivesRetro("AscendantSavingThrows");
+DB_AstarionAscendedPassivesRetro("AscendantSkillProficiencies");
+DB_AstarionAscendedPassivesRetro("AscendantSuperScratch");
+DB_AstarionAscendedPassivesRetro("SuperiorDarkvision");
+
+DB_AstarionSpawnPassivesRetro("VampiricResistance");
+DB_AstarionSpawnPassivesRetro("VampiricSavingThrows");
+DB_AstarionSpawnPassivesRetro("Regeneration_Vampire_Spawn_Astarion");
+
+DB_AstarionOldPassivesRetro("VampiricSavingThrows");
+DB_AstarionOldPassivesRetro("Regeneration_Vampire_Spawn_Astarion");
+DB_AstarionOldPassivesRetro("VampiricBackScratchers");
+DB_AstarionOldPassivesRetro("SunlightSensitivity");
+DB_AstarionOldPassivesRetro("SunlightHypersensitivity");
 
 KBSECTION
-PROC
-PROC_VampireRAW_ExistingSaveCheck()
+IF
+SavegameLoaded()
 AND
 DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
-HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant", 1)
+DB_AstarionAscendedPassivesRetro(_AscendedVampPassive)
 AND
-QRY_OnlyOnce("ORI_Astarion_TrueVampire_RAW")
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _AscendedVampPassive, 0)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant", 1)
 THEN
-RemoveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricSavingThrows");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "Regeneration_Vampire_Spawn_Astarion");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant");
-AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant");
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _AscendedVampPassive);
+PROC_Astarion_OldPassiveCleanupRetro();
+PROC_Astarion_VampRAWRetro();
 
 PROC
-PROC_VampireRAW_ExistingSaveCheck()
+PROC_Astarion_OldPassiveCleanupRetro()
+AND
+DB_AstarionOldPassivesRetro(_VampOldPassives)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampOldPassives, 1)
+THEN
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampOldPassives);
+
+IF
+SavegameLoaded()
 AND
 NOT DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
@@ -30,14 +53,15 @@ DB_GlobalFlag((FLAG)ORI_Astarion_Knows_Vampireness_43c71ab0-1aca-484a-950d-54106
 AND
 NOT DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+DB_AstarionSpawnPassivesRetro(_SpawnVampPassive)
 AND
-QRY_OnlyOnce("ORI_Astarion_TrueVampire_RAW")
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _SpawnVampPassive, 0)
 THEN
-ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _SpawnVampPassive);
+PROC_Astarion_VampRAWRetro();
 
-PROC
-PROC_VampireRAW_ExistingSaveCheck()
+IF
+SavegameLoaded()
 AND
 NOT DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
@@ -45,11 +69,19 @@ NOT DB_CurrentLevel("TUT_Avernus_C")
 AND
 DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 0)
+DB_AstarionSpawnPassivesRetro(_SpawnVampirePassive)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _SpawnVampirePassive, 0)
+THEN
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _SpawnVampirePassive);
+PROC_Astarion_VampRAWRetro();
+
+PROC
+PROC_Astarion_VampRAWRetro()
 AND
 QRY_OnlyOnce("ORI_Astarion_TrueVampire_RAW")
 THEN
-ApplyStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", -1.0);
+DB_NOOP(1);
 
 IF
 LevelGameplayReady(_LevelName, _IsEditor)

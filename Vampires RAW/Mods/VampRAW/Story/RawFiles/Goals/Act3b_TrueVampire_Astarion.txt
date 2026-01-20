@@ -1,18 +1,46 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
+DB_AstarionAscendedPassives("VampiricResistance");
+DB_AstarionAscendedPassives("AscendantExtraAbilities");
+DB_AstarionAscendedPassives("Regeneration_VampireAscendant");
+DB_AstarionAscendedPassives("AscendantSavingThrows");
+DB_AstarionAscendedPassives("AscendantSkillProficiencies");
+DB_AstarionAscendedPassives("SuperiorDarkvision");
+
+DB_AstarionOldPassives("VampiricSavingThrows");
+DB_AstarionOldPassives("Regeneration_Vampire_Spawn_Astarion");
+DB_AstarionOldPassives("VampiricBackScratchers");
+DB_AstarionOldPassives("SunlightSensitivity");
+DB_AstarionOldPassives("SunlightHypersensitivity");
 
 KBSECTION
 PROC
 PROC_LOW_CazadorsPalace_RitualRoom_CompleteRitual((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
+DB_AstarionAscendedPassives(_VampAscendPassives)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampAscendPassives, 0)
+THEN
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampAscendPassives);
+PROC_Astarion_OldPassiveCleanup();
+PROC_Astarion_AscendRAWWrapup();
+
+PROC
+PROC_Astarion_OldPassiveCleanup()
+AND
+DB_AstarionOldPassives(_VampOldPassives)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampOldPassives, 1)
+THEN
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampOldPassives);
+
+PROC
+PROC_Astarion_AscendRAWWrapup()
+AND
 QRY_OnlyOnce("ORI_Astarion_TrueVampire_Act3b")
 THEN
-RemoveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricSavingThrows");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "Regeneration_Vampire_Spawn_Astarion");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiricBackScratchers");
-RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead");
+DB_NOOP(1);
 
 IF
 LevelGameplayReady(_LevelName, _IsEditor)

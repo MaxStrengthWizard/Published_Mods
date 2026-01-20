@@ -1,0 +1,58 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_AstarionOPAscendedPassives("AscendantImmunities");
+DB_AstarionOPAscendedPassives("AscendantOPNaturalArmor");
+DB_AstarionOPAscendedPassives("AscendantOPMovementBuff");
+DB_AstarionOPAscendedPassives("AscendantOPSavingThrows");
+DB_AstarionOPAscendedPassives("AscendantOPSkillProficiencies");
+DB_AstarionOPAscendedPassives("AscendantBlindsight");
+DB_AstarionOPAscendedPassives("LOW_Astarion_OPVampireAscendant");
+
+DB_AstarionAscendedOldPassives("VampiricResistance");
+DB_AstarionAscendedOldPassives("AscendantSavingThrows");
+DB_AstarionAscendedOldPassives("AscendantSkillProficiencies");
+DB_AstarionAscendedOldPassives("SuperiorDarkvision");
+
+KBSECTION
+PROC
+PROC_LOW_CazadorsPalace_RitualRoom_CompleteRitual((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+AND
+DB_AstarionOPAscendedPassives(_VampOPAscendPassives)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampOPAscendPassives, 0)
+THEN
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _VampOPAscendPassives);
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant");
+PROC_Astarion_OldAscendedPassiveCleanup();
+PROC_Astarion_OPAscendedRetro();
+
+PROC
+PROC_Astarion_OldAscendedPassiveCleanup()
+AND
+DB_AstarionAscendedOldPassives(_AscendedOldPassives)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _AscendedOldPassives, 1)
+THEN
+RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, _AscendedOldPassives);
+
+PROC
+PROC_Astarion_OPAscendedRetro()
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_AscendedOPAct3b")
+THEN
+DB_NOOP(1);
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Astarion_TrueVampire_AscendedOPAct3b")
+THEN
+GoalCompleted;
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Act3b"

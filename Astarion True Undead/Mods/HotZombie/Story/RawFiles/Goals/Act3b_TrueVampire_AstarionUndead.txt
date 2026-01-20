@@ -1,0 +1,27 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+PROC
+PROC_LOW_CazadorsPalace_RitualRoom_CompleteRitual((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
+AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueAscendedVamp_Undead")
+THEN
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "VampiresAreDead");
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Astarion_TrueAscendedVamp_Undead")
+THEN
+GoalCompleted;
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Act3b"

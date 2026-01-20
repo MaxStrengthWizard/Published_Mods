@@ -1,49 +1,48 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-PROC_TrueVampire_HyperSunlightCheck();
 
 KBSECTION
-PROC
-PROC_TrueVampire_HyperSunlightCheck()
+IF
+SavegameLoaded()
 AND
 DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity", 0)
+AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "LOW_Astarion_VampireAscendant", 1)
 AND
-QRY_OnlyOnce("ORI_Astarion_TrueVampire_HyperSunlight")
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_HyperSun")
 THEN
 RemovePassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity");
 
-PROC
-PROC_TrueVampire_HyperSunlightCheck()
+IF
+SavegameLoaded()
 AND
 NOT DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
 AND
-DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
-AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 1)
-AND
-HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity", 0)
-AND
-QRY_OnlyOnce("ORI_Astarion_TrueVampire_HyperSunlight")
-THEN
-AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity");
-
-PROC
-PROC_TrueVampire_HyperSunlightCheck()
-AND
 DB_GlobalFlag((FLAG)ORI_Astarion_Knows_Vampireness_43c71ab0-1aca-484a-950d-54106ae46da5)
-AND
-DB_PartOfTheTeam((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
 NOT DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
-HasActiveStatus(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "ORI_ASTARION_SPAWN_TECHNICAL", 1)
+HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity", 0)
+AND
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_HyperSun")
+THEN
+AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity");
+
+IF
+SavegameLoaded()
+AND
+NOT DB_GlobalFlag((FLAG)ORI_Astarion_State_BecameVampireLord_c446ce94-efd8-45d5-b407-284177b6b57e)
+AND
+NOT DB_CurrentLevel("TUT_Avernus_C")
+AND
+DB_Avatars((CHARACTER)S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255)
 AND
 HasPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity", 0)
 AND
-QRY_OnlyOnce("ORI_Astarion_TrueVampire_HyperSunlight")
+QRY_OnlyOnce("ORI_Astarion_TrueVampire_HyperSun")
 THEN
 AddPassive(S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255, "SunlightHypersensitivity");
 
@@ -52,7 +51,7 @@ LevelGameplayReady(_LevelName, _IsEditor)
 AND
 IsGameLevel(_LevelName, 1)
 AND
-QRY_OnlyOnce_IsSet("ORI_Astarion_TrueVampire_HyperSunlight")
+QRY_OnlyOnce_IsSet("ORI_Astarion_TrueVampire_HyperSun")
 THEN
 GoalCompleted;
 
