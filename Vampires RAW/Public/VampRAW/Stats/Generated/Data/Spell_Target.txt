@@ -53,7 +53,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_Claws"
 data "Icon" "Action_Imp_Claws"
-data "SpellFlags" "IsAttack;IsMelee;IsHarmful"
+data "SpellFlags" "IsMelee;IsHarmful"
 
 new entry "Target_Multiattack_Vampire_Astarion"
 type "SpellData"
