@@ -1,14 +1,27 @@
 # PAK files kept within the repo
 *.pak
 
-# Zipped files
-*.zip
+# Compressed files
 *.7z
+*.dmg
+*.gz
+*.iso
+*.jar
 *.rar
+*.tar
+*.zip
 
 # Thumbs DB file
-*.db
+Thumbs.db
 
 # VSCode files and folders
 .vscode/*
 .vscode/
+
+# Story files
+*.div
+*.raw
+story_orphanqueries_ignore.txt
+
+# Binary files
+*.osi
