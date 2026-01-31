@@ -1,0 +1,126 @@
+{
+  "FileVersion": 1,
+  "Races": [
+    {
+      "UUID": "6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "4f5d1434-5175-4fa9-b7dc-ab24fba37929",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "4d30b4f9-7bb2-4fc2-a7bc-080f116e325a",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "45f4ac10-3c89-4fb2-b37d-f973bb9110c0",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "5c39a726-71c8-4748-ba8d-f768b3c11a91",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "78cd3bcc-1c43-4a2a-aa80-c34322c16a04",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "0ab2874d-cfdc-405e-8a97-d37bfbb23c52",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "fe584d14-71ea-4bee-8ba0-99f780d4c957",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "f1b3f884-4029-4f0f-b158-1f9fe0ae5a0d",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "b6dccbed-30f3-424b-a181-c4540cf38197",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    },
+    {
+      "UUID": "9c61a74a-20df-4119-89c5-d996956b6c66",
+      "Children": [
+        {
+          "Type": "ExcludedGods",
+          "modGuid": "fe45716e-1b99-499d-a9a8-253cf9f6b762",
+          "Values": ["2eb3557f-7ada-41d6-a892-e02def72ef77"],
+          "Action": "Remove"
+        }
+      ]
+    }
+  ]
+}
