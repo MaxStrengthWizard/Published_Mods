@@ -246,7 +246,7 @@ CanMerge 1
 new subtable "-1"
 object category "I_FOR_DeathOfATrueSoul_TrueSoul_Ring",1,0,0,0,0,0,0,0
 
-new treasuretable "DEN_Ethel"
+new treasuretable "HAG_Lair_RingChest"
 CanMerge 1
 new subtable "-1"
 object category "I_HAG_HagsRing",1,0,0,0,0,0,0,0
