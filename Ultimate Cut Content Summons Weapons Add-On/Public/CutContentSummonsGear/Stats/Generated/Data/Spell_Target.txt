@@ -1,0 +1,21 @@
+new entry "Target_LightningStrike_Myrmidon_Air_Player"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_LightningStrike_Myrmidon_Air"
+data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "SpellFlags" "IsHarmful;IsMelee"
+
+new entry "Target_FieryStrike_Myrmidon_Fire_Player"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FieryStrike_Myrmidon_Fire"
+data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "SpellFlags" "IsHarmful;IsMelee"
+
+new entry "Target_FreezingStrike_Myrmidon_Water_Player"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_FreezingStrike_Myrmidon_Water"
+data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;,,;,,;,,"
+data "SpellFlags" "IsHarmful;IsMelee"
+
