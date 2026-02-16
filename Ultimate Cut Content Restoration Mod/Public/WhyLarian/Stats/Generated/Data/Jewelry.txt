@@ -26,5 +26,6 @@ data "Unique" "1"
 new entry "SHA_SandthiefsRing"
 type "Armor"
 using "SHA_SandthiefsRing"
+data "Cooldown" "OncePerRestPerItem"
 data "Unique" "1"
 
