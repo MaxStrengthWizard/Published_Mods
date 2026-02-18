@@ -32,6 +32,7 @@
       ]
     },
     {
+      "Comment": "Rogue Level 1",
       "UUIDs": ["16f00e7f-12f6-4cff-b610-4ee738b02d62", "cd3d8b16-37ce-4107-a2e3-e729751c2b1c"],
       "Strings": [
         {
@@ -42,12 +43,98 @@
       ]
     },
     {
+      "Comment": "Druid Level 1",
       "UUIDs": ["b499258c-2823-42f1-b8ca-0a5ee8455e11", "a13110fc-3555-4b33-9b8a-47f70586f567"],
       "Strings": [
         {
           "Action": "Insert",
           "Type": "PassivesAdded",
           "Strings": ["Language_Druidic"]
+        }
+      ]
+    },
+    {
+      "Comment": "Giant Barbarian Level 3",
+      "UUIDs": ["4f6cccca-2e3e-44b0-957b-842cddc353cb"],
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Giant"]
+        }
+      ]
+    },
+    {
+      "Comment": "Cleric Knowledge Domain Selection",
+      "UUIDs": ["dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "SelectPassives",
+          "Params": {
+            "Guid": "332aeda4-311d-40f1-b787-3a684cc511cd",
+            "Amount": "2",
+            "SelectorId": "BlessingsOfKnowledge"
+          }
+        }
+      ]
+    },
+    {
+      "Comment": "Ranger Favoured Enemy Selection",
+      "UUIDs": ["ad1084b1-b99f-6720-cfdd-cf82ad44345b", "107b5f98-bf4f-4e90-85a1-5be602055b19", "774f7a73-3a29-404c-898b-e8810f41a8ba", "26e69682-2b1b-48c5-ad8d-6e6e31601a8b"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "SelectPassives",
+          "Params": {
+            "Guid": "332aeda4-311d-40f1-b787-3a684cc511cd",
+            "Amount": "1",
+            "SelectorId": "FavoredEnemyLanguage"
+          }
+        }
+      ]
+    },
+    {
+      "Comment": "Sumradagnoth's Rune Knight Level 3",
+      "UUIDs": ["0ca65087-1c9e-48e7-937d-f1d16c3a0190"],
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "PassivesAdded",
+          "modGuid": "88e1d176-4259-f98f-6b9a-486caaaf2c70",
+          "Strings": ["Language_Giant"]
+        }
+      ]
+    },
+    {
+      "Comment": "Sumradagnoth's Ascendant Dragon Level 3",
+      "UUIDs": ["24b75f71-3770-4ae6-b124-13d23fad77a4"],
+      "Selectors": [
+        {
+          "modGuid": "1f9ea699-6bd7-9cbc-30f2-522a94c78baf",
+          "Action": "Insert",
+          "Function": "SelectPassives",
+          "Params": {
+            "Guid": "332aeda4-311d-40f1-b787-3a684cc511cd",
+            "Amount": "1",
+            "SelectorId": "TongueOfDragons"
+          }
+        }
+      ]
+    },
+    {
+      "Comment": "IncogneatoBurrito's Mastermind Level 3",
+      "UUIDs": ["c5de5dce-f212-429f-a97f-a77123550ed0"],
+      "Selectors": [
+        {
+          "modGuid": "237f5681-5e16-9072-a246-de30f91461ad",
+          "Action": "Insert",
+          "Function": "SelectPassives",
+          "Params": {
+            "Guid": "332aeda4-311d-40f1-b787-3a684cc511cd",
+            "Amount": "2",
+            "SelectorId": "RacialLanguages"
+          }
         }
       ]
     }

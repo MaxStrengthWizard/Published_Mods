@@ -10,6 +10,27 @@
                     <attribute id="SelectorId" type="FixedString" value="RacialLanguages"/>
                     <attribute id="UUID" type="guid" value="73a7a022-3e3d-4b85-9a5c-637389b5edde"/>
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h11f1f44303b442c28eab1aaa5d9b06dabbb2" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd860105b8b3e418098d1ab0b878e2b31gf2a" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="4709e126-1b45-4baf-93a2-be66ed4487d2"/>
+                    <attribute id="SelectorId" type="FixedString" value="BlessingsOfKnowledge"/>
+                    <attribute id="UUID" type="guid" value="0754a3c6-2c53-4cfd-ada7-bf081512f9a5"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hf4f83b4eb5604d638d915c378eb57fef2c1b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3469717bb51748139a394aa97d91646869c1" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
+                    <attribute id="SelectorId" type="FixedString" value="FavoredEnemyLanguage"/>
+                    <attribute id="UUID" type="guid" value="e7795aaa-95d1-4db5-b0c6-5881175d6600"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hfe7830856e544824be0714a1f0b6329eeb17" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h892653578fc545809bbc2b9e3b0926053854" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="1ae5cb0b-9f77-47d6-a2a4-6b86c29cb033"/>
+                    <attribute id="SelectorId" type="FixedString" value="TongueOfDragons"/>
+                    <attribute id="UUID" type="guid" value="68d1f10c-971c-4111-b62a-79a70b8a71b6"/>
+                </node>
             </children>
         </node>
     </region>
